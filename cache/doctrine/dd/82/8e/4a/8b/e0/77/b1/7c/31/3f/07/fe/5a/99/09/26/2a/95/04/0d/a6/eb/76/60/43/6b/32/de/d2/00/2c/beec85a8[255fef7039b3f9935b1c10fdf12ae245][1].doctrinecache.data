@@ -1,0 +1,12 @@
+1459745839
+s:1245:"<h2>Create the logo module</h2>
+<p>The logo for the Buildr template uses text in a custom html module published to the logo position.</p>
+<p>a. Create a custom html module called logo, via the extensions &gt; module manager.</p>
+<p><img style="" alt="New module" src="/docs/buildr/user/pages/03.logo/01.how-to-create-the-logo/new-module.png" /></p>
+<p><img style="" alt="Custom module" src="/docs/buildr/user/pages/03.logo/01.how-to-create-the-logo/custom-module.png" /></p>
+<p>b. Add your logo text or image, set the module position to logo and hide the module title.</p>
+<p>The markup used for the logo in this template is as per the following:</p>
+<pre><code>&lt;h2&gt;&lt;a href="/"&gt;Buildr&lt;/a&gt;&lt;/h2&gt;</code></pre>
+<p><img style="" alt="Logo Settings" src="/docs/buildr/user/pages/03.logo/01.how-to-create-the-logo/logo-settings.png" /></p>
+<p>Now your site should be slowly starting to take shape and the top part of the site should look like the following screenshot. For help with controlling the logo font, size and colour see the <a href="/docs/buildr/logo">logo section of the documentation</a>.</p>
+<p><img style="" alt="Logo Preview" src="/docs/buildr/user/pages/03.logo/01.how-to-create-the-logo/logo-preview.png" /></p>";

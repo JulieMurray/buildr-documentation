@@ -1,0 +1,14 @@
+1459745377
+s:1522:"<p>If you have followed the steps int he previous section called Items to install your site will look a little blank. The next step is to start moving items into the correct position on the page. The Buildr theme is very flexible so this is just a guide for how you might start to populate the template.</p>
+<h2>Set the Main Menu to the menu position</h2>
+<p>a. Go to the extensions &gt; module manager and publish the menu module to the menu position.
+b. While there also set the title of this module to hide.</p>
+<p><img style="" title="Menu Settings" alt="Menu Settings" src="/docs/buildr/user/pages/08.starting-from-scratch/2.items-to-move/menu-settings.png" /></p>
+<h2>Create the logo module</h2>
+<p>a. Create a custom html module called logo, via the extensions &gt; module manager.</p>
+<p><img style="" alt="New module" src="/docs/buildr/user/pages/08.starting-from-scratch/2.items-to-move/new-module.png" /></p>
+<p><img style="" alt="Custom module" src="/docs/buildr/user/pages/08.starting-from-scratch/2.items-to-move/custom-module.png" /></p>
+<p>b. Add your logo text or image, set the module position to logo and hide the module title.</p>
+<p><img style="" alt="Logo Settings" src="/docs/buildr/user/pages/08.starting-from-scratch/2.items-to-move/logo-settings.png" /></p>
+<p>Now your site should be slowly starting to take shape and should look like the following screenshot.</p>
+<p><img style="" alt="Logo Preview" src="/docs/buildr/user/pages/08.starting-from-scratch/2.items-to-move/logo-preview.png" /></p>";
