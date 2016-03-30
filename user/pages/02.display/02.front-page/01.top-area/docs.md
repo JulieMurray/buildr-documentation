@@ -10,7 +10,7 @@ taxonomy:
 ## What are the elements that make up the display here?
 
 ## Background Image
-The background image is controlled via the template settings. The image here is designed to fill the entire page contents, so in addition to sitting beneath the top area the image will appear below the main page content as well as any other rows of moduels that may be displayed..
+The background image is controlled via the template settings. The image here is designed to fill the entire page contents, so in addition to sitting beneath the top area the image will appear below the main page content as well as any other rows of modules that may be displayed..
 
 ![Background Settings](/images/frontpage/background.png)
 
@@ -28,7 +28,7 @@ Images placed here can not use hyphens in the file name as this will prevent the
 ## Transparent Overlay
 There is a transparent overlay that sits on top of the image and underneath the content here. This is controlled via the template's theme settings. This overlay only covers the elements found in the top row of modules, the logo and menu.
 
-Use the top area overlay setting and the top area background color to determine how this part of the page will appear. As an example adding a transparency value of 0 will mean there is no colour while if a transparency of 100% will mean that the image will not be seen underneath the colour and the entire block will use the colour supplied in the toparea background option.
+Use the top area overlay setting and the top area background color to determine how this part of the page will appear. As an example, adding a transparency value of 0 will mean there is no colour, while if a transparency of 100% will mean that the image will not be seen underneath the colour and the entire block will use the colour supplied in the toparea background option.
 
 ![Buildr Background Image](/images/frontpage/top-area-settings.png)
 

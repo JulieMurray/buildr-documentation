@@ -17,7 +17,7 @@ The titles for the one page menu are found in the menus panel of the template se
 
 In order for a menu item to be visible on the page you need to ensure that:
 
-1. There is a module published to the corresponding row. eg grid1, grid2, grid3 or grid4 for grid blocvk 1 row.
+1. There is a module published to the corresponding row. eg grid1, grid2, grid3 or grid4 for grid block 1 row.
 2. The menu for that row has a title for the menu.
 
 In the screenshot below you can see that gridblock 1 does not have a menu item specified and even though there may be a module published to any of the positions on grid1, grid2, grid3 or grid4 that menu item will not render on the page. 

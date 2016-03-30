@@ -4,7 +4,7 @@ taxonomy:
     category: docs
 ---
 
-The Buildr demo site utilises a layout with a right sidebar for most of it's sib pages.
+The Buildr demo site utilises a layout with a right sidebar for most of it's sub pages.
 
 **Modules used** -
 Zentools2 / Custom html module / Breadcrumb

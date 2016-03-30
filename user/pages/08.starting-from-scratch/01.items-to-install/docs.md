@@ -18,7 +18,7 @@ After you have installed Joomla please ensure that you have also downloaded the 
 
 ### Installation
 
-Once you have downloaded the templates extensions listed above navigate to the Extension > Manage > Install page in your Joomla site. Then proceed to install each of the items listed above. There is no required order to install the tempaltes or extensions although it may help to follow this list:
+Once you have downloaded the templates extensions listed above navigate to the Extension > Manage > Install page in your Joomla site. Then proceed to install each of the items listed above. There is no required order to install the templates or extensions although it may help to follow this list:
 
 1. Buildr Template
 2. ZGFv4 Ajax Plugin
