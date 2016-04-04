@@ -1,0 +1,18 @@
+1460362547
+s:994:"<p>The button panel determines the color, background, border and border-radius of buttons used on the site.</p>
+<p><img style="" alt="Buttons" src="/docs/buildr-documentation/user/pages/02.design/02.style/08.buttons/buttons.png" /></p>
+<p>The following rules apply to all items that have the class btn or button.</p>
+<h2>Button Text color</h2>
+<p>The color used for the button text.</p>
+<h2>Button text color hover</h2>
+<p>The color of the button text when the user hovers over the button.</p>
+<h2>Button background</h2>
+<p>The background of the button</p>
+<h2>Button background hover</h2>
+<p>The background color of the button when the user hovers over the button.</p>
+<h2>Button border</h2>
+<p>The border color of the button</p>
+<h2>Button hover border</h2>
+<p>The border of the button when the user hovers over it</p>
+<h2>Button border radius</h2>
+<p>The border-radius of the button. To have 0 rounded on the button set this option to 0. To have a rounded button set this option to 10px.</p>";

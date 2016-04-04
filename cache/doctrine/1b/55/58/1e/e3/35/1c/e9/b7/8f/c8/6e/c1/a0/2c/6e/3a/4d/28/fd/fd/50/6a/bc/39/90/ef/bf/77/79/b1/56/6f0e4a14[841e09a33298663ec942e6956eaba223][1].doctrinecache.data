@@ -1,0 +1,3 @@
+1460357506
+s:337:"<p>The Color panel holds the base colors used in the template. The colors set in this panel can be re-used across other settings in the template using less variable syntax eg @primary will use the value set here.</p>
+<p><img style="" alt="Colors" src="/docs/buildr-documentation/user/pages/02.design/02.style/04.colors/colors.png" /></p>";

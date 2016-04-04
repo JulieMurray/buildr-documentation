@@ -1,0 +1,17 @@
+1460360300
+s:1816:"<p><img style="" alt="Background and overlay" src="/docs/buildr-documentation/user/pages/02.design/02.style/07.background-and-overlay/bg-overlay.png" /></p>
+<h2>Main Container background (@spotlight-bg)</h2>
+<p>This is the main background color used beneath the content area in the template. </p>
+<p><strong>Note:</strong> This value is specifically over written in the row styles when the container background is set. If the container background is blank then that row will inherit the Main Container Background color. If this value is set to none or transparent then the container for this row will be transparent.</p>
+<p><img style="" alt="Container BG" src="/docs/buildr-documentation/user/pages/02.design/02.style/07.background-and-overlay/container-bg.png" /></p>
+<h2>Background</h2>
+<p>This option determines the background color of the entire website. The color here is set to the html and body tag of the website.</p>
+<p><strong>Note:</strong> This value will be overwritten if the Background overlay is set and the Overlay fade value is set to 100%. If the Overlay fade value is set to anything above 0 then the resulting colour will be a mix of the overlay background and the body background color.</p>
+<h2>Background Overlay</h2>
+<p>This is a layer that sits beneath the main content and above the body and the background position. </p>
+<p>The background overlay is an element that can be used to create interesting two tone background colours or can be used as as a transparent overlay that sits on top of a module published to the background position.</p>
+<h2>Overlay Color</h2>
+<p>The color of the overlay</p>
+<h2>Overlay fade</h2>
+<p>A percentage value that refers to the relative transparency or opacity of the overlay. </p>
+<p>eg  a value of 100% set here will render a completely opaque color.</p>";

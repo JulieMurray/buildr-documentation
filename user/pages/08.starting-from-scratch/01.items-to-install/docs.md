@@ -9,7 +9,7 @@ After you have installed Joomla please ensure that you have also downloaded the 
 
 
 - <a href="http://www.joomlabamboo.com/downloads/template-downloads?param=buildr">The latest version of the template</a>
-- <a href="http://www.joomlabamboo.com/download-document/717-zen-grid-framework-ajax-plugin">Zen Grid Framework v4 Ajax Plugin</a>
+- <a href="http://www.joomlabamboo.com/download-document/717-zen-grid-framework-ajax-plugin">Zen Grid Framework v5 Ajax Plugin</a>
 - <a href="http://joomlabamboo.com/index.php?option=com_docman&task=doc_download&gid=694&Itemid=">The Zenmenu plugin for mega menu functionality</a>
 - <a href="http://joomlabamboo.com/index.php?option=com_docman&task=doc_download&gid=706&Itemid=">Zentools2 - Galleries and content display</a>
 - <a href="http://joomlabamboo.com/index.php?option=com_docman&task=doc_download&gid=677&Itemid=">Maps2 - for displaying Google Maps</a>
@@ -21,7 +21,7 @@ After you have installed Joomla please ensure that you have also downloaded the 
 Once you have downloaded the templates extensions listed above navigate to the Extension > Manage > Install page in your Joomla site. Then proceed to install each of the items listed above. There is no required order to install the templates or extensions although it may help to follow this list:
 
 1. Buildr Template
-2. ZGFv4 Ajax Plugin
+2. ZGFv5 Ajax Plugin
 3. Zenmenu plugin
 4. Zentools2 Module
 5. Zen Shortcodes plugin

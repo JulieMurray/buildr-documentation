@@ -24,7 +24,3 @@ Getting Started with Joomla tutorials
 - <a href="http://docs.joomlabamboo.com/getting-started/how-to-install-a-joomla-module">How to install a Joomla extension</a>
 
 
-Getting Started with the zen grid framework v4
-----
-
-Buildr is built using the Zen Grid Framework v4. You can see the documentation for Zen Grid Framework v4 on the <a href="/zen-grid-framework-4/">ZGFv4 dedicated knowledgebase</a>.

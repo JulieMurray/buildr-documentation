@@ -1,0 +1,7 @@
+1460358754
+s:653:"<p><img style="" alt="Borders" src="/docs/buildr-documentation/user/pages/02.design/02.style/06.borders-shadows/border.png" /></p>
+<h2>Border color (@border-color)</h2>
+<p>The color used to define the border color used across the template. This value can be used in the border color rule found in the row settings as a universal color for borders.</p>
+<p><img style="" alt="Row Border" src="/docs/buildr-documentation/user/pages/02.design/02.style/06.borders-shadows/row-border.png" /></p>
+<h2>Text Color (@text-color)</h2>
+<p>The color used for all text elements on the page. This value is applied to the body tag, p tags and list tags on the page.</p>";

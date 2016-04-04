@@ -1,0 +1,10 @@
+1460339608
+s:978:"<h3>Positions revert to their native row when hidden</h3>
+<p>If you have moved a module to a new row and then hide that module (using the eye icon) the module will go back to it's native position.</p>
+<p>eg if you move the banner module to the logo row and then hide it, the module will now be found in the available modules in the banner row and not in the logo row.</p>
+<h4>Banner in it's native row</h4>
+<p><img style="" alt="banner" src="/docs/buildr-documentation/user/pages/02.design/01.layout/02.layout-tips/banner.png" /></p>
+<h4>Banner moved to logo row</h4>
+<p><img style="" alt="Banner moved" src="/docs/buildr-documentation/user/pages/02.design/01.layout/02.layout-tips/banner-moved.png" /></p>
+<h4>When the eye icon is clicked the banner module is added to the banner available modules and not the logo available modules.</h4>
+<p><img style="" alt="Banner reset" src="/docs/buildr-documentation/user/pages/02.design/01.layout/02.layout-tips/banner-reset.png" /></p>";

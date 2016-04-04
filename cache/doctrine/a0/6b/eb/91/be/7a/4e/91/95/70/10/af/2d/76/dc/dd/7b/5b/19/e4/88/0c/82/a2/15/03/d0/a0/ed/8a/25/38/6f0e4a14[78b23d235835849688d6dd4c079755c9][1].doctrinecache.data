@@ -1,0 +1,14 @@
+1460357743
+s:1042:"<p>The Color panel holds the base colors used in the template. </p>
+<p><strong>Note:</strong> The colors set in this panel can be re-used across other settings in the template using less variable syntax eg @primary will use the value set here.</p>
+<p><img style="" alt="Colors" src="/docs/buildr-documentation/user/pages/02.design/02.style/04.colors/colors.png" /></p>
+<h2>Primary (@primary)</h2>
+<p>The color used as the primary color of the palette across the theme.</p>
+<h2>Secondary (@secondary)</h2>
+<p>The color used as the secondary color across the theme.</p>
+<h2>Border color (@border-color)</h2>
+<p>The color used to define the border color used across the template. This value can be used in the border color rule found in the row settings as a universal color for borders.</p>
+<p><img style="" alt="Row Border" src="/docs/buildr-documentation/user/pages/02.design/02.style/04.colors/row-border.png" /></p>
+<h2>Text Color (@text-color)</h2>
+<h2>Heading Color (@heading-color)</h2>
+<h2>Main Container background (@spotlight-bg)</h2>";

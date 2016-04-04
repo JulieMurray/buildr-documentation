@@ -1,0 +1,8 @@
+1460359624
+s:799:"<p><img style="" alt="Borders" src="/docs/buildr-documentation/user/pages/02.design/02.style/06.borders-shadows/border.png" /></p>
+<h2>Border color (@border-color)</h2>
+<p>The color used to define the border color used across the template. This value can be used in the border color rule found in the row settings as a universal color for borders.</p>
+<p><img style="" alt="Row Border" src="/docs/buildr-documentation/user/pages/02.design/02.style/06.borders-shadows/row-border.png" /></p>
+<h2>Container Shadow</h2>
+<p>This value refers to the shadow used on the container element when the container shadow option is enabled in the row settings.</p>
+<p><img style="" alt="Container Shadow" src="/docs/buildr-documentation/user/pages/02.design/02.style/06.borders-shadows/container-shadow.png" /></p>";

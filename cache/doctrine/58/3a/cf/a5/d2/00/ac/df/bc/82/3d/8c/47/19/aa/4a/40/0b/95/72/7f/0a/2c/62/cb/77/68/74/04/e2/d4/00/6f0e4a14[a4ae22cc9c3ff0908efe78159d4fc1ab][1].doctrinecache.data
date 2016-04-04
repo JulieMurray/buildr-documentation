@@ -1,0 +1,10 @@
+1460356647
+s:803:"<p><img style="" alt="Width and padding" src="/docs/buildr-documentation/user/pages/02.design/02.style/03.width-padding/width-padding.png" /></p>
+<h2>Template Max Width - eg 1140px</h2>
+<p>The maximum width that the template will stretch to if the browser is larger than this value.</p>
+<h2>Base vertical padding - eg 30px</h2>
+<p>The base unit used for calculating margins and padding.</p>
+<p>This value is in a number of areas but in particular for the vertical padding and margins defined in the row settings.</p>
+<p><img style="" alt="Width and padding" src="/docs/buildr-documentation/user/pages/02.design/02.style/03.width-padding/padding.png" /></p>
+<h2>Horizontal Grid Spacing - eg 4%</h2>
+<p>A value set as a percentage that determines the amount of space between each column in the layout.</p>";

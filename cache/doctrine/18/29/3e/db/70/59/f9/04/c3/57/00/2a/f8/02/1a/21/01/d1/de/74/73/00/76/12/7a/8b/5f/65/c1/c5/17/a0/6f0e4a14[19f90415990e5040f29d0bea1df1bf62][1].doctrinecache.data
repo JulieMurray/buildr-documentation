@@ -1,0 +1,9 @@
+1460365331
+s:540:"<p>The offcanvas panel settings determine the colours used in the off canvas position.</p>
+<p>This also includes:</p>
+<ul>
+<li>the menu that is generated when the offcanvas option is selected for the nav collapse for small screens</li>
+<li>any module is published to the offcanvas position</li>
+<li>the display of the menu rendered when the user selects toggle menu for the nav collapse menu option.</li>
+</ul>
+<p><img style="" alt="Offcanvas" src="/docs/buildr-documentation/user/pages/02.design/02.style/13.offcanvas/offcanvas.png" /></p>";

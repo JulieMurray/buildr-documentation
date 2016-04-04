@@ -1,0 +1,35 @@
+1460363128
+s:1159:"<p>In order to hide specific modules at specific screensizes it is necessary to add a <strong>module class suffix</strong> to a specific module that you want to hide.</p>
+<h2>How to add a module class suffix to a module</h2>
+<ol>
+<li>Navigate to the module manager and edit the module you want to target</li>
+<li>Click on the advanced module tab</li>
+<li>Enter the module class you want to attach to that module eg hidden-phone</li>
+<li>Click Save</li>
+</ol>
+<p><img src="class.png" alt="Module Class" /></p>
+<h2>Responsive classes to be used for modules</h2>
+<p>The following can be added to a module to make it hide or display at a specific screensize.</p>
+<h4>Hide classes</h4>
+<ul>
+<li>hidden-desktop</li>
+<li>hidden-tablets</li>
+<li>hidden-tablet</li>
+<li>hidden-phones</li>
+<li>hidden-phone</li>
+<li>min-width-desktop</li>
+<li>min-width-tablet</li>
+<li>min-width-phones</li>
+<li>hidden-navcollapse</li>
+<li>hidden-gridcollapse</li>
+</ul>
+<h4>Visible classes</h4>
+<ul>
+<li>visible-desktop</li>
+<li>visible-tablets</li>
+<li>visible-tablet</li>
+<li>visible-phones</li>
+<li>visible-phone</li>
+<li>visible-navcollapse</li>
+<li>visible-gridcollapse</li>
+</ul>";

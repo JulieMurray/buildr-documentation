@@ -1,0 +1,61 @@
+1460335753
+s:2836:"<p>The Build.r template uses the Zen Grid Framework v5. The Zen Grid Framework 5 is a template + Ajax plugin combination that is used to render and control the design and layout elements of your website.</p>
+<h2>File structure</h2>
+<p>The file structure of a ZGFv5 based theme is typically as follow:</p>
+<ul>
+<li>component.php (standard Joomla component file)</li>
+<li>css (folder for all compiled less files and custom.css)</li>
+<li>error.php (standard error file)</li>
+<li>html (standard Joomla html override folder)</li>
+<li>images </li>
+<li>js 
+<ul>
+<li>includes </li>
+<li>script.js (any template specific js)</li>
+<li>template-default.js (Default compressed js file)</li>
+<li>template-default.php (Default compressed gzip js file)</li>
+<li>any generated template javascript files</li>
+</ul></li>
+<li>language</li>
+<li>less 
+<ul>
+<li>includes any template less files</li>
+<li>where you place a custom.less file to include in the compiler</li>
+<li>child folder - that can be used to load any less file into the less compiler when creating child themes. </li>
+</ul></li>
+<li>offline.php (standard offline file)</li>
+<li>settings
+<ul>
+<li>includes</li>
+<li>assets.xml (used by template to load required javascript in the compressor)</li>
+<li>config/ stores the default and saved configuration files</li>
+<li>layouts/ stores the default and saved layouts</li>
+<li>settings.xml xml file used to populate the template admin in areas outside of the design panel</li>
+<li>themer.xml used to populate settings in the design panel in the sidebar eg row styles etc</li>
+<li>themer-exclude.json used to remove any items on a row by row basis in the design panel.</li>
+<li>themes/ stores any saved themes</li>
+<li>themes/presets store the theme presets that come with the theme</li>
+<li>default-config.json - gets loaded if a config file does not exist</li>
+<li>default-theme.json theme that is loaded if the theme does not exist</li>
+</ul></li>
+<li>templateInfo.php (used to populate content in the overview panel)</li>
+<li>template preview and template_thumbnail.png (template preview images)</li>
+<li>tpls
+<ul>
+<li>holds files that govern the layout</li>
+<li>default.php the main layout container</li>
+<li>blocks/ (sub layout files that are included by the parent)</li>
+</ul></li>
+<li>zengrid (holds the ZGF5 files)</li>
+</ul>
+<h2>Zen framework file structure</h2>
+<ul>
+<li>admin (css, fonts and js for admin)</li>
+<li>config (main config file that renders the fields)</li>
+<li>fields (various displays for parameter types)</li>
+<li>helpers (ajax helpers for framework functionality)</li>
+<li>html Core framework html overrides for Joomla components</li>
+<li>libs (bootstrap, font awesome, zen less, mobile detect, less php, lessjs and more.)</li>
+<li>zen.php (the main zen class)</li>
+<li>zen.xml (holds release and version data)</li>
+</ul>";

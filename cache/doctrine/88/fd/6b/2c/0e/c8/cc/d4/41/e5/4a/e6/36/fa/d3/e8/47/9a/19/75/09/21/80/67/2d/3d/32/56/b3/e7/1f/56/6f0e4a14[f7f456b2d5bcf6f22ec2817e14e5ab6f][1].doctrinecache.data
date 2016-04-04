@@ -1,0 +1,8 @@
+1460348154
+s:968:"<p>An important part of responsive design is being able to hide, show or otherwise control the appearance of elements at various screensizes. </p>
+<p>Zen Grid Framework 5 themes have the capacity to hide entire rows at various screen sizes from within the template settings. Specific modules can be hidden at various screensizes by applying a module class to the instance of the module you would like to hide.</p>
+<h2>Hiding rows of modules</h2>
+<p>The easiest way to hide an entire module row at a given screensize is to use the responsive control blocks in the row settings for your selected row.</p>
+<p>In the example below we are going to hide the banner module (slideshow) in the Backgrounder theme.</p>
+<h4>By default the Backgrounder theme in the demo looks like the screenshot below.</h4>
+<p><img style="" alt="Backgrounder desktop" src="/docs/buildr-documentation/user/pages/02.design/01.layout/08.hiding-rows-at-different-screensizes/backgrounder.jpg" /></p>";

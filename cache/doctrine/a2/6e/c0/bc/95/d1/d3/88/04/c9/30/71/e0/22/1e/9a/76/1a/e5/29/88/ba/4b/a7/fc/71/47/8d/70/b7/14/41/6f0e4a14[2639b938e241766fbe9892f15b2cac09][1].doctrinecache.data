@@ -1,0 +1,14 @@
+1460358752
+s:1343:"<p>The Color panel holds the base colors used in the template. </p>
+<p><strong>Note:</strong> The colors set in this panel can be re-used across other settings in the template using less variable syntax eg @primary will use the value set here.</p>
+<p><img style="" alt="Colors" src="/docs/buildr-documentation/user/pages/02.design/02.style/04.colors/colors.png" /></p>
+<h2>Primary (@primary)</h2>
+<p>The color used as the primary color of the palette across the theme.</p>
+<h2>Secondary (@secondary)</h2>
+<p>The color used as the secondary color across the theme.</p>
+<h2>Heading Color (@heading-color)</h2>
+<p>This color is applied to all headings on the page including blockquotes. Headings that are also links will also inherit this color.</p>
+<h2>Main Container background (@spotlight-bg)</h2>
+<p>This is the main background color used beneath the content area in the template. </p>
+<p><strong>Note:</strong> This value is specifically over written in the row styles when the container background is set. If the container background is blank then that row will inherit the Main Container Background color. If this value is set to none or transparent then the container for this row will be transparent.</p>
+<p><img style="" alt="Container BG" src="/docs/buildr-documentation/user/pages/02.design/02.style/04.colors/container-bg.png" /></p>";

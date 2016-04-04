@@ -1,0 +1,20 @@
+1460345551
+s:2013:"<p>Some of the rows of modules in the template use fixed positioning. We added this option for the following areas of the template to make it easy to fix certain elements on the screen.</p>
+<h2>Top left position</h2>
+<p>This are of the template positions a module or layout element to the top left of the page.</p>
+<p><img style="" alt="Top Left" src="/docs/buildr-documentation/user/pages/02.design/01.layout/07.fixed-positions/top-left.png" /></p>
+<h4>Example</h4>
+<p>The example below shows the hidden panel trigger assigned to the top left position in the Base4 theme.</p>
+<p><img style="" alt="Top Left Example" src="/docs/buildr-documentation/user/pages/02.design/01.layout/07.fixed-positions/top-left-example.jpg" /></p>
+<h2>Top right position</h2>
+<p>This are of the template positions a module or layout element to the top right of the page.</p>
+<p><img style="" alt="Top Right" src="/docs/buildr-documentation/user/pages/02.design/01.layout/07.fixed-positions/top-right.png" /></p>
+<h4>Example</h4>
+<p>The screenshot below shows the off canvas trigger layout element assigned to the top right position as seen in the Writer theme demo.</p>
+<p><img style="" alt="Top Right Example" src="/docs/buildr-documentation/user/pages/02.design/01.layout/07.fixed-positions/top-right-example.jpg" /></p>
+<h2>Toolbar</h2>
+<p>This are of the template positions a module or layout element to the very top of the page. This is ideal for displaying the logo an menu in a fixed position at the top of the page.</p>
+<p><img style="" alt="Toolbar" src="/docs/buildr-documentation/user/pages/02.design/01.layout/07.fixed-positions/toolbar.png" /></p>
+<h4>Example</h4>
+<p>This screenshot is from the Writer theme example. The logo and menu position is assigned to the toolbar row and it sits above the banner module position which has the background image assigned to it.</p>
+<p><img style="" alt="Toolbar Example" src="/docs/buildr-documentation/user/pages/02.design/01.layout/07.fixed-positions/toolbar-example.jpg" /></p>";

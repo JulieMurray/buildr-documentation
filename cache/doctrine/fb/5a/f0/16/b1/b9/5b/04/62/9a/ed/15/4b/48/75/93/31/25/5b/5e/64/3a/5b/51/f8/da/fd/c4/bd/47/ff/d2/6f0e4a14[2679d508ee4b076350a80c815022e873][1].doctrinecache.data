@@ -1,0 +1,15 @@
+1460357256
+s:1486:"<p><img style="" alt="Width and padding" src="/docs/buildr-documentation/user/pages/02.design/02.style/03.width-padding/width-padding.png" /></p>
+<h2>Template Max Width - eg 1140px</h2>
+<p>The maximum width that the template will stretch to if the browser is larger than this value. </p>
+<p><strong>If the browser is smaller than this value then the container width options under the layout tab in the side panel are used.</strong></p>
+<p><img style="" alt="Container" src="/docs/buildr-documentation/user/pages/02.design/02.style/03.width-padding/container-widths.png" /></p>
+<h2>Base vertical padding - eg 30px</h2>
+<p>The base unit used for calculating margins and padding.</p>
+<p>This value is used in a number of areas but in particular for the vertical padding and margins defined in the row settings for each row.</p>
+<p><img style="" alt="Width and padding" src="/docs/buildr-documentation/user/pages/02.design/02.style/03.width-padding/padding.png" /></p>
+<p><strong>See the row settings documentation for more information</strong></p>
+<h2>Horizontal Grid Spacing - eg 4%</h2>
+<p>A value set as a percentage that determines the amount of space between each column in the layout.</p>
+<p><img style="" alt="Grid Spacing" src="/docs/buildr-documentation/user/pages/02.design/02.style/03.width-padding/grid-space.png" /></p>
+<p>To increase the space between module positions change this value to a greater value. To reduce the space between rows completely set this value to 0.</p>";

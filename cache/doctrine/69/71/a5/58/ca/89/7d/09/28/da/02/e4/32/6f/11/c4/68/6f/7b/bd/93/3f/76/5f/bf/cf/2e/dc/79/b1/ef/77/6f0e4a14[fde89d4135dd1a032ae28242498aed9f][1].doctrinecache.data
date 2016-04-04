@@ -1,0 +1,9 @@
+1460358234
+s:521:"<p>The link color panel determine the colors used for links and their hover colors.</p>
+<p>These values apply for all links except for the following cases:</p>
+<ul>
+<li>Links that also use the btn class (they inherit the button colors).</li>
+<li>Headings that are also links. They inherit the Heading color</li>
+<li>Any rows that have the link color set in the row setting options.</li>
+</ul>
+<p><img style="" alt="Links" src="/docs/buildr-documentation/user/pages/02.design/02.style/05.link-colors/link-color.png" /></p>";

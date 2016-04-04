@@ -1,0 +1,48 @@
+1460337723
+s:4534:"<h2>The Design Panel</h2>
+<p>The design panel holds 99% of all layout and display related settings. There are a number of settings that have been logically grouped outside of this panel e.g. the dropdown menu widths, however the vast majority of control of the layout and display of the template can be found in the design panel.</p>
+<p><img style="" alt="Buildr Design" src="/docs/buildr-documentation/user/pages/02.design/design.png" /></p>
+<h2>The Layout area</h2>
+<p>All aspects of the layout are controlled in the layout area. This includes the positioning of specific modules in the layout as well as the widths applied to each module.</p>
+<p><img style="" alt="Layout" src="/docs/buildr-documentation/user/pages/02.design/layout.png" /></p>
+<p>Each block in the layout area can be moved to a new row or position inside a row via dragging and dropping the block. Each item can be resized by hovering the mouse on the right edge of the layout block.</p>
+<h2>General Settings</h2>
+<p>The general settings panel contains the settings that affect the general style / theme colours and other design elements including fonts, general layout control, 3rd party assets such as Font Awesome and Bootstrap.
+<img style="" alt="General" src="/docs/buildr-documentation/user/pages/02.design/general.png" /></p>
+<h2>Style Tab</h2>
+<p>The style tab holds any relevant design settings that affect all of the template. This group of settings provides control over colours, widths, spacing, social icons, borders and shadows.</p>
+<p><img style="" alt="Style" src="/docs/buildr-documentation/user/pages/02.design/style.png" /></p>
+<h2>Font Tab</h2>
+<p>The font tab contains the settings that allow the user to change the basic font sizes used in the template, the font family and weight for body, menu, headings and logo fonts as well as custom fonts.</p>
+<p><img style="" alt="Fonts" src="/docs/buildr-documentation/user/pages/02.design/fonts.png" /></p>
+<h2>Layout Tab</h2>
+<p>The layout tab contains parameters that allow the user to load a new layout, save a layout, adjust the responsive breakpoints and widths, seletc the collapse menu etc.</p>
+<p><img style="" alt="Layout" src="/docs/buildr-documentation/user/pages/02.design/layout-tab.png" /></p>
+<h2>Assets Tab</h2>
+<p>The assets tab controls setting that determine how 3rd party libraries such as Font Awesome and Bootstrap are implemented int he template.
+<img style="" alt="Assets" src="/docs/buildr-documentation/user/pages/02.design/assets.png" /></p>
+<h2>Row Styles</h2>
+<p>Style for specific rows or groups of modules are shown when the user clicks on the edit pencil for that specific row.</p>
+<p>Clicking on the pencil in a row.</p>
+<p><img style="" alt="Logo pencil click" src="/docs/buildr-documentation/user/pages/02.design/logo-edit.png" /></p>
+<p>Will reveal the settings for that row.
+<img style="" alt="Logo Row Settings" src="/docs/buildr-documentation/user/pages/02.design/logo-row-style.png" /></p>
+<p>The row style settings panel contains parameters for the following elements:</p>
+<h2>Available Modules</h2>
+<p>Any native positions for that row. While any position can be moved to a relevant position, if a position is not used int he layout it is returned to the row that is specified int he templates settings/position.json file.</p>
+<p><img style="" alt="Available" src="/docs/buildr-documentation/user/pages/02.design/available.png" /></p>
+<h2>Responsive control</h2>
+<p>Toggle buttons that determine if a specific row can be seen or hidden at various screen widths, or whether it should be displayed in a stacked layout (all positions are 100% width) or whether the layout widths should override the grid collapse setting.</p>
+<p><img style="" alt="Responsive" src="/docs/buildr-documentation/user/pages/02.design/responsive.png" /></p>
+<h2>Responsive control</h2>
+<p><img style="" alt="Responsive" src="/docs/buildr-documentation/user/pages/02.design/responsive.png" /></p>
+<h2>Row Style</h2>
+<p><img style="" alt="Responsive" src="/docs/buildr-documentation/user/pages/02.design/row-style.png" /></p>
+<h2>Container Style</h2>
+<p><img style="" alt="container-style" src="/docs/buildr-documentation/user/pages/02.design/container-style.png" /></p>
+<h2>Colors</h2>
+<p><img src="colors.png" alt="Colours" /></p>
+<h2>Type Style</h2>
+<p><img style="" alt="Responsive" src="/docs/buildr-documentation/user/pages/02.design/type-style.png" /></p>
+<h2>Effects</h2>
+<p><img style="" alt="Effects" src="/docs/buildr-documentation/user/pages/02.design/effects.png" /></p>";

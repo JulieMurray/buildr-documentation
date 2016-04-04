@@ -1,0 +1,10 @@
+1460339569
+s:732:"<h4>Positions revert to their native row when hidden</h4>
+<p>If you have moved a module to a new row and then hide that module (using the eye icon) the module will go back to it's native position.</p>
+<p>eg if you move the banner module to the logo row and then hide it, the module will now be found in the available modules in the banner row and not in the logo row.</p>
+<h4>Banner in it's native row</h4>
+<p><img src="banner.png" alt="banner" /></p>
+<h4>Banner moved to logo row</h4>
+<p><img src="banner-moved.png" alt="Banner moved" /></p>
+<h4>When the eye icon is clicked the banner module is added to the banner available modules and not the logo available modules.</h4>
+<p><img src="banner-reset.png" alt="Banner reset" /></p>";

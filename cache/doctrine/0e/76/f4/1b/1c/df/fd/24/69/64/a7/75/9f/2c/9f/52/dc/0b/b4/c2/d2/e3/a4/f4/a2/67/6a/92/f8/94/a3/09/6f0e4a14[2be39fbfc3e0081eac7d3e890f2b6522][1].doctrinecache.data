@@ -1,0 +1,25 @@
+1460355504
+s:1298:"<p>Zen Grid Framework themes come with the ability to save the colour and other information from your current template configuration in the form of presets in your template for reuse across other instances of the template.</p>
+<p>Each theme is shipped with a set of default themes that can be found in the settings/themes/presets folder.</p>
+<p><img style="" alt="Saving presets" src="/docs/buildr-documentation/user/pages/02.design/02.style/01.saving-presets/presets.png" /></p>
+<h2>Developer notes</h2>
+<p>Any newly saved theme is saved to the settings/themes folder.</p>
+<p>Each theme is stored in json format using two groups of objects: settings &amp; colors:</p>
+<p>Settings (any parameter that isn't set by using the color picker): </p>
+<pre><code>{
+  "settings":{
+    "twidth":"980px",
+    "base-padding":"30px",
+    "gutter-pc":"2%",
+    "containershadow":"0 0 0 1px rgba(0, 0, 0, 0.06), 0 3px 8px rgba(0, 0, 0, 0.06)",
+    "wrap-overlay-fade":"40%",
+    "wrap-overlay-height":"100%" ...</code></pre>
+<p>The color object (all items set via the color picker):</p>
+<pre><code>"colors":{
+    "primary":"96CA2D",
+    "secondary":"3B424C",
+    "border-color":"eeeeee",
+    "text-color":"ffffff",
+    "heading-color":"eeeeee",
+    "spotlight-bg":"none",
+    "link-color":"@primary",</code></pre>";
