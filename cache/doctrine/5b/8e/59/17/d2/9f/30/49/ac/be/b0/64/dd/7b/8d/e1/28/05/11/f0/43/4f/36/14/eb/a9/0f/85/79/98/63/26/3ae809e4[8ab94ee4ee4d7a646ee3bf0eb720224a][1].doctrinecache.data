@@ -1,0 +1,12 @@
+1460452401
+s:1048:"<h3>(Article in progress)</h3>
+<p>This article is incomplete and will be updated shortly.</p>
+<p>There are three main components of a Zen Grid Framework v5 theme and it's important to understand their relationship when you are working with the themes.</p>
+<h2>Config files</h2>
+<p>Configuration files are the files referenced by specific instances of a template.</p>
+<p>In Joomla each template is given an id in the database. ZGFv5 themes attach the configuration for each instance of a template to a configuration file that is named on the server in the following format:</p>
+<pre><code>config-78.json</code></pre>
+<p>In the example above the number 78 refers to the id of the template. This id can be seen in the template manager in the id column as per the screenshot below. The number 78 in this instance refers to the Two right sidebar instance of the template.</p>
+<p><img style="" alt="Config Id" src="/docs/buildr-documentation/user/pages/01.overview/03.config-styles-layouts/config-id.png" /></p>
+<h2>Theme Files</h2>
+<h2>Layout Files</h2>";

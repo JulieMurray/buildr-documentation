@@ -1,0 +1,7 @@
+1460448267
+s:570:"<h2>Remove Joomla Generator Tag</h2>
+<p>This section contains the option to remove the Joomla metagenerator tag from the output of your site.</p>
+<p>By default Joomla outputs this meta generator tag in the head of your site:</p>
+<pre><code>&lt;meta name="generator" content="Joomla! - Open Source Content Management" /&gt;</code></pre>
+<p>The option below when enabled can be used to prevent this from being output on the page.</p>
+<p><img style="" alt="Joomla Tweaks" src="/docs/buildr-documentation/user/pages/09.settings/09.joomla-tweaks/remove-joomla-gen.jpg" /></p>";

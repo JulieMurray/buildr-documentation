@@ -1,0 +1,11 @@
+1460440617
+s:1008:"<p>This template comes with support for the Bootstrap2 and Bootstrap3 frameworks. </p>
+<h2>Do you need to include bootstrap</h2>
+<p>The template does not require Bootstrap in order to render it's various elements. However if you are using a 3rd party component or module that requires the Bootstrap library then you will need to enable this option for your template.</p>
+<p><img style="" alt="Bootstrap" src="/docs/buildr-documentation/user/pages/05.theme-assets/02.bootstrap/bootstrap3.jpg" /></p>
+<h3>Enable the Bootstrap library</h3>
+<p><img style="" alt="Bootstrap" src="/docs/buildr-documentation/user/pages/05.theme-assets/02.bootstrap/bootstrap.png" /></p>
+<h3>Select the version to use</h3>
+<p><img style="" alt="Bootstrap" src="/docs/buildr-documentation/user/pages/05.theme-assets/02.bootstrap/select-version.jpg" /></p>
+<h3>Select elements you want to include</h3>
+<p><img style="" alt="Bootstrap" src="/docs/buildr-documentation/user/pages/05.theme-assets/02.bootstrap/select-elements.jpg" /></p>";

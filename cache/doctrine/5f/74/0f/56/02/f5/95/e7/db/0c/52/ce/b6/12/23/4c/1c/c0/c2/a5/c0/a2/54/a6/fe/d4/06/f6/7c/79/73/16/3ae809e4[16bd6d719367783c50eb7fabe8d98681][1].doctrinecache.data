@@ -1,0 +1,20 @@
+1460451820
+s:1737:"<p>Zen Grid Framework v5 (ZGF5) themes come with the ability to transform a standard Joomla menu module published to a sidebar position into a collapsible accordion menu.</p>
+<p>An accordion menu allows the user to view nested menu items in a menu by clicking on the parent item. ZGF5 menu's allow any type of menu item to act as a parent menu item.</p>
+<p>The accordion comes with two options that are defined in the template settings:</p>
+<ul>
+<li>A traditional accordion menu which allows a single nested menu item to be open at a time.</li>
+<li>Or a panel menu which allows multiple nested sub level items to be open at a time.</li>
+</ul>
+<p>In addition to the template settings below, the menu module needs a module class suffix of 'accordion' for the correct styling and javascript to be applied to the menu.</p>
+<h3>Accordion settings</h3>
+<p><img style="" alt="General Layout" src="/docs/buildr-documentation/user/pages/07.menus/03.accordion/accordion.jpg" /></p>
+<h4>Enable accordion</h4>
+<p>This option needs to be enabled in order to enable the accordion behaviour.</p>
+<p>When enabled the required code is output in the tpls/blocks/script.php file.</p>
+<h4>Always open first item</h4>
+<p>This option ensures that the first item in the accordion menu is always open.</p>
+<h4>Always show active menu item</h4>
+<p>This options ensures that the active menu item is visible on the page when the page loads.</p>
+<h2>Accordion is also used for the off canvas collapse menu</h2>
+<p>Please note that the accordion menu is also used if the offcanvas menu is used in the nav collapse setting. (see under the responsive panel in the template settings). This menu is enabled regardless of the enable accordion setting discussed above.</p>";

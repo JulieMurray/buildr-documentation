@@ -1,0 +1,13 @@
+1460448779
+s:1095:"<h2>Determining the position of the social icons</h2>
+<p>There are two blocks available in the layout tool that can be used to control the position of the social icons. </p>
+<ul>
+<li>Social icons</li>
+<li>Social Icons mobile</li>
+</ul>
+<p><img style="" alt="Social Icons" src="/docs/buildr-documentation/user/pages/08.social/01.social-icon-display/social-block.png" /></p>
+<p>Both of these blocks can be used in any position and at any screen size. The social icons mobile is named with the mobile word to help users locate the block they have used for the mobile display, however the block will appear at any screensize.</p>
+<p><img style="" alt="Social Icons" src="/docs/buildr-documentation/user/pages/08.social/01.social-icon-display/social-mobile-block.png" /></p>
+<h2>Settings for the display of social icons</h2>
+<p><img style="" alt="Social Icons" src="/docs/buildr-documentation/user/pages/08.social/01.social-icon-display/social-icons.png" /></p>
+<p><img style="" alt="Social Mobile" src="/docs/buildr-documentation/user/pages/08.social/01.social-icon-display/social-mobile.png" /></p>";

@@ -1,0 +1,17 @@
+1460448134
+s:637:"<h1>Settings Panel</h1>
+<p>The Settings panel in ZGFv4 based themes allows you to tweak the performance and other types of core behaviours in your template.</p>
+<p>This section of the knowledgebase:</p>
+<ul>
+<li>Provides an overview of the css settings</li>
+<li>Details how to add less files to your site</li>
+<li>Optimise javascript usage</li>
+<li>Add new javascript</li>
+<li>Replace jQuery</li>
+<li>Use a CDN</li>
+<li>Add custom scripts to various places in the page</li>
+<li>Use the Mobile detect function</li>
+<li>Remove the Joomla generator tag</li>
+<li>Optimise the template admin interface</li>
+<li>Use the debug option</li>
+</ul>";

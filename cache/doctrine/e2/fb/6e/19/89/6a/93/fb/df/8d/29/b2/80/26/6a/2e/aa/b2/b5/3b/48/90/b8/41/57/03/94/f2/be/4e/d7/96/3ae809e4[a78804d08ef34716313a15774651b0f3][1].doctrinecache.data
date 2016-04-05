@@ -1,0 +1,46 @@
+1460450866
+s:2006:"<h3>(Article in progress)</h3>
+<p>This article is incomplete and will be updated shortly.</p>
+<p>The one page menu option transforms your main navigation into a one page menu system which allows the user to smooth scroll to various anchor points on the page. </p>
+<p>The menu is automatically created when you add a module to a specific position and the menu title for that position is not blank in your template settings. </p>
+<h2>Menu items link to rows of modules</h2>
+<p>Each Zen Grid Framework v4 (ZGF4) theme is divided into a number of different rows of modules. The typical layout for these modules is as follows:</p>
+<ul>
+<li>top</li>
+<li>header</li>
+<li>menu</li>
+<li>banner</li>
+<li>grid-block-1 (grid1 - grid4)</li>
+<li>grid-block-2 (grid5 - grid8)</li>
+<li>grid-block-3 (grid9 - grid12)</li>
+<li>maincontent</li>
+<li>grid-block-4 (grid13 - grid16)</li>
+<li>grid-block-5 (grid1 - grid4)</li>
+<li>grid-block-6</li>
+<li>bottom</li>
+<li>footer</li>
+</ul>
+<p>One page menu links correspond to the following rows of modules:</p>
+<ul>
+<li>Home - top, header, menu</li>
+<li>Banner - banner</li>
+<li>Grid1 - Grid1 to Grid4</li>
+<li>Grid2 - Grid5 to Grid8</li>
+<li>Grid3 - Grid9 to Grid12</li>
+<li>Main - Main content area</li>
+<li>Grid4 - Grid13 to Grid16</li>
+<li>Grid5 - Grid17 to Grid20</li>
+<li>Grid6 - Grid21 to Grid24</li>
+<li>Bottom - Bottom 1-6 and Footer</li>
+</ul>
+<p>As an example, to have a menu that links to the banner, grid-block-1, grid-block-4 and bottom modules you would need to:</p>
+<p>Publish a module to</p>
+<ul>
+<li>banner</li>
+<li>grid1, grid2, grid3 or grid4</li>
+<li>grid13,grid14, grid16 or grid16</li>
+<li>bottom1, bottom2, bottom3, bottom4, bottom5 or bottom6.</li>
+</ul>
+<p>As well as ensure that the banner, grid1, grid4 and bottom menu items had titles in the template settings as per the screenshot below.</p>
+<h3>Onepage menu settings</h3>
+<p><img style="" alt="Onepage Menu Settings" src="/docs/buildr-documentation/user/pages/07.menus/05.one-page/onepage.jpg" /></p>";

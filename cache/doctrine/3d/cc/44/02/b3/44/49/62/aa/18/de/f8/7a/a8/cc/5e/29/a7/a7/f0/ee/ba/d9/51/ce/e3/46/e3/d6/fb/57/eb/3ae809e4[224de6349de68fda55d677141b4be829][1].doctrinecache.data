@@ -1,0 +1,15 @@
+1460441701
+s:805:"<p>The settings in this panel determine the specific font sizes and values for the following headings and tags:</p>
+<ul>
+<li>Base font size: Applies to the html, body, p tags</li>
+<li>Base line height: Applies to the line spacing used for html, p tags</li>
+<li>h1 - determines the h1 font size</li>
+<li>h2 - determines the h2 font size </li>
+<li>h3 - determines the h3 font size</li>
+<li>h4 - determines the h4 font size</li>
+<li>h5 - determines the h5 font size</li>
+<li>h6 - determines the h6 font size</li>
+<li>blockquote - determines the blockquotefont size</li>
+</ul>
+<p>The values set in this option can be any valid css value for font-size and line-height eg px, em, %, vW</p>
+<p><img style="" alt="Font Sizes" src="/docs/buildr-documentation/user/pages/04.fonts/04.font-sizes/font-size.png" /></p>";

@@ -1,0 +1,5 @@
+1460453967
+s:648:"<p>The settings on this panel refer to the colours used in the top level of the main menu. This is the menu that is rendered when using the menu module position or the menu rendered when using the one page menu block.</p>
+<p><strong>Note:</strong> The settings in this panel will override the link colors set in a row's settings. </p>
+<p>Eg if you move the menu to the toprow and also set the link colors in the toprow settings side panel the colours defined in this panel will override the colors defined in the toprow settings.</p>
+<p><img style="" alt="Main Menu" src="/docs/buildr-documentation/user/pages/03.style/09.main-menu/menu.png" /></p>";

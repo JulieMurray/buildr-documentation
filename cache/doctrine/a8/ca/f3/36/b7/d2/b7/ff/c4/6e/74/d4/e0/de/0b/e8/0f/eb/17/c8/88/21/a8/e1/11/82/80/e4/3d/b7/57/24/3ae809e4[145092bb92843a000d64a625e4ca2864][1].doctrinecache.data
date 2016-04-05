@@ -1,0 +1,13 @@
+1460450725
+s:1095:"<p>All Zen Grid Framework v4 (ZGF4) themes come with a built in offcanvas panel. The offcanvas panel literally sits off the page and is brought onto the page via a user interaction - normally by clicking a button.</p>
+<p>The Offcanvas panel can be initiated in two different ways in ZGF4 themes.</p>
+<ul>
+<li>The user publishes a module to the offcanvas position. When this occurs the offcanvas trigger and panel are automatically added to the page.</li>
+<li>The user selects the offcanvas menu as their preferred menu display when the browser is below the navcollapse breakpoint. These two settings can be found on the responsive panel in the template settings.</li>
+</ul>
+<h3>Offcanvas menu settings</h3>
+<p><img style="" alt="Offcanvas Menu Settings" src="/docs/buildr-documentation/user/pages/07.menus/04.offcanvas/offcanvas.jpg" /></p>
+<h4>Offcanvas position</h4>
+<p>This setting determines the side of the page that the offcanvas panel is displayed on. </p>
+<h4>Minimum width visible</h4>
+<p>This setting determines the minimum width that the viewer should be able to view the menu at.</p>";

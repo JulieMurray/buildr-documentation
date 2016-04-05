@@ -1,0 +1,14 @@
+1460439986
+s:1582:"<p><img style="" alt="Lazyload images" src="/docs/buildr-documentation/user/pages/08.effects/03.lazyload/lazyload.jpg" /></p>
+<h2>Lazyload Selector</h2>
+<p>This options specifies which images to target for lazyloading. You can add multiple selectors separated by a comma.</p>
+<p>For example, to target all images on a site you can add the image element <code>img</code><br />
+To target only images which have a class of <code>lazy</code> you can add <code>.lazy</code> or <code>img.lazy</code></p>
+<h2>Disable Lazyload Selector</h2>
+<p>This option specifies which elements, already targeted with the lazyload selector, to ignore.</p>
+<p>For example, you may have the lazyload selector set to <code>img</code> to target all images on the site. If there are specific images which you then want to load normally, you could give them a class of <code>nolazy</code> and then add <code>.nolazy</code> to the disable selector field.</p>
+<h4>Disabling lazyload for a module where a class cannot be added to an image.</h4>
+<p>If you have a module, such as a slideshow or carousel, where lazyloading is causing a problem, you may not always be able to add a class to the image directly.</p>
+<p>In this case, you could either use a class which wraps the image in the module output, or use a module class suffix.</p>
+<p>For example, if you add a suffix of <code>nolazy</code> to a module, you can then target all images within that module by using the selector <code>.nolazy img</code>.</p>
+<p>Combining that with using the same class directly you can use <code>.nolazy, .nolazy img</code>.</p>";

@@ -1,0 +1,6 @@
+1460448242
+s:615:"<p><img style="" alt="Javascript settings" src="/docs/buildr-documentation/user/pages/09.settings/04.javascript/javascript.jpg" /></p>
+<h3>Using gzip option on local hosts</h3>
+<p>It seems that there is a bug in localhost servers (MAMP and XAMP) that leads to an error when using the gzip function for javascript files. </p>
+<p>This error manifests as an unexpected token error in the browser console. There are also cascading errors as a result of this that relate to some of the scripts used by the template.</p>
+<p>It is recommended to disable this function when developing a site locally to avoid the issue.</p>";

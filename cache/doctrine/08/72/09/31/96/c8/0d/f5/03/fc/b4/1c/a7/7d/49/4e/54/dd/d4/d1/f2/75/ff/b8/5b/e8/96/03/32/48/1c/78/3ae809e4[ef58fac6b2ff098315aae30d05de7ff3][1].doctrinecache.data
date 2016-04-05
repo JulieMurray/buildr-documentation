@@ -1,0 +1,8 @@
+1460441257
+s:751:"<h2>What are the benefits of using the font loader?</h2>
+<p><img src="font-loader.png" alt="Font Loader" /></p>
+<p>When enabled the javascript font loader is used to load fonts. If you are loading a single google font it's likely that having this option disabled will yield a better page load speed. </p>
+<p>However if you load more than one font the font loader allows the the page to load before the resources are loaded. This can lead to a FOUT - flash of unstyled content, but it may mean that the page loads faster.</p>
+<p>When the setting is disabled the template will load your fonts via the standard css link in the head of the template. </p>
+<h2>Which setting should you use?</h2>
+<p>In most cases users should have this option disabled. </p>";

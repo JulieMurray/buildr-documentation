@@ -1,0 +1,12 @@
+1460451973
+s:1303:"<p>To hide a module in the row click on the eye icon in that specific module block. To reinstate that module to it's native row click on the module name in the available module area for that row.</p>
+<p><image style="" alt="Hiding modules" src="/docs/buildr-documentation/user/pages/02.layout/07.removing-modules/hiding-modules.gif" /></p>
+<h2>Positions revert to their native row when hidden</h2>
+<p>If you have moved a module to a new row and then hide that module (using the eye icon) the module will go back to it's native position.</p>
+<p>eg if you move the banner module to the logo row and then hide it, the module will now be found in the available modules in the banner row and not in the logo row.</p>
+<h4>Banner in it's native row</h4>
+<p><img style="" alt="banner" src="/docs/buildr-documentation/user/pages/02.layout/07.removing-modules/banner.png" /></p>
+<h4>Banner moved to logo row</h4>
+<p><img style="" alt="Banner moved" src="/docs/buildr-documentation/user/pages/02.layout/07.removing-modules/banner-moved.png" /></p>
+<h4>When the eye icon is clicked the banner module is added to the banner available modules and not the logo available modules.</h4>
+<p><img style="" alt="Banner reset" src="/docs/buildr-documentation/user/pages/02.layout/07.removing-modules/banner-reset.png" /></p>";

@@ -1,0 +1,78 @@
+1460453320
+s:4606:"<h3>(Article in progress)</h3>
+<p>This article is incomplete and will be updated shortly.</p>
+<p>There are three main components of a Zen Grid Framework v5 theme and it's important to understand their relationship when you are working with the themes.</p>
+<h2>Config files</h2>
+<p>Configuration files are the files referenced by specific instances of a template.</p>
+<p>In Joomla each template is given an id in the database. ZGFv5 themes attach the configuration for each instance of a template to a configuration file that is named on the server in the following format:</p>
+<pre><code>config-78.json</code></pre>
+<p>In the example above the number 78 refers to the id of the template. This id can be seen in the template manager in the id column as per the screenshot below. The number 78 in this instance refers to the Two right sidebar instance of the template.</p>
+<p><img style="" alt="Config Id" src="/docs/buildr-documentation/user/pages/01.overview/03.config-styles-layouts/config-id.png" /></p>
+<p>The config file is the key to unlocking the configuration of the template. It is a simple two level json object that stores the template params and layout data:</p>
+<p><strong>Parameter object</strong></p>
+<pre><code>{
+  "params":{
+    "theme":"xero",
+    "panel_trigger_text":"Open Panel",
+    "social_position":"relative",
+    "social_position_align":"align-left",
+    "social_style":"social-square",
+    "social_mobile_position":"fixed-right",
+    "social_mobile_position_align":"align-left",
+    "social_mobile_style":"social-no-style",
+    "use_font_loader":"0",
+    "use_typekit":"0",
+    "typekit_id":"",
+    "bodyfont":"-1" ...</code></pre>
+<p><strong>Layout object</strong></p>
+<pre><code>"layout":{
+   "top":{
+     "positions":{
+       "top4":"12"
+     },
+     "classes":{
+       "classes":"no-change-phones  row-padding-vert-sml row-margin-none container-padding-none container-margin-none"
+     }
+   },
+   "logo":{
+     "positions":{
+       "logo":"6",
+       "search":"6",
+       "social":"12"
+     },
+     "classes":{
+       "classes":" row-padding-vert-sml container-padding-none"
+     }
+   } ...</code></pre>
+<h4>Where are the config files stored?</h4>
+<p>User stored configuration files are located in the settings/config folder, while the presets that are shipped with the template are stored in the settings/config/config-sample folder.</p>
+<p>The config-sample configuration files are example files that can be loaded by the user as a way to load the relevant data into the template to replicate the template style.</p>
+<h4>How do you load a configuration file?</h4>
+<p>The list of available configuration files available can be seen in the select box that sits in the toolbar above the sidepanel. Example configuration files are displayed with an [example]- prefix. While other user created configurations are shown using the name of the configuration that the template instance has been saved with eg buildr - frontpage</p>
+<p><img style="" alt="Config Select" src="/docs/buildr-documentation/user/pages/01.overview/03.config-styles-layouts/config-select.png" /></p>
+<p>To load a specific configuration open the selectbox by clicking on it and selecting the configuration you would like to load. Then click the "Load Saved Settings" button. Once the button has been clicked the theme and layout data for the configuration is loaded into the interface.</p>
+<p><image style="" alt="Config Load" src="/docs/buildr-documentation/user/pages/01.overview/03.config-styles-layouts/load-config.gif" /></p>
+<h2>Theme Files</h2>
+<p>Theme files contain data relating specifically to the visual display of the site. </p>
+<p>Each theme is stored in json format using two groups of objects: settings &amp; colors:</p>
+<p>Settings (any parameter that isn't set by using the color picker): </p>
+<pre><code>{
+  "settings":{
+    "twidth":"980px",
+    "base-padding":"30px",
+    "gutter-pc":"2%",
+    "containershadow":"0 0 0 1px rgba(0, 0, 0, 0.06), 0 3px 8px rgba(0, 0, 0, 0.06)",
+    "wrap-overlay-fade":"40%",
+    "wrap-overlay-height":"100%" ...</code></pre>
+<p>The color object (all items set via the color picker):</p>
+<pre><code>"colors":{
+    "primary":"96CA2D",
+    "secondary":"3B424C",
+    "border-color":"eeeeee",
+    "text-color":"ffffff",
+    "heading-color":"eeeeee",
+    "spotlight-bg":"none",
+    "link-color":"@primary",</code></pre>
+<h4>Where are the theme files stored?</h4>
+<p>User created theme files are stored in the settings/themes folder while theme presets that are shipped with the template are stored in the settings/themes/presets folder.</p>
+<h2>Layout Files</h2>";

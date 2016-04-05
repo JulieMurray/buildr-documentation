@@ -1,0 +1,9 @@
+1460448251
+s:982:"<h3>Replacing the core jQuery library</h3>
+<p><img src="jQuery.jpg" alt="jQuery Settings" /></p>
+<p>By default all Zen Grid Framework v4 themes load jQuery using the standard Joomla method of adding jQuery. When the default method of using jQuery is used it ensures that the template will be compatible with any other 3rd party extensions that may also require the jQuery library.</p>
+<p>It is however possible to use a CDN hosted version of the jQuery library, as a part of your site optimisation routines. By default the template comes with the cdn version of the JQueyr library already set with the google api version of the jQuery library, however you can use your preferred cdn resource for replacing jQuery in your template.</p>
+<h2>Commonly used CDN versions of jQuery</h2>
+<pre><code>https://code.jquery.com/jquery-1.11.3.min.js
+https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js
+https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js</code></pre>";

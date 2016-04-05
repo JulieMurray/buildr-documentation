@@ -1,0 +1,12 @@
+1460440798
+s:1053:"<p>This template comes with support for the Bootstrap2 and Bootstrap3 frameworks. </p>
+<h2>Do you need to include bootstrap?</h2>
+<p>The template does not require Bootstrap in order to render it's various elements. However if you are using a 3rd party component or module that requires the Bootstrap library then you will need to enable this option for your template.</p>
+<h2>How to enable the Bootstrap library</h2>
+<ol>
+<li>In the general settings side panel navigate to the assets panel.</li>
+<li>Enable the css framework toggle as per the screenshot below</li>
+<li>Select the version of bootstrap that you wish to add support for</li>
+<li>Select the items that you wish to load into the template. It's important to note here that if you only need a small portion of the bootstrap framework in your theme then you benefit from a smaller css file if you only select the items required by your component or module.</li>
+</ol>
+<p><img style="" alt="Bootstrap" src="/docs/buildr-documentation/user/pages/05.theme-assets/02.bootstrap/bootstrap.png" /></p>";
