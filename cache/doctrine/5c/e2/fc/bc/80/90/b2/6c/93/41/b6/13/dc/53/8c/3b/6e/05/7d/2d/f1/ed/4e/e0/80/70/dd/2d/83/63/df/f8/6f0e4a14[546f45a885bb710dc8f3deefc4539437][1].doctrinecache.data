@@ -1,0 +1,25 @@
+1460422580
+s:1675:"<p>The settings panel for specific rows or groups of modules are shown when the user clicks on the edit pencil for that specific row.</p>
+<p><strong>The Row settings panel allows the user to control specific responsive settings, colours, margins, paddings etc for that specific row.</strong></p>
+<h2>How to activate the Row settings</h2>
+<ol>
+<li>Click on the pencil in a row.</li>
+</ol>
+<p><img style="" alt="Logo pencil click" src="/docs/buildr-documentation/user/pages/06.row-settings/logo-edit.png" /></p>
+<ol>
+<li>Once the user has clicked on the icon the settings available for that row will appear</li>
+</ol>
+<p><img style="" alt="Logo Row Settings" src="/docs/buildr-documentation/user/pages/06.row-settings/logo-row-style.png" /></p>
+<h2>Some settings are not available for some rows.</h2>
+<p>In general the row settings apply to all rows in the template however there are some important cases where it has made sense to remove them.</p>
+<p><strong>Note:</strong> Developers can see the settings that have been removed from the interface by looking in the settings/themer-exclude.json file.</p>
+<p>The default them ships with the following row styles removed:</p>
+<pre><code>{
+    "0":"abovecontent-container-fullwidth",
+    "1":"belowcontent-container-fullwidth",
+    "2":"top-left-container_padding",
+    "3":"top-left-container_margin",
+    "4":"top-right-container_padding",
+    "5":"top-right-container_margin"
+}</code></pre>
+<p>In order to remove additional items from the row settings simply add the parameter you wish to remove in the json object. Please ensure that the last item in the list does not container a trailing comma as per the example above.</p>";

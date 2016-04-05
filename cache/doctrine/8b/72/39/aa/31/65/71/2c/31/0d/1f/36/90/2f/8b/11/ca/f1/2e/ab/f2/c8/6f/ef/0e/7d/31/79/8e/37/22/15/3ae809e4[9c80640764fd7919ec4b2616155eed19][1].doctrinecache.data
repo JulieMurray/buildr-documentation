@@ -1,0 +1,69 @@
+1460430425
+s:5930:"<p>Contains the settings for the specific row. The row is the part of the layout that includes the entire area from the left and right edge of the screen. Setitngs here allow the user to adjust the background colour, image, padding, margin, border and whether or not to use an overlay.</p>
+<p><img style="" alt="Responsive" src="/docs/buildr-documentation/user/pages/06.row-settings/03.row-style/row-style.png" /></p>
+<h2>What part of the layout does the row cover?</h2>
+<p>Zen Grid Framework themes are based on the display of a number of different rows in the layout. </p>
+<p>Each row contains a specified selection of modules which are surrounded by the following html markup.</p>
+<pre><code>&lt;section id="grid1wrap"&gt;
+    &lt;div class="zen-container"&gt;
+        &lt;div class="zen-row"&gt;
+            &lt;div class="zen-spotlight"&gt;
+                &lt;div id="grid1" class="zg-col zg-col-3"&gt; ...</code></pre>
+<ul>
+<li>The section element is the wrapping div for the entire row and marks the area where the row settings apply.</li>
+<li>zen-container is the structural div that determines the width of the content area within the row</li>
+<li>zen-row is the div required to denote the start of the row of content</li>
+<li>zen-spotlight is the div that the container style settings apply to.</li>
+</ul>
+<h2>Row vs container area</h2>
+<p>Visually this can be represented in the following image:</p>
+<p><img style="" alt="Row Style" src="/docs/buildr-documentation/user/pages/06.row-settings/03.row-style/row-style-screen.png" /></p>
+<h2>Settings</h2>
+<h2>Background Color</h2>
+<p>This setting determines the color applied to the background of the entire row.</p>
+<p><strong>Applying no color</strong>
+If you wish to remove any color for this row simply leave this setting blank. If the option is left blank there is no css rendered for this row and the body color or overlay color  will be seen. </p>
+<p>Using the value 'none' or 'transparent' are valid values to be used here however it will result in css being rendered for that div along the lines of #grid1wrap {background:none}</p>
+<p><strong>Using transparent colors</strong>
+It is possible to use the following syntax to render a transparent overlay for the row background. You may like to see the main Backgrounder theme for examples of how we have done this. </p>
+<p>There are two options for applying a transparent color to a row background:</p>
+<ul>
+<li>use the less fade syntax eg fade(#333, 80%) or even fade(@primary, 80%). Using this syntax will result in a colour that is 80% transparency of the specified color.</li>
+<li>Using RGBA colors. It is also possible to specify a transparent rgba color in the form of the following: rgab(0,0,0,0.8). This is the same as adding fade(#000, 80%).</li>
+</ul>
+<p><strong>Example</strong>
+The screenshot below shows a transparent value applied to two rows in the Backgrounder theme for the grid6 and bottom rows. It's important to note that the background colour applies only to the area outside of the container as the container style for this theme uses color values for the container background.</p>
+<p><img style="" alt="Backgrounder" src="/docs/buildr-documentation/user/pages/06.row-settings/03.row-style/backgrounder.jpg" /></p>
+<p>The background colors are set as per the following:</p>
+<p><strong>Grid6 row</strong>
+<img style="" alt="Grid5" src="/docs/buildr-documentation/user/pages/06.row-settings/03.row-style/row6.png" /></p>
+<p><strong>Bottom row</strong>
+<img style="" alt="Grid6" src="/docs/buildr-documentation/user/pages/06.row-settings/03.row-style/bottom.png" /></p>
+<p><strong>Backgrounder primary and secondary colours</strong>
+<img style="" alt="Colors" src="/docs/buildr-documentation/user/pages/06.row-settings/03.row-style/colors.png" /></p>
+<p><strong>Note:</strong> This color is used as the overlay color when that setting is enabled in the option below. </p>
+<h2>Background image</h2>
+<p>The image used for the row background.</p>
+<p>This setting provides the option to display a background image for a specified row.</p>
+<p>Images in the select box are referenced from the images folder on your server and can either be uploaded via ftp or using the Joomla media manager.</p>
+<p><strong>Example</strong></p>
+<p>The Writer theme uses an image assigned to the banner row.</p>
+<p><img style="" alt="Writer example" src="/docs/buildr-documentation/user/pages/06.row-settings/03.row-style/writer.jpg" /></p>
+<p><img style="" alt="Writer example settings" src="/docs/buildr-documentation/user/pages/06.row-settings/03.row-style/writer-setting.png" /></p>
+<h2>Image repeat</h2>
+<p>Applies the background-repeat rule to the image. This is a standard css rule which uses the following options:</p>
+<ul>
+<li>no-repeat (the image is not repeated)</li>
+<li>repeat (the image is repeated vertically and horizontally)</li>
+<li>repeat-x (the image is repeated horizontally)</li>
+<li>repeat-y (the image is repeated vertically)</li>
+</ul>
+<h2>Image cover</h2>
+<p>Applies the background-size rule when an image is set for the row. </p>
+<p>Options include cover or inherit. </p>
+<p>When using the cover option the background image will be resized so that the image covers the entire area of the div. This means that the image is stretched vertically and horizontally inside the area of the row and maintain the aspect ratio of the image. When this option is selected some parts of the image may not be visible.</p>
+<p>This option is designed to be an aesthetic feature and in cases where you want to display key parts of the image across all screen sizes you may need to edit the image or provide further css in the form of media queries to force the image to be shown at certain positions. These kinds of edits are unique to each image that is being used and can not be incorporated int he framework.</p>
+<h2>Add overlay above image</h2>
+<h2>Row Padding</h2>
+<h2>Row Margin</h2>
+<h2>Row Border</h2>";

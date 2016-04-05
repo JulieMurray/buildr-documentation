@@ -1,0 +1,6 @@
+1460423793
+s:658:"<p>Any native positions for that row. While any position can be moved to a relevant position, if a position is not used in the layout it is returned to the row that is specified in the templates settings/position.json file.</p>
+<p><img style="" alt="Available" src="/docs/buildr-documentation/user/pages/06.row-settings/01.available-modules/available.png" /></p>
+<h2>Adding modules</h2>
+<p>To add a module in the available module list simply click on the item and it will be added to it's corresponding row.</p>
+<p><image style="" alt="Adding Modules" src="/docs/buildr-documentation/user/pages/06.row-settings/01.available-modules/adding-modules.gif" /></p>";

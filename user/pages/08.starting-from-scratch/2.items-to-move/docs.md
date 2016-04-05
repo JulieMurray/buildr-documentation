@@ -4,7 +4,7 @@ taxonomy:
     category: docs
 ---
 
-If you have followed the steps int he previous section called Items to install your site will look a little blank. The next step is to start moving items into the correct position on the page. The Buildr theme is very flexible so this is just a guide for how you might start to populate the template.
+If you have followed the steps in the previous section called Items to install your site will look a little blank. The next step is to start moving items into the correct position on the page. The Buildr theme is very flexible so this is just a guide for how you might start to populate the template.
 
 ## Set the Main Menu to the menu position
 

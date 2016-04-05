@@ -1,0 +1,20 @@
+1460427258
+s:1546:"<p>Contains the settings for the specific row. The row is the part of the layout that includes the entire area from the left and right edge of the screen. Setitngs here allow the user to adjust the background colour, image, padding, margin, border and whether or not to use an overlay.</p>
+<p><img style="" alt="Responsive" src="/docs/buildr-documentation/user/pages/06.row-settings/03.row-style/row-style.png" /></p>
+<h2>What part of the layout does the row cover?</h2>
+<p>Zen Grid Framework themes are based on the display of a number of different rows in the layout. </p>
+<p>Each row contains a specified selection of modules which are surrounded by the following html markup.</p>
+<pre><code>&lt;section id="grid1wrap"&gt;
+    &lt;div class="zen-container"&gt;
+        &lt;div class="zen-row"&gt;
+            &lt;div class="zen-spotlight"&gt;
+                &lt;div id="grid1" class="zg-col zg-col-3"&gt; ...</code></pre>
+<ul>
+<li>The section element is the wrapping div for the entire row and marks the area where the row settings apply.</li>
+<li>zen-container is the structural div that determines the width of the content area within the row</li>
+<li>zen-row is the div required to denote the start of the row of content</li>
+<li>zen-spotlight is the div that the container style settings apply to.</li>
+</ul>
+<h2>Row vs container style</h2>
+<p>Visually this can be represented in the following image:</p>
+<p><img style="" alt="Row Style" src="/docs/buildr-documentation/user/pages/06.row-settings/03.row-style/row-style-screen.png" /></p>";

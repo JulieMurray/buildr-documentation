@@ -1,0 +1,14 @@
+1460424840
+s:899:"<p>Toggle buttons that determine if a specific row can be seen or hidden at various screen widths, or whether it should be displayed in a stacked layout (all positions are 100% width) or whether the layout widths should override the grid collapse setting.</p>
+<p><img style="" alt="Responsive" src="/docs/buildr-documentation/user/pages/06.row-settings/02.responsive/responsive.png" /></p>
+<h2>Screenwidths</h2>
+<p>The framework is capable of targeting 5 different breakpoints.</p>
+<ul>
+<li>desktop (any screensize larger than the tablet max width)</li>
+<li>tablet</li>
+<li>phone</li>
+<li>nav collapse </li>
+<li>grid collapse</li>
+</ul>
+<p>The specific px values for these breakpoints are set in the layout &gt; breakpoint panel of the general setting side panel.</p>
+<p><img style="" alt="Breakpoints" src="/docs/buildr-documentation/user/pages/06.row-settings/02.responsive/breakpoints.png" /></p>";

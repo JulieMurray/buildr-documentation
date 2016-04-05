@@ -72,7 +72,7 @@ class __TwigTemplate_7f65d70072f844fb72bbce30186c4424a0f476f4ac2c2bb4b5c02b340d7
     \t
        \t  <div class=\"row\">
           \t<div class=\"col title\">
-          \t\t<h2 class=\"bold\"><a href=\"http://docs.joomlabamboo.com/joomla-template/corporation/\">Corporation Joomla Template Documentation</a></h2>
+          \t\t<h2 class=\"bold\"><a href=\"http://docs.joomlabamboo.com/joomla-template/buidr/\">Buildr Joomla Template Documentation</a></h2>
           \t\t
           \t\t<div class=\"searchbox\">
           \t\t    <label for=\"search-by\"><i class=\"fa fa-search\"></i></label>

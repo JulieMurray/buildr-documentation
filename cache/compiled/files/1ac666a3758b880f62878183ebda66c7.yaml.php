@@ -2,11 +2,11 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'user/config/site.yaml',
-    'modified' => 1446533117,
+    'modified' => 1459819968,
     'data' => [
-        'title' => 'Ascent2 Joomla Template Documentation',
+        'title' => 'Buildr Joomla Template Documentation',
         'metadata' => [
-            'description' => 'Ascent2 Joomla Template Documentation'
+            'description' => 'Buildr Joomla Template Documentation'
         ],
         'taxonomies' => [
             0 => 'category',

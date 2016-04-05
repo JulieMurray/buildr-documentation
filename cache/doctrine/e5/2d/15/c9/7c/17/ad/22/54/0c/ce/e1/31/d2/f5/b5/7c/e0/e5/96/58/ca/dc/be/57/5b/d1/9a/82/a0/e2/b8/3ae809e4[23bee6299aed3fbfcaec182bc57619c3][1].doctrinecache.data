@@ -1,0 +1,25 @@
+1460425207
+s:2124:"<p>Toggle buttons that determine if a specific row can be seen or hidden at various screen widths, or whether it should be displayed in a stacked layout (all positions are 100% width) or whether the layout widths should override the grid collapse setting.</p>
+<p><img style="" alt="Responsive" src="/docs/buildr-documentation/user/pages/06.row-settings/02.responsive/responsive.png" /></p>
+<h2>Screenwidths</h2>
+<p>The framework is capable of targeting 5 different breakpoints.</p>
+<ul>
+<li>desktop (any screensize larger than the tablet max width)</li>
+<li>tablet</li>
+<li>phone</li>
+<li>nav collapse (at any screen width below this value the menu will be hidden and revert to the relevant responsive menu option)</li>
+<li>grid collapse (at any screen width below this value the modules in the template will stretch to 100% of the width available.)</li>
+</ul>
+<p>The specific px values for these breakpoints are set in the layout &gt; breakpoint panel of the general setting side panel.</p>
+<p><img style="" alt="Breakpoints" src="/docs/buildr-documentation/user/pages/06.row-settings/02.responsive/breakpoints.png" /></p>
+<h2>What do the options mean?</h2>
+<h2>hide</h2>
+<p>When the hide option is selected it means that the entire row will be hidden at the selected breakpoint.</p>
+<p><strong>Example</strong></p>
+<p>In the example below the grid1 row will be hidden at any value less than the px width assigned to the nav collapse.</p>
+<p><img style="" alt="Nav Collapse" src="/docs/buildr-documentation/user/pages/06.row-settings/02.responsive/nav-collapse-hide.png" /></p>
+<h2>stacked</h2>
+<p>When the stacked option is selected it means that the modules in that row will become 100% of the width of the container space. This option is handy for making some modules stack before the grid collapse breakpoint is reached. </p>
+<p><strong>Example</strong></p>
+<p>In the example below the grid1 row will be hidden at any value less than the px width assigned to the nav collapse.</p>
+<p><img style="" alt="Nav Collapse" src="/docs/buildr-documentation/user/pages/06.row-settings/02.responsive/nav-collapse-hide.png" /></p>";

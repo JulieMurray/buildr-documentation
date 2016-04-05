@@ -1,0 +1,30 @@
+1460421684
+s:3021:"<h2>Row Styles</h2>
+<p>Style for specific rows or groups of modules are shown when the user clicks on the edit pencil for that specific row.</p>
+<p>Clicking on the pencil in a row.</p>
+<p><img style="" alt="Logo pencil click" src="/docs/buildr-documentation/user/pages/06.row-settings/logo-edit.png" /></p>
+<p>Will reveal the settings for that row.
+<img style="" alt="Logo Row Settings" src="/docs/buildr-documentation/user/pages/06.row-settings/logo-row-style.png" /></p>
+<p>The row style settings panel contains parameters for the following elements:</p>
+<h2>Available Modules</h2>
+<p>Any native positions for that row. While any position can be moved to a relevant position, if a position is not used in the layout it is returned to the row that is specified in the templates settings/position.json file.</p>
+<p><img src="available.png" alt="Available" /></p>
+<h2>Responsive control</h2>
+<p>Toggle buttons that determine if a specific row can be seen or hidden at various screen widths, or whether it should be displayed in a stacked layout (all positions are 100% width) or whether the layout widths should override the grid collapse setting.</p>
+<p><img style="" alt="Responsive" src="/docs/buildr-documentation/user/pages/06.row-settings/responsive.png" /></p>
+<h2>Row Style</h2>
+<p>Contains the settings for the specific row. The row is the part of the layout that includes the entire area from the left and right edge of the screen. Setitngs here allow the user to adjust the background colour, image, padding, margin, border and whether or not to use an overlay.</p>
+<p><img style="" alt="Responsive" src="/docs/buildr-documentation/user/pages/06.row-settings/row-style.png" /></p>
+<h2>Container Style</h2>
+<p>Contains the settings for the container in a specific row. The container is the part of the layout that is inside the row and is restricted by the width set in the template width in the general style section. Settings here allow the user to adjust the background colour, image, padding, margin, border, whether or not to use an overlay apply a shadow on the container and to make the container the full width of the screen.</p>
+<p><img src="container-style.png" alt="container-style" /></p>
+<h2>Colors</h2>
+<p>Contains settings that determine the text, heading, link and link hover colors for that row,</p>
+<p><img style="" alt="Colours" src="/docs/buildr-documentation/user/pages/06.row-settings/colours.png" /></p>
+<h2>Type Style</h2>
+<p>Determines whether or not to apply a preset style to headings for that row.</p>
+<p><img style="" alt="Type Style" src="/docs/buildr-documentation/user/pages/06.row-settings/type-style.png" /></p>
+<p><img style="" alt="Type Style List" src="/docs/buildr-documentation/user/pages/06.row-settings/type-list.png" /></p>
+<h2>Effects</h2>
+<p><img style="" alt="Effects" src="/docs/buildr-documentation/user/pages/06.row-settings/effects.png" /></p>
+<p><img style="" alt="Effects List" src="/docs/buildr-documentation/user/pages/06.row-settings/effects-list.png" /></p>";

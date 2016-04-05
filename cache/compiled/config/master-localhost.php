@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\Config',
-    'timestamp' => 1458783665,
-    'checksum' => '6e0a7e213396cc9779c4f6a3cf5c9fbc',
+    'timestamp' => 1459819970,
+    'checksum' => '644b4af1a3f1f48a75f7c1d023dfe200',
     'data' => [
         'streams' => [
             'schemes' => [
@@ -324,7 +324,7 @@ return [
             ]
         ],
         'site' => [
-            'title' => 'Ascent2 Joomla Template Documentation',
+            'title' => 'Buildr Joomla Template Documentation',
             'author' => [
                 'name' => 'John Appleseed',
                 'email' => 'john@email.com'
@@ -334,7 +334,7 @@ return [
                 1 => 'tag'
             ],
             'metadata' => [
-                'description' => 'Ascent2 Joomla Template Documentation'
+                'description' => 'Buildr Joomla Template Documentation'
             ],
             'summary' => [
                 'enabled' => true,

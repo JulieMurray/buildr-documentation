@@ -1,0 +1,39 @@
+1460426543
+s:4069:"<p>Toggle buttons that determine if a specific row can be seen or hidden at various screen widths, or whether it should be displayed in a stacked layout (all positions are 100% width) or whether the layout widths should override the grid collapse setting.</p>
+<p><img style="" alt="Responsive" src="/docs/buildr-documentation/user/pages/06.row-settings/02.responsive/responsive.png" /></p>
+<h2>Screenwidths</h2>
+<p>The framework is capable of targeting 5 different breakpoints.</p>
+<ul>
+<li>desktop (any screensize larger than the tablet max width)</li>
+<li>tablet</li>
+<li>phone</li>
+<li>nav collapse (at any screen width below this value the menu will be hidden and revert to the relevant responsive menu option)</li>
+<li>grid collapse (at any screen width below this value the modules in the template will stretch to 100% of the width available.)</li>
+</ul>
+<p>The specific px values for these breakpoints are set in the layout &gt; breakpoint panel of the general setting side panel.</p>
+<p><img style="" alt="Breakpoints" src="/docs/buildr-documentation/user/pages/06.row-settings/02.responsive/breakpoints.png" /></p>
+<h2>What do the options mean?</h2>
+<h2>hide</h2>
+<p>When the hide option is selected it means that the entire row will be hidden at the selected breakpoint.</p>
+<p><strong>Example</strong></p>
+<p>In the example below the grid1 row will be hidden at any value less than the px width assigned to the nav collapse.</p>
+<p><img style="" alt="Nav Collapse" src="/docs/buildr-documentation/user/pages/06.row-settings/02.responsive/nav-collapse-hide.png" /></p>
+<p><strong>Example</strong></p>
+<p>The example below shows the behaviour of the modules when the grid1 row of modules are set to be hidden below the phone breakpoint.</p>
+<p><image style="" alt="Hide Modules" src="/docs/buildr-documentation/user/pages/06.row-settings/02.responsive/hide-modules.gif" /></p>
+<h2>stacked</h2>
+<p>When the stacked option is selected it means that the modules in that row will become 100% of the width of the container space. This option is handy for making some modules stack before the grid collapse breakpoint is reached. </p>
+<p><strong>Example</strong></p>
+<p>In the example below the grid2 row modules will be made to be 100% width regardless of the width assigned to them in the layout area, at screensizes less than the tablet max-width and greater than the phone max width.</p>
+<p><strong>Note:</strong> If the grid collapse option is greater than the tablet max width in the breakpoints settings then setting these modules to stacked will have no effect, because the modules will already have been stacked given that the screen width is less than the grid collapse px value. </p>
+<p>Using the stacked option is only relevant if you want to target modules in a specific row on screensizes that are greater than the grid collapse value.</p>
+<p><img style="" alt="Stacked" src="/docs/buildr-documentation/user/pages/06.row-settings/02.responsive/stacked-example.png" /></p>
+<p><image style="" alt="Collapse" src="/docs/buildr-documentation/user/pages/06.row-settings/02.responsive/collapse-modules.gif" /></p>
+<h2>no change</h2>
+<p>When the nochange option is selected it means that the widths assigned to the module in the layout area will be honoured across all screensizes. This means that on screensizes smaller than grid collapse the modules will not be forced to be displayed in a stacked layout.</p>
+<p><strong>Example</strong></p>
+<p>In the example below the modules published to the grid2 row will honour the widths assigned in the layout tool whether or not the browser is smaller than the grid collapse breakpoint.</p>
+<p><img style="" alt="No Change" src="/docs/buildr-documentation/user/pages/06.row-settings/02.responsive/nochange.png" /></p>
+<p><strong>Example:</strong></p>
+<p>The example below shows the behaviour when the grid1 row of module sare set to no change for both phone and tablet breakpoints.</p>
+<p><image style="" alt="No Change" src="/docs/buildr-documentation/user/pages/06.row-settings/02.responsive/no-change.gif" /></p>";
