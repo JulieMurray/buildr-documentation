@@ -24,7 +24,9 @@ In the example above the number 78 refers to the id of the template. This id can
 
 ![Config Id](config-id.png)
 
-The config file is the key to unlocking the configuration of the template. It is a simple two level json object that stores the template params and layout data:
+The config file is the key to unlocking the configuration of the template. 
+
+It is a simple two level json object that stores the template params and layout settings:
 
 **Parameter object**
 
@@ -79,7 +81,7 @@ The list of available configuration files available can be seen in the select bo
 
 ![Config Select](config-select.png)
 
-To load a specific configuration open the selectbox by clicking on it and selecting the configuration you would like to load. Then click the "Load Saved Settings" button. Once the button has been clicked the theme and layout data for the configuration is loaded into the interface.
+To load a specific configuration open the selectbox by clicking on it and selecting the configuration you would like to load. Then click the "Load Saved Settings" button. Once the button has been clicked the theme and layout data for the configuration is loaded into the template interface. 
 
 ![Config Load](load-config.gif)
 
@@ -137,7 +139,9 @@ Please see the <a href="../style/loading-presets">How to load a preset page</a> 
 	
 ## Layout Files
 
-Layout data is stored in the configuration file, however predefined layouts and user created layouts can be loaded and saved via the interface. 
+Layout data is stored in the configuration file, however predefined layouts and user created layouts can be loaded and saved via the template interface. 
+
+Please see the <a href="../layout/loading-layouts#saving-layouts">saving layout page</a> for an explanation on how to do this.
 
 The final layout data used by the template is stored in the appropriate configuration file for that template style, while layout presets are stored in the settings/layout folder.
 
