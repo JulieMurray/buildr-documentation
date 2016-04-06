@@ -1,0 +1,12 @@
+1460527582
+s:771:"<p>The following is a reference for the terms used in the documentation.</p>
+<h2>Template</h2>
+<p>Refers to a Joomla template.</p>
+<h2>Zen Grid Framework v5, ZGFv5</h2>
+<ul>
+<li>The Zen Grid Framework is the framework that this template is built upon.</li>
+<li>The framework simply provides the various functionality behind the scenes.</li>
+<li>It is a collection of files located in the zengrid folder of the template. eg yoursite.com/templates/buildr/zengrid</li>
+</ul>
+<h2>Zen Grid Framework Ajax Plugin</h2>
+<p>This is a plugin that is required by all Zen Grid Framework v4 templates. It provides a variety of functionality for the administration of the template including compiling less to css, compressing javascript, loading and saving layouts and presets etc.</p>";

@@ -1,0 +1,31 @@
+1460528398
+s:2030:"<h2>What is the one page menu?</h2>
+<p>The one page menu option transforms your main navigation into a one page menu system which allows the user to smooth scroll to various anchor points on the page. </p>
+<p>The <a href="http://bambootheme.com/showcase/apr16/home/one-page">onepage theme</a> is an example of the one page functionality in use on the page</p>
+<p><img style="" alt="One Page" src="/docs/buildr-documentation/user/pages/07.menus/05.one-page/one-page.jpg" /></p>
+<p>When the links in the menu are clicked, the page scrolls to the respective row of modules.</p>
+<h2>How are links created?</h2>
+<p>The menu is automatically created when you add a module to a specific position <strong>and</strong> the menu title for that position is not blank in your template settings. </p>
+<p><img style="" alt="One Page" src="/docs/buildr-documentation/user/pages/07.menus/05.one-page/one-page-setting.png" /></p>
+<h2>Position of one page menu</h2>
+<p>The one page menu in Buildr can be used anywhere in your layout. The One page menu is a layout block that can be dropped and dragged to any place in the layout. </p>
+<p>To add the one page menu to a page simply and the menu to the layout and drag the One-page-menu block to the row you want it to appear in. </p>
+<p>The One page menu block is found in in the menu row of available modules when it is not currently being used in the layout.</p>
+<p><img style="" alt="One Page" src="/docs/buildr-documentation/user/pages/07.menus/05.one-page/one-page-block.png" /></p>
+<h2>Menu items link to rows of modules</h2>
+<p>Each ZGFv5 theme is divided into a number of different rows of modules. The typical layout for these modules is as follows:</p>
+<ul>
+<li>top</li>
+<li>header</li>
+<li>menu</li>
+<li>banner</li>
+<li>grid-block-1 (grid1 - grid4)</li>
+<li>grid-block-2 (grid5 - grid8)</li>
+<li>grid-block-3 (grid9 - grid12)</li>
+<li>maincontent</li>
+<li>grid-block-4 (grid13 - grid16)</li>
+<li>grid-block-5 (grid1 - grid4)</li>
+<li>grid-block-6</li>
+<li>bottom</li>
+<li>footer</li>
+</ul>";

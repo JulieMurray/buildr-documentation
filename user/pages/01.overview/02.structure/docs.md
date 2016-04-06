@@ -4,11 +4,7 @@ taxonomy:
     category: docs
 ---
 
-The Build.r template uses the Zen Grid Framework v5. The Zen Grid Framework 5 is a template + Ajax plugin combination that is used to render and control the design and layout elements of your website.
-
-## File structure
-
-The file structure of a ZGFv5 based theme is typically as follow:
+Buildr's file structure is as follows:
 
 - component.php (standard Joomla component file)
 - css (folder for all compiled less files and custom.css)
@@ -45,10 +41,10 @@ The file structure of a ZGFv5 based theme is typically as follow:
 	- holds files that govern the layout
 	- default.php the main layout container
 	- blocks/ (sub layout files that are included by the parent)
-- zengrid (holds the ZGF5 files)
+- zengrid (holds the ZGFv5 files)
 
 
-Zen framework file structure
+Zengrid framework file structure
 ----
 - admin (css, fonts and js for admin)
 - config (main config file that renders the fields)

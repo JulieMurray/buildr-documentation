@@ -5,7 +5,7 @@ taxonomy:
 ---
 
 
-Zen Grid Framework v5 themes use the <a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a> font icon library to render some of it's elements on the page. The manner in which you want to use the template and require the Font Awesome via 3rd party components should determine the option required for the Font Awesome panel found at the bottom of the theme panel.
+ZGFv5 themes use the <a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a> font icon library to render some of it's elements on the page. The manner in which you want to use the template and require the Font Awesome via 3rd party components should determine the option required for the Font Awesome panel found at the bottom of the theme panel.
 
 ![Font Awesome](font-awesome.png)
 

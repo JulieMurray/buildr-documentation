@@ -1,0 +1,6 @@
+1460526822
+s:683:"<p>If you have followed the steps in the previous section called Items to install your site will look a little blank. The next step is to start moving items into the correct position on the page. The Buildr theme is very flexible so this is just a guide for how you might start to populate the template.</p>
+<h2>Set the Main Menu to the menu position</h2>
+<p>a. Go to the extensions &gt; module manager and publish the menu module to the menu position.
+b. While there also set the title of this module to hide.</p>
+<p><img style="" title="Menu Settings" alt="Menu Settings" src="/docs/buildr-documentation/user/pages/09.starting-from-scratch/2.items-to-move/menu-settings.png" /></p>";

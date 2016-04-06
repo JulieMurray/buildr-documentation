@@ -6,7 +6,7 @@ taxonomy:
 
 An important part of responsive design is being able to hide, show or otherwise control the appearance of elements at various screensizes. 
 
-Zen Grid Framework 5 themes have the capacity to hide entire rows at various screen sizes from within the template settings. Specific modules can be hidden at various screensizes by applying a module class to the instance of the module you would like to hide.
+ZGFv5 themes have the capacity to hide entire rows at various screen sizes from within the template settings. Specific modules can be hidden at various screensizes by applying a module class to the instance of the module you would like to hide.
 
 ## Hiding rows of modules
 

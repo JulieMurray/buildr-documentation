@@ -7,7 +7,7 @@ taxonomy:
 
 Megamenu functionality such as displaying a module in the menu, icons in the menu titles or multiple columns are implemented via the Zen Menu plugin.
 
-The zenmenu plugin is a Joomla system plugin that adds mega menu functionality to your Zen Grid Framework v5 based theme.
+The zenmenu plugin is a Joomla system plugin that adds mega menu functionality to your ZGFv5 based theme.
 
 The plugin utilises special markup in your themes html overrides which means that you can add multiple columns, icons, subtitles and more to your menu using the core Joomla menu module.
 

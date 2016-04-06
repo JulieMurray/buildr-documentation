@@ -4,9 +4,9 @@ taxonomy:
     category: docs
 ---
 
-Zen Grid Framework v5 (ZGF5) themes come with the ability to transform a standard Joomla menu module published to a sidebar position into a collapsible accordion menu.
+Buildr comes with the ability to transform a standard Joomla menu module published to a sidebar position into a collapsible accordion menu.
 
-An accordion menu allows the user to view nested menu items in a menu by clicking on the parent item. ZGF5 menu's allow any type of menu item to act as a parent menu item.
+An accordion menu allows the user to view nested menu items in a menu by clicking on the parent item. Any type of menu item can be used as a parent menu item to open and close the accordion.
 
 The accordion comes with two options that are defined in the template settings:
 - A traditional accordion menu which allows a single nested menu item to be open at a time.

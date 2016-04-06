@@ -4,19 +4,19 @@ taxonomy:
     category: docs
 ---
 
-There are three main components of a Zen Grid Framework v5 theme and it's important to understand their relationship when you are working with the themes.
+There are three main components of a ZGFv5 based template and it's important to understand their relationship when you are working with the them.
 
 In brief:
 
-- Config files hold template settings and layout data for an instance of the template.
-- Theme files contain display data and are primarily used in the processing of less files via the template admin
-- Layout files are used only as sample layouts to load int he layout interface. The layout data used by the front end of the template are stored in the config file.
+- Config files hold settings and layout data for an instance of the template.
+- Theme files contain settings that affect the display of the template and are primarily used in the processing of less files via the template admin
+- Layout files are used only as sample layouts to load in the layout tool. The layout settings that are used to determine the position and widths of the template for use on your website are stored in the config file.
 
 ## Config files
 
 Configuration files are the files referenced by specific instances of a template.
 
-In Joomla each template is given an id in the database. ZGFv5 themes attach the configuration for each instance of a template to a configuration file that is named on the server in the following format:
+In Joomla each template is given an id in the database. ZGFv5 templates attach the configuration for each instance of a template to a configuration file that is named on the server in the following format:
 
 	config-78.json
 

@@ -1,0 +1,10 @@
+1460526945
+s:674:"<p>The docs in this section are designed to be used for completely fresh installations of Joomla. </p>
+<h2>Before you start</h2>
+<p>The guide assumes the following things:</p>
+<ul>
+<li>The guide assumes that you have followed the steps outlined in the <a href="starting-from-scratch">Starting with a fresh version of Joomla</a>.
+aalthough the steps outlined will also apply to the other types of sample data that come with the official Joomla installation package. </li>
+</ul>
+<h2>Loading the configuration for the theme you want to replicate</h2>
+<p><image style="" alt="Config Load" src="/docs/buildr-documentation/user/pages/10.recreating-the-demo/load-config.gif" /></p>";

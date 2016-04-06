@@ -7,14 +7,15 @@ taxonomy:
 
 ![Buildr](http://www.joomlabamboo.com/images/new/buildr/feature/buildr.jpg 'Buildr Joomla Template')
 
-Build.r is a do it yourself starter theme that truly puts control of your design at your finger tips, without compromising on performance, flexibility or functionality. It's also built on the Zen Grid Framework v5 which means it's super fast and capable of achieving ridiculously high page speed scores in Google page speed tests. 
+Build.r is a do it yourself starter template that truly puts control of your design at your finger tips, without compromising on performance, flexibility or functionality. It's also built on the ZGFv5 which means it's super fast and capable of achieving ridiculously high page speed scores in Google page speed tests. 
 
 [Features](http://www.joomlabamboo.com/joomla-templates/buildr) / [Download](http://www.joomlabamboo.com/downloads/template-downloads?param=Buildr) / [Support Forum](http://www.joomlabamboo.com/index.php?option=com_kunena&view=category&catid=687&Itemid=215)
 
-Theme Requirements
+Template Requirements
 ----
 
-Joomla 3+
+- Joomla 3+
+- Zen Grid Framework Ajax Plugin
 
 Getting Started with Joomla tutorials
 ----

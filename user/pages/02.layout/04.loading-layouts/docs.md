@@ -4,7 +4,7 @@ taxonomy:
     category: docs
 ---
 
-In Zen Grid Framework v5 themes it is possible to reuse module layouts across different instances of the template. A layout simply holds the information of which modules are published for each row and their respective widths.
+In ZGFv5 themes it is possible to reuse module layouts across different instances of the template. A layout simply holds the information of which modules are published for each row and their respective widths.
 
 ## Loading saved layouts
 

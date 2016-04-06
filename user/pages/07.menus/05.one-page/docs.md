@@ -22,7 +22,7 @@ The menu is automatically created when you add a module to a specific position *
 
 
 ## Position of one page menu
-The implementation of the one page mode in zgf5 themes differs to ZGF5 in that the one page menu position is determined via a layout block. This also means that the one page menu and a main menu can be displayed on the page at the same time.
+The one page menu in Buildr can be used anywhere in your layout. The One page menu is a layout block that can be dropped and dragged to any place in the layout. 
 
 To add the one page menu to a page simply and the menu to the layout and drag the One-page-menu block to the row you want it to appear in. 
 
@@ -32,7 +32,7 @@ The One page menu block is found in in the menu row of available modules when it
 
 Menu items link to rows of modules
 ----
-Each Zen Grid Framework v5 (ZGF5) theme is divided into a number of different rows of modules. The typical layout for these modules is as follows:
+Each ZGFv5 theme is divided into a number of different rows of modules. The typical layout for these modules is as follows:
 
 - top
 - header

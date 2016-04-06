@@ -1,0 +1,21 @@
+1460527230
+s:1250:"<p>The docs in this section are designed to be used for completely fresh installations of Joomla. </p>
+<h2>Before you start</h2>
+<p>The guide assumes that you have:</p>
+<ul>
+<li>Installed Joomla 3+</li>
+<li>You have used the default English sample data</li>
+<li>You have installed all of the items outlines in the <a href="starting-from-scratch">Starting with a fresh version of Joomla</a> section.</li>
+<li>Set up all of the required modules as outlined in the <a href="starting-from-scratch/items-to-create">items to create</a> section.</li>
+</ul>
+<h2>Loading the configuration for the theme you want to replicate</h2>
+<p>Once you have followed the items above you will need to apply the saved settings for the template you wish to replicate.</p>
+<p>As an example if you are using the revision theme you would:</p>
+<ul>
+<li>Navigate to the Buildr template settings in the template manager</li>
+<li>Click the select box next to the load saved settings button</li>
+<li>Select the revision template option</li>
+<li>Click load saved settings</li>
+<li>Save the template using the save button in the top left corner.</li>
+</ul>
+<p><image style="" alt="Config Load" src="/docs/buildr-documentation/user/pages/10.recreating-the-demo/load-config.gif" /></p>";

@@ -1,0 +1,23 @@
+1460529148
+s:1711:"<p>The following is a reference for the terms used in the documentation.</p>
+<h2>Template</h2>
+<p>Refers to a Joomla template.</p>
+<h2>ZGFv5</h2>
+<ul>
+<li>Refers to the ZGFv5</li>
+<li>The Zen Grid Framework is the framework that this template is built upon.</li>
+<li>The framework simply provides the various functionality behind the scenes.</li>
+<li>It is a collection of files located in the zengrid folder of the template. eg yoursite.com/templates/buildr/zengrid</li>
+</ul>
+<h2>Zen Grid Framework Ajax Plugin</h2>
+<p>This is a plugin that is required by all Zen Grid Framework v4 templates. It provides a variety of functionality for the administration of the template including compiling less to css, compressing javascript, loading and saving layouts and presets etc.</p>
+<h2>Theme</h2>
+<p>Refers to the current design of the template. Themes are loaded via the preset panel in the template's general settings sidepanel.</p>
+<p><img style="" alt="Preset" src="/docs/buildr-documentation/user/pages/01.overview/04.glossary/presets.png" /></p>
+<h2>Template instance</h2>
+<p>Joomla provides the ability to make copies of templates so that template instances with different configurations can be applied to different menu items. Template instances are also commonly known as template styles in Joomla. A template style does not refer to a ZGFv5 theme.</p>
+<h2>Layout block</h2>
+<p>Item in the layout tool that can be used to render content eg a module position, responsive menu etc</p>
+<h2>Layout tool</h2>
+<p>The area in the template settings where the layout of the template is defined. </p>
+<p><img style="" alt="Layout" src="/docs/buildr-documentation/user/pages/01.overview/04.glossary/layout.png" /></p>";
