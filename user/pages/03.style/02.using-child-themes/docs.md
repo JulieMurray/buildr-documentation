@@ -45,3 +45,20 @@ When a javascript file is found in this folder that matches the name of the chil
 **In order to activate the javascript for the child theme it is necessary to click the Compress scripts button.**
 
 ![Compress](compress.png)
+
+
+## Developer notes
+
+## Syntax for images in child themes
+
+**Images in the template folder**
+In order to reference an image located in the templates/buildr/images folder developers need to use the following syntax:
+
+	background-image: url("../../../images/grid.png")
+
+Where @{image-path} references the path tot he template's image folder.
+
+
+**Images in the Joomla images folder**
+
+	background-image: url("../../../../../images/deep-water.jpeg")
