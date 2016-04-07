@@ -14,11 +14,13 @@ The easiest way to modify or create a new theme is via the template settings. In
 
 Selecting an option from the list of themes will automatically load the settings from that theme in the settings below.
 
-> You may wish to save this new theme at the start so as to avoid making any changes to the default theme.
-
 Once you have chosen your base theme enter the name of your new theme in the save theme input box and then click save. Once you have clicked save, **any further saved changes to your theme will be saved to your new theme file in the settings/themes folder of the template**.
 
+![My new theme](save-preset.gif)
+
 After saving your new theme name you can then go through the settings available in the template admin and make the required changes to the template colours, spacing etc.
+
+For a full description of the available settings available for controlling the way your website looks please ensure you read through the <a href="../style">style section of the documentation</a>.
 
 After you have finished making your changes click the save theme button at the top of the theme panel in order to save the new settings and then compile the theme to a css file.
 
@@ -30,16 +32,23 @@ Using custom.css to make small changes
 
 If you are happy to use one of the default themes without making too many broad changes it is possible to add small changes to your theme in a file called css/custom.css.
 
+![Custom css rename](custom-css.png)
+
 The template comes with a file called custom_rename_to_custom.css file which after you rename to custom.css file it will be loaded by the template. The custom.css file is loaded after all other css files and will automatically override any existing css style if the correct specificity is used.
+
+![Custom css renamed](custom-css2.png)
+
 
 Using custom.less files to use with the less compiler.
 ----
 
 Another option for making changes to a theme involves the use of a less/custom.less file. If this file exists in the less folder the template's compile will automatically compile any less found in this file to your themes css when the compile less button is  clicked.
 
-> You need to create this file yourself ... custom.less is not a part of the template package.
+![Custom less](custom-less.png)
 
 Any variables included in the less/variables.less file or set in the template administrator are available in the custom.less file. It is also possible to use any template mixins here as well.
+
+![Custom less renamed](custom-less2.png)
 
 The custom.less file will not be overwritten during a template update using the Joomla installer.
 
