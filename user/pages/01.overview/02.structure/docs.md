@@ -46,6 +46,9 @@ Buildr's file structure is as follows:
 
 Zengrid framework file structure
 ----
+ 
+The Zengrid framework is a library of files that resides in the zengrid folder of your template.
+
 - admin (css, fonts and js for admin)
 - config (main config file that renders the fields)
 - fields (various displays for parameter types)
