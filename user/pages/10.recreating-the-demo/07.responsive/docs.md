@@ -3,14 +3,12 @@ title: Responsive
 taxonomy:
     category: docs
 ---
+The Responsive theme uses the Writer preset. To apply the Responsive preset follow the instruction on the <a href="../recreating-the-demo">recreating the demo page</a> and select the preset for the Responsive theme.
 
-### (Article in progress)
-This article is incomplete and will be updated shortly.
 
 <img src="http://www.joomlabamboo.com/blog/user/pages/02.template-news/meet-buildr/responsive.jpg" alt="Responsive" />
 
 The Responsive theme is a replica of the original Responsive template first release don the Zen Grid Framework v2.
-
 
 ## Description of elements
 
@@ -23,6 +21,8 @@ This is a core Joomla menu published to the top4 menu position.
 ## Logo
 
 This is a custom html module published to the logo position.
+
+![Logo](logo.png)
 
 The font used for the logo is Rochester.
 
@@ -50,14 +50,23 @@ This is an article referenced from the Joomla content.
 
 ![Article](article.png)
 
+The Joomla component is rendered by added the maincontent block to the main row.
+
+![Main](main.png)
+
 The main row uses the vertical padding style.
 
-![Vertical Padding](../images/vertical-padding.png)
+![Main Row](main-row.png)
 
+The main container has a bottom border applied to it.
+
+![Main Container](main-container.png)
 
 ## Bottom modules
 
 The bottom modules are a collection of custom html modules.
+
+![Bottom](bottom.png)
 
 The bottom row uses the container padding styling.
 
@@ -65,8 +74,6 @@ The bottom row uses the container padding styling.
 Published to the bottom1 position.
 Uses Zen Shortcode syntax to render the icons
 
-
-![About Us](aboutus.png)
 
 **Markup Used**
 
@@ -87,7 +94,6 @@ Note the use of the zen classes on the list:
 ### Locations module
 Published to the bottom2 position.
 
-![Locations](locations.png)
 
 **Markup Used**
 
@@ -109,7 +115,6 @@ Note the use of the zen classes on the list:
 ### Legal
 Published to the bottom3 position.
 
-![Legal](legal.png)
 
 **Markup Used**
 
@@ -131,30 +136,27 @@ Note the use of the zen classes on the list:
 
 ### Get in touch module
 
-![Get in touch](getintouch.png)
 
 This is a html content module containing dummy content. There is no functionality attached to this input.
 
 		<p><input type="text" placeholder="Email" /><button class="btn">Submit</button></p>
 
 
-## Footer Menu
+## Footer area
 
-Joomla menu published to the footer position
+![Footer](footer.png)
 
-![Footer Menu](footer-menu.jpg)
-
-
-## Footer Social Icons
-
-Zensocial module published to the footer position
-
-![Social Footer](social-footer.jpg)
+- Footer Menu: Joomla menu published to the footer position
+- Footer Social Icons: Zensocial module published to the footer position
+- Footer logo and text: Custom html module published to the footer position
 
 
-## Footer logo and text
+## Responsive menu
 
-Custom html module published to the footer position
+The menu displayed on small screens for this theme is the select menu.
 
-![Footer Logo](footer-logo.jpg)
+![Select](select.png)
 
+The menu type is set under the layout tab in the General settings side panel.
+
+![Collapse](collapse.png)
