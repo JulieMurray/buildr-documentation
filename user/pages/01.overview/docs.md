@@ -25,3 +25,11 @@ Getting Started with Joomla tutorials
 - <a href="http://docs.joomlabamboo.com/getting-started/how-to-install-a-joomla-module">How to install a Joomla extension</a>
 
 
+## How to use the search feature in the documentation
+
+The search box at the top of each page of the site can be used to search for items int he documentation. 
+
+To use the search start typing and the pages that your search term appear on will automatically appear on the left hand side of the page.
+
+![How to use search](how-to-use-search.gif)
+
