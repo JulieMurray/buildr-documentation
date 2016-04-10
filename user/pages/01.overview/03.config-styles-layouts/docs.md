@@ -89,7 +89,7 @@ To load a specific configuration open the selectbox by clicking on it and select
 
 Theme files contain data relating specifically to the visual display of the site. 
 
-Each theme is stored in json format using three groups of objects: settings, colors and files:
+Each theme is stored in json format (object) using three groups of objects: settings, colors and files:
 
 Settings (any parameter that isn't set by using the color picker): 
 
