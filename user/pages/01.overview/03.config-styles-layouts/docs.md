@@ -120,9 +120,9 @@ The file object stores any relevant files required by the theme such as bootstra
 	  "custom_less":""
 	},
 	
-Theme data can be reused within various configurations you may have on your site.
+Theme data can be reused within various configurations (template styles) you may have on your site.
 
-The theme used by a specific configuration is determined by the theme item in the configuration object.
+The theme used by a specific configuration (template style) is determined by the theme item in the configuration object.
 
 	{
 	  "params":{

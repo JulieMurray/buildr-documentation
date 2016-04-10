@@ -37,7 +37,7 @@ This is a plugin that is required by all Zen Grid Framework v4 templates. It pro
 ![Preset](presets.png)
 
 ## Template instance
-Joomla provides the ability to make copies of templates so that template instances with different configurations can be applied to different menu items. Template instances are also commonly known as template styles in Joomla. A template style does not refer to a ZGFv5 theme.
+Joomla provides the ability to make copies of templates so that template instances with different configurations can be applied to different menu items. Template instances are also commonly known as template styles in Joomla. A template style does not refer to a ZGFv5 theme / preset.
 
 ## Layout block
 Item in the layout tool that can be used to render content eg a module position, responsive menu etc
