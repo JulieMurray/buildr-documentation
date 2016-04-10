@@ -9,6 +9,16 @@ The following is a reference for the terms used in the documentation.
 ## Template
 Refers to a Joomla template.
 
+## Template Administrator
+Refers to the entire area available in the "Templates: Edit Style" screen. Includes details and Menu Assignment tab.
+
+To navigate to the template edit screen navigatwe to the Templates: Styles screen under extensions > templates and then select the template you wish to edit.
+
+![Admin Gif](admin-gif.gif)
+
+**Template Administrator**
+![Admin](admin.png)
+
 ## ZGFv5
 
 - Refers to the Zen Grid Framework v5.
