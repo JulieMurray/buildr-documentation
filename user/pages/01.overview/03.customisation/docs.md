@@ -10,7 +10,15 @@ There are a number of different ways to customise the Build.r template. The work
 Editing and creating themes using the template settings.
 ----
 
-The easiest way to modify or create a new theme is via the template settings. In the template administrator go to the theme panel and select the theme from the drop down you wish to use as a base for your new theme.
+The easiest way to modify or create a new theme is via the template settings. 
+
+In the template administrator, go to the design panel and locate the theme / preset dropdown in the General settings side panel. 
+
+Select the preset from the drop down you wish to use as a base for your new theme. 
+(See documentation on <a href="../style/loading-presets">loading presets</a>).
+
+![Load a preset](load-preset.gif)
+ 
 
 Selecting an option from the list of themes will automatically load the settings from that theme in the settings below.
 
