@@ -109,3 +109,14 @@ Benefits:
 Challenges:
 - An extra file (custom.css) is added to the output of your site. Even though your customisations are likely to be small adding another http request will impact the speed of the site.
 - It's not possible to use less syntax including variables in your custom.css file.
+
+
+## Customising Markup (Overriding the core layout blocks)
+
+It is possible to override the mark up used in any of the Build.r template blocks files by simply copying the block you want to override to the custom/blocks folder.
+
+#### Step by Step
+
+1. Copy the file you want to make a change to from the tpls/blocks folder eg top.php
+2. Paste that file to the custom/blocks folder. You will need to create that folder as it does not exist in the package.
+3. Make any changes to the file (top.php) and the template will automatically use your changes and override the core block that comes with the template.
