@@ -102,6 +102,8 @@ The parallax effect can be disabled at a screensize specified in the General set
 
 This setting is useful for removing the effect when the screen changes to a size that it makes sense in your design to no longer apply the parallax effect. 
 
+**Note** if you want to keep the effect enabled regardless of the screensize simply set this value to 0. Parallax will continue to be disabled on ios devices (see note below).
+
 As an example if your images appear well on large screensizes however there is too much gap on smaller screens you can add a px width or screen size variable to force the full image to display.
 
 Variables for screensizes include:
@@ -110,13 +112,22 @@ Variables for screensizes include:
 - @nav-collapse
 - @tablet-max-width
 - @phone-max-width
+- or any px value
 
-When screens are below the width specified here the image is forced to a 100% image size.
+When screens are below the width specified here the image is forced to use the default image size option.
+
+![disabled-images](disabled-images.png)
+
+This setting can be used to make up any shortfall that the image has when it comes to covering the area that it is set to display in. If there is a gap between the image and the row of content increase this value (as a %) to cover the area required eg 220%.
+
+Images that have an aspect ratio that are close square will generally not have an issue with a shortfall.
 
 
-## Parallax is disabled on touch devices
+## Parallax is disabled on IOS devices
 
-The parallax effect is disabled across all touch screens. Touch screens are notorious for not being able to handle parallax resizing without employing a lot more code. 
+The parallax effect is disabled across all ios devices. IOS devices such as ipads and iphones do not have a reliable way of measure scroll amounts and as such parallax and other fixed element behaviour tends to be choppy. As such the effect is disabled for all IOS devices, however it is not disabled for Android devices. 
+
+Please note that the effect may still be disabled for Android devices if your device size is below the value specified in the "Disable below this width" value.
 
 ## Developer notes
 
@@ -143,26 +154,39 @@ The javascript for the parallax can be found in the
 	zengrid/libs/zengrid/js/framework.js
 
 
-	// Uber Easy Parallax
-	jQuerywindow = jQuery(window);
-		 
-		 jQuery('.no-touch section[data-type="background"]').each(function(){
-		     var jQuerybgobj = jQuery(this); // assigning the object
-		                    
-		     jQuery(window).scroll(function() {
-		                    
-				// Scroll the background at var speed
-				// the yPos is a negative value because we're scrolling it UP!								
-				var yPos = -(jQuerywindow.scrollTop() / jQuerybgobj.data('speed')); 
-				
-				// Put together our final background position
-				var coords = '50% '+ yPos + 'px';
+	var isMobile = {
+		   
+		    iOS: function() {
+		        return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+		    }
+		};
 		
-				// Move the background
-				jQuerybgobj.css({ backgroundPosition: coords });
+		if(!isMobile.iOS()) {
+		
+			// Uber Easy Parallax
+			jQuerywindow = jQuery(window);
+				 
+				 jQuery('section[data-type="background"]').each(function(){
+				     var jQuerybgobj = jQuery(this); // assigning the object
+				                    
+				     jQuery(window).scroll(function() {
+				                    
+						// Scroll the background at var speed
+						// the yPos is a negative value because we're scrolling it UP!								
+						var yPos = -(jQuerywindow.scrollTop() / jQuerybgobj.data('speed')); 
+						
+						// Put together our final background position
+						var coords = '50% '+ yPos + 'px';
 				
-		}); // window scroll Ends
-	});
+						// Move the background
+						jQuerybgobj.css({ backgroundPosition: coords });
+						
+				}); // window scroll Ends
+			});
+		} else {
+			
+			$('html').addClass('is-ios')
+		}
 
 
 #### Less
