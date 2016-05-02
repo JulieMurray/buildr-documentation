@@ -41,6 +41,19 @@ Animations include:
 - rotateInUpRight
 
 
+## Adding effects to single modules
+
+It is possible to add effects to specific modules in the template using the builtin effects system. To do this though you need to follow these steps:
+
+1. In the template settings go to effects and make sure that css3 effects are enabled for the template.
+
+2. In the design panel in the template settings go to the debug row and select the effect you want to use eg fadeInUpBig. We chose the debug row here because it's generally not used to display content to your end users. If you are using debug then you will need to select a different unused row of modules. This is necessary because it adds the required css for the animations in your theme css file and also triggers the use of the required javascript to trigger the animation.
+
+3. Click save which will recompile the css for your theme and include the css for the effect you just chose.
+
+4. Now go to the module you want to apply the effect to and add the following class to the module class suffix: zen-animate fadeInUpBig
+
+After following these steps you should see the fadeInUpBig animation applied to the module in question.
 
 
 ## Developer notes
