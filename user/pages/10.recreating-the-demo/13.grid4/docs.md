@@ -52,6 +52,20 @@ Learn about <a href="http://docs.joomlabamboo.com/getting-started/how-to-install
 
 ![Grid4 Logo](grid4-logo.jpg)
 
+**What is this?**
+
+The logo is a custom html module published to the logo position.
+
+It uses the following syntax to render the display:
+
+	<h2>Grid4</h2>
+
+**Module classes:**
+
+**top70**
+  
+The module uses the module class top70 to move it down 70px from the top row of content.
+
 ## Menu
 
 ![Grid4 Menu](grid4-menu.jpg)
@@ -125,6 +139,17 @@ It's a custom html module published to the grid4 position on the front page and 
 	<p style="text-align: center;"><a class="btn-empty" href="index.php/contact">Get in Touch</a></p>
 
 There are two instances of this module published so as to make the module available on the front page  (grid4) next to the frontpage grid and on the sub pages next to the main content (sidebar-2).
+
+**Module class suffixes used:**
+
+**top50**
+
+Used to push the module 50px down the start of the column.
+
+**zen-center**
+
+Used to align the content to the center of the column.
+
 
 ## Social icons below about me module
 
