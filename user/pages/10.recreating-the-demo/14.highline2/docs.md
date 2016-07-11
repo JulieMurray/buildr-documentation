@@ -102,8 +102,53 @@ To create the correct positioning the module uses the following module class suf
 
 ## Social Icons
 
-![Logo](logo.jpg)
+![Social Icons](social-icons.jpg)
+
+The social icons in the top right hand corner are rendered via the template.
+
+### Social icon position
+To control the position of the social icons navigate to the design panel in the template settings. The social icons can be placed anywhere in the template layout. The demo features the social icons displayed in the top-right block.
+
+![Social icon position](social-icons-position.png)
+
+### Social icon content
+The content for the social icons can be set in the social panel in the template panel.
+
+![Social icon content](social-icons-settings.png)
+
+### Social Icon appearance
+
+The color, size and other aspects of the social icon appearance can be controlled via the general settings side panel in the template's design panel.
+
+![Social icon content2](social-icons-settings2.png)
+
+
+### Social icons on smaller screens
+
+On the demo when the template is viewed on smaller screens you will have noticed that the social icons are no longer displayed on the top right of the screen, but are moved below the logo in a white row that stretches across the screen.
+
+![Social icon Mobile](social-icons-mobile.jpg)
+
+This is achieved by adding the social-mobile block to the top row.
+
+![Social icon Mobile](social-mobile.png)
+
+As can be seen in the screenshot above, the social block is designed to be hidden on all screens larger than the phone breakpoint size. The value for the breakpoints can be set in the Layout > Breakpoints section of the General settings side panel.
+
+
+### Social Icon appearance
+
+The color, size and other aspects of the social-mobile icon appearance can be controlled via the general settings side panel in the template's design panel.
+
+![Social Icons mobile](social-icons-mobile.png)
+
 
 ## Banner slideshow
 
 ![slideshow](slideshow.jpg)
+
+
+## Zentools2 Isotope
+
+Zentools2 module published to the grid1 position.
+![slideshow](isotope.jpg)
