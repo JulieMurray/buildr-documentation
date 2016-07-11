@@ -147,8 +147,60 @@ The color, size and other aspects of the social-mobile icon appearance can be co
 
 ![slideshow](slideshow.jpg)
 
+The slideshow used in the Highline2 demo features a new type of slideshow that was added to Zentools2 in v2.2.6.
 
-## Zentools2 Isotope
+The slideshow is called Slideshow Hero and uses some nifty sliding effects when each slide is moved onto the screen. 
 
-Zentools2 module published to the grid1 position.
+The slideshow features a number of options, as per the screenshot below, including:
+
+- Slideshow height
+- The content position
+- The ability to disable the background image for a slide based on the number in which it appears in the slideshow.
+- The ability to add an overlay. The overlay color and opacity is defined in the Zentools2 theme panel.
+
+![slideshow](hero.png)
+
+The demo for Highline2 uses the title, introtext and readmore in the main content area and uses Joomla as the content source.
+
+The image is automatically retrieved from the item currently set to display however if the image doesn't exist then the slideshow will display a blank tile which uses the primary color set in the Zentools2 theme panel.
+
+![slideshow Setup](slideshow-setup.png)
+
+## Zentools2 Isotope - A selection of our work
+
+The area below the slideshow is a Zentools2 module published to the grid1 position. It uses the Isotope layout which provides the ability to add filters to the layout and also display the content items in a flexible jigsaw grid.
+
 ![slideshow](isotope.jpg)
+
+The module uses Joomla as a content source and uses the tags:
+- image
+- readmore
+- category
+- title
+- time_since
+- introtext
+
+![slideshow Setup](masonry-option.png)
+
+
+The module uses the "overlay-category" module class to position the category above the image.
+ 
+![Overlay Class](overlay-class.png)
+
+### Featured items
+
+The isotope layout makes it possible for you to differentiate your featured / non-featured content. Any item in the layout that is featured receives the featured class.
+
+The width of featured items is determined in the Zentools2 theme panel. The screenshot below displays one of the featured items int he layout.
+
+![Featured](featured.jpg)
+
+Most content sources available to Zentools2 allow the displaying of featured content. The screenshot below displays a featured item in the Joomla content manager.
+
+![Feature Example](feature-example.png)
+
+The isotope layout inherits the settings set in the masonry area of the Zentools2 theme panel. The demo site uses the settings shown in the screenshot below.
+
+Determining the correct values to use here will require a degree of trial and error. The optimum widths will depend on which items in the layout are featured and where they appear in the output of the module.
+- 
+![Masonry Settings](masonry-settings.png)
