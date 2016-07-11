@@ -177,7 +177,7 @@ The module uses Joomla as a content source and uses the tags:
 - readmore
 - category
 - title
-- time_since
+- time since
 - introtext
 
 ![slideshow Setup](masonry-option.png)
@@ -202,5 +202,38 @@ Most content sources available to Zentools2 allow the displaying of featured con
 The isotope layout inherits the settings set in the masonry area of the Zentools2 theme panel. The demo site uses the settings shown in the screenshot below.
 
 Determining the correct values to use here will require a degree of trial and error. The optimum widths will depend on which items in the layout are featured and where they appear in the output of the module.
-- 
+
 ![Masonry Settings](masonry-settings.png)
+
+## 9 square grid and quote
+
+The row below the isotope area is a combination of two modules that include a custom html module which contains a blockquote. 
+
+### Blockquote
+You can see the markup used in the blockquote below. The blockquote module is published to the grid13 module position.
+
+	<blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eu maximus massa. Etiam id tempor sapien. Cras aliquam erat id urna placerat consectetur. Curabitur tincidunt, elit at viverra consectetur, urna velit convallis libero, id tristique quam lorem ut elit. Donec feugiat nulla ac urna tincidunt, vulputate faucibus massa lobortis.</blockquote>
+	<p style="text-align: center;"><a class="btn btn-primary btn-empty" href="#">See More</a></p>
+
+
+### 9 Square grid
+
+The grid of images is an instance of the Zentools2 module published to the grid16 position.
+
+It uses the caption layout and images from a folder as the content source.
+
+![Caption](caption1.png)
+
+![Caption](caption2.png)
+
+![Caption](caption3.png)
+
+### Template settings for this row.
+
+The blue colour underneath the block quote is controlled via the row background setting in for the grid4 row.
+
+![Grid4](grid4-row.png)
+
+The content of the row is set to display the fullwidth of the screen. This setting is toggled on and off in the container settings panels.
+
+![Grid4](grid4-container.png)
