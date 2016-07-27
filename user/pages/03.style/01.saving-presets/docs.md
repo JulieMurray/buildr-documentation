@@ -18,8 +18,9 @@ Each theme is shipped with a set of default themes that can be found in the sett
 1. Type the name of the preset in the input box.
 2. Click "Save Theme"
 3. This will save the theme and compile it's assets in the css folder.
+4. If you need to apply the preset to the current template click save in the top left hand corner
 
-![My new theme](save-preset.gif)
+![My new theme](create-new-style.gif)
 
 ## Developer notes
 
