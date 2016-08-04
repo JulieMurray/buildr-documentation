@@ -176,7 +176,7 @@ This option places a transparent overlay between the background image and the co
 
 Each row has it's own settings to determine the speed and the size of the image used in the parallax row.
 
-![Parallax row](parallax-row.jpg)
+![Parallax row](parallax-row.png)
 
 **Enable Parallax for row**.
 This option must be enabled in order to trigger the parallax effect.
@@ -190,7 +190,7 @@ This setting determines the overall size applied to the image. Where 100% equals
 **Global Parallax settings**
 In addition to the above settings there are general parallax settings that affect each instance of the parallax effect on your site. These settings can be found int he general settings side panel in the parallax settings panel.
 
-![General Parallax](general-parallax.jpg)
+![General Parallax](general-parallax.png)
 
 **Minimum Height**
 This option in px, determines the minimum height that is applied to each parallax row.
@@ -216,11 +216,35 @@ The dropcap is created by using the latest version Zen Shortcodes which comes wi
 ## Main Content
 ![Sticky content](sticky-content.jpg)
 
-When the user scrolls the content sticks to the top of the browser below the menu
+When the user scrolls the content sticks to the top of the browser below the menu.
+
 ![Sticky content 2](stuck-at-top.jpg)
 
 
+### How to activate the sticky behaviour.
 
+- A sticky module can be applied by adding the module class suffix "sticky-module" to any module.
+
+![Sticky module](sticky-module.png)
+
+### Table of content menu
+
+The sidebar in the main content area of the OnePageTwo template is rendered dynamically via the new anchor functionality in the Zen Shortcodes plugin.
+
+This new syntax makes it possible to specify an unlimited number of anchors on the page using the following syntax:
+
+	{zen-anchor}The title of an item{/zen-anchor}
+
+You can add as many of these anchors on the page using the {zen-anchor}Item title{/zen-anchor} syntax.
+
+
+In order to display all of the anchor titles in a menu such as the demo the user then needs to add the following shortcode:
+
+	{zen-anchor-list}zen-nav zen-nav-stacked zen-lines{/zen-anchor-list}
+
+The zen-anchor-list shortcode renders the titles and the text within the code is used as the class for the menu that is rendered.
+
+In the Build.r template you can use and of the zen-nav menu classes as seen on the <a href="http://demo.joomlabamboo.com/?theme=blankly">Blankyly demo site</a> under the style > navigation menu item.
 
 ## Bottom quote on dark color
 
