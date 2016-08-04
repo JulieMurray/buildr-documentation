@@ -83,7 +83,7 @@ Zensocial module published to the footer position
 ![Social Footer](social-footer.jpg)
 
 
-## Bottom logo and text
+## Footer logo and text
 
 Custom html module published to the footer position
 
