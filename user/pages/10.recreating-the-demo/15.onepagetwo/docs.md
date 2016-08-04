@@ -103,11 +103,18 @@ The colors used to display the menu can be controlled in the style panel of the 
 
 ![Menu Style](menu-style.png)
 
-## First Image
+## Series of images with quotes
+
+The demo site for OnePageTwo features a number of parallax images with quote text that sit on a transparent overlay and move in a parallax behaviour above the image.
+
+This is created using the built in parallax behaviour for the Build.r template, the row background image, the new full screen option and a custom html module using a blockquote.
+
+### Examples
 ![First Image](first-image.jpg)
 
-## Second Image Image
 ![Second Image](second-image.jpg)
+
+![Parallax](parallax.jpg)
 
 ## Quote
 ![Quote](quote.png)
@@ -124,9 +131,6 @@ When the user scrolls the content sticks to the top of the browser below the men
 ![Sticky content 2](stuck-at-top.jpg)
 
 
-## Parallax
-
-![Parallax](parallax.jpg)
 
 
 ## Bottom quote on dark color
