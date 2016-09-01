@@ -1,5 +1,5 @@
 ---
-title: Css Settings
+title: CSS Settings
 taxonomy:
     category: docs
 ---
@@ -15,4 +15,7 @@ taxonomy:
 
 ### Live Reload Less
 ![Live Reload Less](less-live-watch.jpg)
+
+
+
   

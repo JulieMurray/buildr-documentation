@@ -27,7 +27,7 @@ The Sticky nav is enabled or disabled under the effects panel.
 
 ## Styling the Sticky menu
 
-It is possible to apply a color to the entire Sticky menu background or to just the container of the sticky menu.
+It is possible to apply a color to the entire Sticky menu background or to just the container of the sticky menu. 
 
 
 ## Sticky Nav Background

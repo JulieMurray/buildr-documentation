@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Config, styles and layouts</title>
+	<meta name="taxonomy" content="
+category: docs"/>
+</head>
+<body>
+
+<p>There are three main components of a ZGFv5 based template and it&#8217;s important to understand their relationship when you are working with the them.</p>
+
+<p>In brief:</p>
+
+<ul>
+<li>Config files hold settings and layout data for an instance of the template.</li>
+<li>Theme files contain settings that affect the display of the template and are primarily used in the processing of less files via the template admin</li>
+<li>Layout files are used only as sample layouts to load in the layout tool. The layout settings that are used to determine the position and widths of the template for use on your website are stored in the config file.</li>
+</ul>
+
+<h2 id="configfiles">Config files</h2>
+
+<p>Configuration files are the files referenced by specific instances of a template.</p>
+
+<p>In Joomla each template is given an id in the database. ZGFv5 templates attach the configuration for each instance of a template to a configuration file that is named on the server in the following format:</p>
+
+<pre><code>config-78.json
+</code></pre>
+
+<p>In the example above the number 78 refers to the id of the template. This id can be seen in the template manager in the id column as per the screenshot below. The number 78 in this instance refers to the Two right sidebar instance of the template.</p>
+
+<figure>
+<img src="config-id.png" alt="Config Id" />
+<figcaption>Config Id</figcaption>
+</figure>
+
+<p>The config file is the key to unlocking the configuration of the template. </p>
+
+<p>It is a simple two level json object that stores the template params and layout settings:</p>
+
+<p><strong>Parameter object</strong></p>
+
+<pre><code>{
+  &quot;params&quot;:{
+    &quot;theme&quot;:&quot;xero&quot;,
+    &quot;panel_trigger_text&quot;:&quot;Open Panel&quot;,
+    &quot;social_position&quot;:&quot;relative&quot;,
+    &quot;social_position_align&quot;:&quot;align-left&quot;,
+    &quot;social_style&quot;:&quot;social-square&quot;,
+    &quot;social_mobile_position&quot;:&quot;fixed-right&quot;,
+    &quot;social_mobile_position_align&quot;:&quot;align-left&quot;,
+    &quot;social_mobile_style&quot;:&quot;social-no-style&quot;,
+    &quot;use_font_loader&quot;:&quot;0&quot;,
+    &quot;use_typekit&quot;:&quot;0&quot;,
+    &quot;typekit_id&quot;:&quot;&quot;,
+    &quot;bodyfont&quot;:&quot;-1&quot; ...
+</code></pre>
+
+<p><strong>Layout object</strong></p>
+
+<pre><code>&quot;layout&quot;:{
+   &quot;top&quot;:{
+     &quot;positions&quot;:{
+       &quot;top4&quot;:&quot;12&quot;
+     },
+     &quot;classes&quot;:{
+       &quot;classes&quot;:&quot;no-change-phones  row-padding-vert-sml row-margin-none container-padding-none container-margin-none&quot;
+     }
+   },
+   &quot;logo&quot;:{
+     &quot;positions&quot;:{
+       &quot;logo&quot;:&quot;6&quot;,
+       &quot;search&quot;:&quot;6&quot;,
+       &quot;social&quot;:&quot;12&quot;
+     },
+     &quot;classes&quot;:{
+       &quot;classes&quot;:&quot; row-padding-vert-sml container-padding-none&quot;
+     }
+   } ...
+</code></pre>
+
+<h4 id="wherearetheconfigfilesstored">Where are the config files stored?</h4>
+
+<p>User stored configuration files are located in the settings/config folder, while the presets that are shipped with the template are stored in the settings/config/config-sample folder.</p>
+
+<p>The config-sample configuration files are example files that can be loaded by the user as a way to load the relevant data into the template to replicate the template style.</p>
+
+<h4 id="howdoyouloadaconfigurationfile">How do you load a configuration file?</h4>
+
+<p>The list of available configuration files available can be seen in the select box that sits in the toolbar above the sidepanel. Example configuration files are displayed with an [example]- prefix. While other user created configurations are shown using the name of the configuration that the template instance has been saved with eg buildr - frontpage</p>
+
+<figure>
+<img src="config-select.png" alt="Config Select" />
+<figcaption>Config Select</figcaption>
+</figure>
+
+<p>To load a specific configuration open the selectbox by clicking on it and selecting the configuration you would like to load. Then click the &#8220;Load Saved Settings&#8221; button. Once the button has been clicked the theme and layout data for the configuration is loaded into the template interface. </p>
+
+<figure>
+<img src="load-config.gif" alt="Config Load" />
+<figcaption>Config Load</figcaption>
+</figure>
+
+<h2 id="themefiles">Theme Files</h2>
+
+<p>Theme files contain data relating specifically to the visual display of the site. </p>
+
+<p>Each theme is stored in json format (object) using three groups of objects: settings, colors and files:</p>
+
+<p>Settings (any parameter that isn&#8217;t set by using the color picker): </p>
+
+<pre><code>{
+  &quot;settings&quot;:{
+    &quot;twidth&quot;:&quot;980px&quot;,
+    &quot;base-padding&quot;:&quot;30px&quot;,
+    &quot;gutter-pc&quot;:&quot;2%&quot;,
+    &quot;containershadow&quot;:&quot;0 0 0 1px rgba(0, 0, 0, 0.06), 0 3px 8px rgba(0, 0, 0, 0.06)&quot;,
+    &quot;wrap-overlay-fade&quot;:&quot;40%&quot;,
+    &quot;wrap-overlay-height&quot;:&quot;100%&quot; ...
+</code></pre>
+
+<p>The color object (all items set via the color picker):</p>
+
+<pre><code>&quot;colors&quot;:{
+    &quot;primary&quot;:&quot;96CA2D&quot;,
+    &quot;secondary&quot;:&quot;3B424C&quot;,
+    &quot;border-color&quot;:&quot;eeeeee&quot;,
+    &quot;text-color&quot;:&quot;ffffff&quot;,
+    &quot;heading-color&quot;:&quot;eeeeee&quot;,
+    &quot;spotlight-bg&quot;:&quot;none&quot;,
+    &quot;link-color&quot;:&quot;@primary&quot;,
+</code></pre>
+
+<p>The file object stores any relevant files required by the theme such as bootstrap2 files or less files specified in the settings panel.</p>
+
+<pre><code>&quot;files&quot;:{
+  &quot;framework_files&quot;:&quot;&quot;,
+  &quot;custom_less&quot;:&quot;&quot;
+},
+</code></pre>
+
+<p>Theme data can be reused within various configurations (template styles) you may have on your site.</p>
+
+<p>The theme used by a specific configuration (template style) is determined by the theme item in the configuration object.</p>
+
+<pre><code>{
+  &quot;params&quot;:{
+    &quot;theme&quot;:&quot;revision&quot; ...
+</code></pre>
+
+<h4 id="wherearethethemefilesstored">Where are the theme files stored?</h4>
+
+<p>User created theme files are stored in the settings/themes folder while theme presets that are shipped with the template are stored in the settings/themes/presets folder.</p>
+
+<h4 id="howtoloadapreset">How to load a preset</h4>
+
+<p>Please see the <a href="../style/loading-presets">How to load a preset page</a> for an explanation on how to do this.</p>
+
+<h2 id="layoutfiles">Layout Files</h2>
+
+<p>Layout data is stored in the configuration file, however predefined layouts and user created layouts can be loaded and saved via the template interface. </p>
+
+<p>Please see the <a href="../layout/loading-layouts#saving-layouts">saving layout page</a> for an explanation on how to do this.</p>
+
+<p>The final layout data used by the template is stored in the appropriate configuration file for that template style, while layout presets are stored in the settings/layout folder.</p>
+
+<p>Please see the <a href="../layout/loading-layouts">loading layout page</a> for an explanation on how to do this.</p>
+
+<figure>
+<img src="layouts.png" alt="Layouts" />
+<figcaption>Layouts</figcaption>
+</figure>
+
+<h4 id="wherearelayoutfilesstored">Where are layout files stored</h4>
+
+<p>Both user generated and preset layouts are stored in the settings/layout file.</p>
+
+</body>
+</html>
