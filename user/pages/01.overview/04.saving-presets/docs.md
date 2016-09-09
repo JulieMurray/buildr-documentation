@@ -18,4 +18,4 @@ To save a new theme follow the steps outlined below:
 
 After clicking save the css and other assets for the theme are created and saved to the template folder.
 
-![Create new style in Buildr](create-new-stye.gif)
+![Create new style in Buildr](create-new-style.gif)
