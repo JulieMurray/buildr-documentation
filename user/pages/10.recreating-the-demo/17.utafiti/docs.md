@@ -6,7 +6,7 @@ taxonomy:
 
 **In Progress**
 
-<img src="http://www.joomlabamboo.com/images/new/highline2/highline2-responsive.png" alt="Highline2" />
+<img src="http://www.joomlabamboo.com/images/new/highline2/highline2-responsive.png" alt="Utafiti" />
 
 Highline2 is a child theme of the Build.r template. This means it uses the Build.r template and applies Highline2 specific style via Build.r's built in child theme functionality.
 
