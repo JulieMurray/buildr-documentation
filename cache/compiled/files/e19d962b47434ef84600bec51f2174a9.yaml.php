@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'user/plugins/sitemap/sitemap.yaml',
-    'modified' => 1451688056,
+    'modified' => 1476823648,
     'data' => [
         'enabled' => true,
         'route' => '/sitemap',

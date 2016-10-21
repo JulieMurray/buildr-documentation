@@ -8,13 +8,13 @@ taxonomy:
 
 <img src="http://www.joomlabamboo.com/images/new/highline2/highline2-responsive.png" alt="Utafiti" />
 
-Highline2 is a child theme of the Build.r template. This means it uses the Build.r template and applies Highline2 specific style via Build.r's built in child theme functionality.
+Utafiti is a child theme of the Build.r template. This means it uses the Build.r template and applies Utafiti specific style via Build.r's built in child theme functionality.
 
 ## A note about child themes
 The files for child themes are located in the templates/buildr/child folder and are selected in the template admin design side panel.  You can read a full explanation of child theming in Build.r <a href="../style/using-child-themes">here</a>.
 
 
-## Installing Highline2
+## Installing Utafiti
 
 The following applies to situations where you have already installed the Buildr template on your site or are installing buildr for the first time.
 
@@ -22,94 +22,120 @@ The following applies to situations where you have already installed the Buildr 
 
 **Step 2** - Once installed navigate to the template manager and edit the Buildr template.
 
-**Step 3** - Select the Highline2 example configuration from the load saved settings dropdown.
+**Step 3** - Select the Utafiti example configuration from the load saved settings dropdown.
 
-![Apply Highline2](apply-Highline2.gif)
+![Apply Utafiti](gif_select_theme.gif)
 
-After doing this the Highline2 child theme will be selected and the Highline2 preset will be set in the preset dropdown list.
+After doing this the Utafiti child theme will be selected and the Utafiti preset will be set in the preset dropdown list.
 
 Applying the Grid 4 example configuration sets the required theme panel options including the layout blocks used on the demo site in the layout tool.
 
-**Step 4** - Click Save. After clicking save the required assets for the Highline2 theme will be generated (theme files, css files etc) and will now be available for use on your website.
+**Step 4** - Click Save. After clicking save the required assets for the Utafiti theme will be generated (theme files, css files etc) and will now be available for use on your website.
 
 
-## Install the Highline2 quickstart package
+## Install the Utafiti quickstart package
 
-If you are starting a new website from scratch we highly recommend installing the Highline2 quickstart package. This is by far the simplest way to recreate the demo site on your server.
+If you are starting a new website from scratch we highly recommend installing the Utafiti quickstart package. This is by far the simplest way to recreate the demo site on your server.
 
 Learn about <a href="http://docs.joomlabamboo.com/getting-started/how-to-install-a-joomla-3-quickstart-package">installing the quickstart package</a>.
 
 
-## Recreating the Highline2 demo site
+## Recreating the Utafiti demo site
 
 ## Description of elements
 
 ## Menu
 
-![Menu](menu.jpg)
+![Menu](screen-2.png)
 
-**The expanded menu**
+**The offcanvas menu**
 
-![Toggle Menu](toggle-menu.jpg)
+![Toggle Menu](screen_menu_mob.png)
+![Toggle Menu](screen_menu_mob_open.png)
 
 
 **Collapsed menu**
 
-The Highline2 demo displays the menu in a collapsed state at all screen sizes. This setting is controlled via the nav collapse breakpoint found in the templates layout sidepanel.
+The configuration of offcanvas menu is controlled according to the following screen in the theme admin panel
 
-![Collapse](collapse.png)
+![Collapse](menu_mobile_admin.jpg)
 
-The type of collapsed menu used is determined by the mobile menu type option. The toggle menu or off canvas menu are ideal for use in the Highline2 template.
+**Offcanvas button settings**
 
-![Collapse Type](collapse-type.png)
+The settings used to customize the menu offcanvas are controlled according to the next image.
 
-**Toggle button settings**
-
-The text used for the toggle menu button and the text used to close the menu when it is open is controlled via the menu panel in the template settings. The style of the button used is also controlled in this area of the template settings.
-
-![Toggle Menu](toggle-menu.jpg)
+![Toggle Menu](screen_offcanv_menu_admin.png)
 
 
-**Positioning the toggle trigger**
+**Positioning the offcanvas menu**
 
-The toggle menu is displayed in the template layout when the toggle-menu layout block is dragged into the layout. The Highline2 child theme places the toggle-menu block int he top-left block in the layout area.
+The offcanvas menu is located according to the image below. It is enabled to access the website on portable devices.
 
-![Collapse Type](toggle-trigger.png)
+![Collapse Type](screen_position_menu.png)
 
-**Please note:** The menu block also needs to be in the layout area for the toggle menu to work in this instance.
+**Please note:** The offcanvas menu will only be activated and viewed when accessing the website from a portable device.
 
-The top left row uses the following settings:
+To edit the row settings, click the icon according to the figure below and then go in style tab. To take the theme settings, leave according to the next image.
 
-![Top Left Row](top-left-settings.png)
+![Top Right Row](screen_style_row.png)
+![Top Right Row](gif_edit_row-offcanvas.gif)
+
+To customize the menus, follow the panel according to the image:
+
+![Top Right Row](screen_menu_admin.png)
 
 
 ## Logo
 
-![Logo](logo.jpg)
+![Logo](screen_logo.png)
 
-The logo in the Highline2 template uses a custom html module published to the logo position.
+The logo in the Utafiti template uses a custom html module published to the logo position.
 
 The markup used in this position is:
 
-	<p class="zen-center"><img src="images/logo.png" alt="Logo" /></p>
+	<h1><a href="index.php">{zen-heart}{/zen-heart} UTAFITI</a></h1>
 
-To create the correct positioning the module uses the following module class suffix:
+The logo consists of an icon by tags Zen Shortcode Icons another text. According to the image.  
 
-	minusbottom60 minustop30
+![Logo](screen_logo_admin.png)
 
-- minusbottom60: moves the content below the logo up by 60px.
-- minustop30: moves the logo module up 30px
+Do not forget to create a module for the logo of the mobile version as the image. The other settings are the same as the previous one.
+
+![Logo](screen_logo_mob.png)
+
+Remember to select all the contents within the text field, and add the link under the picture.
+
+![Logo](screen_link_logo.png)
+
+
+To view the list of Zen Shortcode tags, access path: Features menu> Tools> Zen Shortcode> tab font icons:
+
+![Logo](screen_zen_cods.jpg)
+
+To customize the logo, follow the panel according to the image:
+
+![Logo](screen_logo_admin_custom.png)
 
 ## Social Icons
 
-![Social Icons](social-icons.jpg)
+Social icons are at the top and bottom theme
 
-The social icons in the top right hand corner are rendered via the template.
+### SOCIAL POSITION TOP
+![Social Icons](screen_social_top.png)
 
-### Social icon position
-To control the position of the social icons navigate to the design panel in the template settings. The social icons can be placed anywhere in the template layout. The demo features the social icons displayed in the top-right block.
+- The position of the top row is in the LOGO, according to the image:
 
-![Social icon position](social-icons-position.png)
+![Social Icons](screen_social_top_admin.png)
+
+
+### SOCIAL POSITION BOTTOM
+
+![Social Icons](screen_social_bottom.png)
+
+- The position of the bottom row in this FOOTER, in accordance with the image:
+
+![Social Icons](screen_social_bottom_admin.png)
+
 
 ### Social icon content
 The content for the social icons can be set in the social panel in the template panel.
@@ -119,6 +145,8 @@ The content for the social icons can be set in the social panel in the template 
 ### Social Icon appearance
 
 The color, size and other aspects of the social icon appearance can be controlled via the general settings side panel in the template's design panel.
+
+![Social icon content2](screen_social_admin.png)
 
 ![Social icon content2](social-icons-settings2.png)
 
@@ -143,11 +171,11 @@ The color, size and other aspects of the social-mobile icon appearance can be co
 ![Social Icons mobile](social-icons-mobile.png)
 
 
-## Banner slideshow
+## Module Banner Slideshow
 
-![slideshow](slideshow.jpg)
+![slideshow](screen_banner.png)
 
-The slideshow used in the Highline2 demo features a new type of slideshow that was added to Zentools2 in v2.2.6.
+The slideshow used in the Utafiti demo features a new type of slideshow that was added to Zentools2 in v2.2.6.
 
 The slideshow is called Slideshow Hero and uses some nifty sliding effects when each slide is moved onto the screen. 
 
@@ -158,82 +186,92 @@ The slideshow features a number of options, as per the screenshot below, includi
 - The ability to disable the background image for a slide based on the number in which it appears in the slideshow.
 - The ability to add an overlay. The overlay color and opacity is defined in the Zentools2 theme panel.
 
-![slideshow](hero.png)
+See the settings screens:
 
-The demo for Highline2 uses the title, introtext and readmore in the main content area and uses Joomla as the content source.
+![slideshow](screen_module_banner_config.png) 
+
+
+See the other settings:
+
+![slideshow](gif_banner_admin_edit.gif)
+
+The demo for Utafiti uses the title, introtext and readmore in the main content area and uses Joomla as the content source.
+
+![slideshow](screen_content_banner.png)
+
+![slideshow](screen_img_slide.png)
+
+The content selection is made according to the image:
+
+![slideshow](content_banner.gif)
+
 
 The image is automatically retrieved from the item currently set to display however if the image doesn't exist then the slideshow will display a blank tile which uses the primary color set in the Zentools2 theme panel.
 
-![slideshow Setup](slideshow-setup.png)
+![slideshow Setup](screen_content_banner1.png)
 
-## Zentools2 Isotope - A selection of our work
+You need to add the class suffix in the module to be equal to the standard theme:
 
-The area below the slideshow is a Zentools2 module published to the grid1 position. It uses the Isotope layout which provides the ability to add filters to the layout and also display the content items in a flexible jigsaw grid.
+*utafiti-slideshow-hero
 
-![slideshow](isotope.jpg)
-
-The module uses Joomla as a content source and uses the tags:
-- image
-- readmore
-- category
-- title
-- time since
-- introtext
-
-![slideshow Setup](masonry-option.png)
+![slideshow setup](screen_banner_sufix.png)
 
 
-The module uses the "overlay-category" module class to position the category above the image.
- 
-![Overlay Class](overlay-class.png)
-
-### Featured items
-
-The isotope layout makes it possible for you to differentiate your featured / non-featured content. Any item in the layout that is featured receives the featured class.
-
-The width of featured items is determined in the Zentools2 theme panel. The screenshot below displays one of the featured items int he layout.
-
-![Featured](featured.jpg)
-
-Most content sources available to Zentools2 allow the displaying of featured content. The screenshot below displays a featured item in the Joomla content manager.
-
-![Feature Example](feature-example.png)
-
-The isotope layout inherits the settings set in the masonry area of the Zentools2 theme panel. The demo site uses the settings shown in the screenshot below.
-
-Determining the correct values to use here will require a degree of trial and error. The optimum widths will depend on which items in the layout are featured and where they appear in the output of the module.
-
-![Masonry Settings](masonry-settings.png)
-
-## 9 square grid and quote
-
-The row below the isotope area is a combination of two modules that include a custom html module which contains a blockquote. 
-
-### Blockquote
-You can see the markup used in the blockquote below. The blockquote module is published to the grid13 module position.
-
-	<blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eu maximus massa. Etiam id tempor sapien. Cras aliquam erat id urna placerat consectetur. Curabitur tincidunt, elit at viverra consectetur, urna velit convallis libero, id tristique quam lorem ut elit. Donec feugiat nulla ac urna tincidunt, vulputate faucibus massa lobortis.</blockquote>
-	<p style="text-align: center;"><a class="btn btn-primary btn-empty" href="#">See More</a></p>
+## Module OUR SERVICES | THE HOSPITAL
 
 
-### 9 Square grid
+![our services ](screen_module_especi.png)
 
-The grid of images is an instance of the Zentools2 module published to the grid16 position.
 
-It uses the caption layout and images from a folder as the content source.
+The module configuration in accordance with the image:
 
-![Caption](caption1.png)
+![our services ](screen_config_module_our.jpg)
+- Please note the number of columns!
+- Attention to use "||" to separate the module caption title.
+- The thin module in position grid1.
+- Leave active module title display
 
-![Caption](caption2.png)
+For setting the module items, follow the picture:
 
-![Caption](caption3.png)
+![our services ](screen_config_our.gif) 
+The content settings are according to the image:
 
-### Template settings for this row.
+![our services ](screen_content_our.gif) 
 
-The blue colour underneath the block quote is controlled via the row background setting in for the grid4 row.
 
-![Grid4](grid4-row.png)
+The content that is displayed is generated from joomla articles.
+For the item's icon, use font icons.
 
-The content of the row is set to display the fullwidth of the screen. This setting is toggled on and off in the container settings panels.
+![our services ](screen_content_our.png)
 
-![Grid4](grid4-container.png)
+For the module to stay with the theme of appearance, the module class suffix and head should be applied according to the image as well as the module style and the head tag:
+![our services ](screen_sufix_our.png)
+
+
+## Module THE HOSPITAL | KNOW MORE ABOUT US
+
+![the hospital](screen_the_hospital.png)
+
+The module configuration follows the image:
+
+![the hospital](screen_module_the_hospital.gif)
+
+- Attention to use "||" to separate the module caption title.
+- The thin module in position grid5.
+- Leave active module title display
+
+
+For setting the module items, follow the picture:
+
+![the hospital](screen_module_the_hospital-1.gif)
+
+
+The content settings are according to the image:
+
+![the hospital](screen_module_the_hospital-2.gif)
+
+
+The content, text, title end image. that is displayed is generated from joomla articles.
+
+![the hospital](screen_content_the_hospital.png)
+![the hospital](screen_img_the_hospital.png)

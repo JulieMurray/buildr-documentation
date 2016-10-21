@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'user/config/plugins/highlight.yaml',
-    'modified' => 1439346820,
+    'modified' => 1476823635,
     'data' => [
         'theme' => 'learn'
     ]
