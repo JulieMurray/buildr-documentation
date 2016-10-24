@@ -6,7 +6,7 @@ taxonomy:
 
 **In Progress**
 
-<img src="http://www.joomlabamboo.com/images/new/highline2/highline2-responsive.png" alt="Utafiti" />
+![Utafiti](template_devices.jpg)
 
 Utafiti is a child theme of the Build.r template. This means it uses the Build.r template and applies Utafiti specific style via Build.r's built in child theme functionality.
 
@@ -275,3 +275,117 @@ The content, text, title end image. that is displayed is generated from joomla a
 
 ![the hospital](screen_content_the_hospital.png)
 ![the hospital](screen_img_the_hospital.png)
+
+
+For the module to stay with the theme of appearance, the module class suffix and head should be applied according to the image as well as the module style and the head tag:
+![our services ](screen_hospital_sufx.png)
+
+
+## Module Our Team
+
+![our team](screen_profi.png)
+
+
+The module configuration follows the image:
+
+![our team](screen_team_1.png)
+
+![our team](screen_team1.gif)
+
+
+The content settings are according to the image:
+
+![our team](screen_team2.gif)
+
+
+To select more than one category in the 'CONTENT' tab, press CTRL (Windows) or Comand (MAC).
+
+For the module to stay with the theme of appearance, the module class suffix should be applied according to the image as well as the module style and the head tag:
+
+![our team ](screen_team_3.png)
+
+
+The content that is displayed is generated from joomla articles. 
+
+![our team ](screen_team_4.png)
+![our team ](screen_team_42.png)
+
+
+
+## Module FROM THE BLOG | LASTED NEWS
+
+![our services ](screen_blog.png)
+
+
+The module configuration follows the image:
+![our services ](screen_last.gif)
+
+![our services ](screen_last_2.gif)
+
+
+- Attention to use "||" to separate the module caption title.
+- The thin module in position grid13.
+- Leave active module title display
+
+
+The content settings are according to the image:
+
+![our services ](screen_last_3.gif)
+
+
+For the module to stay with the theme of appearance, the module class suffix and head should be applied according to the image as well as the module style and the head tag:
+
+![our team ](screen-last.png)
+
+The content that is displayed is generated from joomla articles. 
+
+- CONTENT
+![our team ](screen_last_2.png)
+
+- IMAGES
+![our team ](screen_last_3.png)
+
+- DATE
+![our team ](screen_last_4.png)
+
+
+## Module Testimony Patients
+
+![testimony](screen_testi.png)
+
+
+
+The module configuration follows the image:
+![our services ](screen_test.gif)
+
+![our services ](screen_test_2.gif)
+
+
+- Attention to use "||" to separate the module caption title.
+- The thin module in position grid17.
+- Leave active module title display
+
+The content settings are according to the image:
+
+![our services ](screen_test_3.gif)
+
+
+For the module to stay with the theme of appearance, the module class suffix should be applied according to the image as well as the module style tag:
+
+![our services ](screen_test_5.png)
+
+
+The content that is displayed is generated from joomla articles.
+
+![our services ](screen_test_6.png)
+
+![our services ](screen_test_7.png)
+
+# FOOTER
+
+![our services ](screen_footer.png)
+
+
+The bottom of the site is in accordance with the image.
+
+Attention! For the maps module to work, do not forget to register your API in Google Maps.
