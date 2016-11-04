@@ -33,6 +33,13 @@ Applying the Grid 4 example configuration sets the required theme panel options 
 **Step 4** - Click Save. After clicking save the required assets for the Utafiti theme will be generated (theme files, css files etc) and will now be available for use on your website.
 
 
+
+You can customize the template through the theme control panel, according to the image:
+
+
+![Apply Utafiti](screen_config_theme-2.gif)
+
+
 ## Install the Utafiti quickstart package
 
 If you are starting a new website from scratch we highly recommend installing the Utafiti quickstart package. This is by far the simplest way to recreate the demo site on your server.
@@ -300,7 +307,7 @@ The content settings are according to the image:
 
 To select more than one category in the 'CONTENT' tab, press CTRL (Windows) or Comand (MAC).
 
-For the module to stay with the theme of appearance, the module class suffix should be applied according to the image as well as the module style and the head tag:
+For the module to stay with the theme of appearance, the module class suffix should be applied according to the image as well as the module style tag:
 
 ![our team ](screen_team_3.png)
 
