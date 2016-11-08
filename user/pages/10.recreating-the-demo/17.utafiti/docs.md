@@ -6,7 +6,7 @@ taxonomy:
 
 **In Progress**
 
-![Utafiti](template_devices.jpg)
+![Utafiti](theme_devices.jpg)
 
 Utafiti is a child theme of the Build.r template. This means it uses the Build.r template and applies Utafiti specific style via Build.r's built in child theme functionality.
 
@@ -160,13 +160,12 @@ The color, size and other aspects of the social icon appearance can be controlle
 
 ### Social icons on smaller screens
 
-On the demo when the template is viewed on smaller screens you will have noticed that the social icons are no longer displayed on the top right of the screen, but are moved below the logo in a white row that stretches across the screen.
+Accessing the project on small portable devices, you may notice that social icons not displayed at the top. Only at the end of the project, see in the image:
 
-![Social icon Mobile](social-icons-mobile.jpg)
+![Social icon Mobile](Screenshot-social_respon.png)
 
-This is achieved by adding the social-mobile block to the top row.
 
-![Social icon Mobile](social-mobile.png)
+![Social icon Mobile](Screenshot-mobile_hid.png)
 
 As can be seen in the screenshot above, the social block is designed to be hidden on all screens larger than the phone breakpoint size. The value for the breakpoints can be set in the Layout > Breakpoints section of the General settings side panel.
 
@@ -396,3 +395,16 @@ The content that is displayed is generated from joomla articles.
 The bottom of the site is in accordance with the image.
 
 Attention! For the maps module to work, do not forget to register your API in Google Maps.
+
+# BREADCRUMB
+
+
+The background used in the breadcrumb is managed by a zentools module. Where you can change the images,
+
+![our services ](Screenshot-bread.png)
+
+
+The settings you can see in the images:
+
+![our services ](screen_config_bread.gif)
+![our services ](screen_config_bread2.gif)
