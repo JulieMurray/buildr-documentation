@@ -51,41 +51,41 @@ Learn about <a href="http://docs.joomlabamboo.com/getting-started/how-to-install
 
 ![Menu](menu.jpg)
 
-The menu colours, like you see on the image above, are configurable using special classes via menu settings, in the images below you will be able to see haw it is done.
+The menu colours, like you see on the image above, are configurable using special classes via menu settings, in the images below you will be able to see how it is done.
 
 **POSITION**
 
-Differently
+In the demo site, the menu is in the top position, however, it can be moved to another row.
 
 ![Menu Position](menu5.png)
 
 **COLOURS**
 
-First of all select the colours you want to display - you can find all colours <a href="http://bambootheme.com/showcase/sep16/index.php/template-features/module-overview/color-variations" target="_blank">here</a>. After you the select the colour to use, go to your Joomla Administrator area and on the top menu area, go to
+First of all select the colours you want to display - you can find all colours <a href="http://bambootheme.com/showcase/sep16/index.php/template-features/module-overview/color-variations" target="_blank">here</a>. After you the select the colour to use, go to your Joomla Administrator area and in the top menu area, go to
 
 `menu > Main Menu > [YOUR MENU]`
 
 ![Admin Menu](menu1.png)
 
-Open the Menu Item that you want to change the colour on and click on the tab **Link Type**. You will see a field **Link CSS Style**, just add the desired class to this field and the menu will get the colour you aplied here.
+Open the Menu Item that you want to change the colour of and click on the tab **Link Type**. You will see a field **Link CSS Style**, just add the desired class to this field and the menu will get the colour you applied.
 
 ![Menu Color](menu2.png)
 
-You can do even more here... In case the menu colour you chose is too light, you might want to have the text color to be dark, so you would need to add a complimentary class, that turn the menu text to black.
+You can do even more here... If the menu colour you chose is light, you might want to have a dark text color. You can achieve this by using an additional complimentary class.
 
 **Example**
 
 `zen-senary2 zen-menu-text-dark`
 
-You can see this example aplied to **Login** Menu Item on our Colourshift2 demo.
+You can see this example applied to the **Login** Menu Item on our Colourshift2 demo.
 
 ![Menu Color](menu3.png)
 
-In case you want to make the submenu to have dark color as well, you can use the following class.
+If you want to make the submenus have dark text as well, you can use the following class:
 
 `zen-submenu-text-dark`
 
-You can see an example of submenu dark colour on our Colourshift2 demo under menu items **Joomla** and **Login**
+You can see an example of a submenu with dark text on our Colourshift2 demo under menu items **Joomla** and **Login**
 
 ![Menu Color](menu4.png)
 
@@ -111,37 +111,37 @@ To set the colours, just choose using the editor panel on Buildr. Use the **Logo
 The social icons in the top left hand corner are rendered via the template.
 
 ### Social icon position
-To control the position of the social icons navigate to the design panel in the template settings. The social icons can be placed anywhere in the template layout. The demo features the social icons displayed in the top-right block.
+To control the position of the social icons navigate to the design panel in the template settings. The social icons can be placed anywhere in the template layout. The demo features the social icons displayed in the left of the logo row.
 
 ![Social icon position](social2.png)
 
 ### Social icon content
-The content for the social icons can be set in the social panel in the template panel.
+The content for the social icons can be set in the social tab of the template panel.
 
 ![Social icon content](social3.png)
 
 ### Social Icon appearance
 
-The colour, size and other aspects of the social icon appearance can be controlled via the general settings side panel in the template's design panel.
+The colour, size and other aspects of the social icon appearance can be controlled via the general settings side panel in the template's design tab.
 
 ![Social icon content2](social4.png)
 
 
 ### Social icons on smaller screens
 
-On the demo when the template is viewed on smaller screens the social icons are no longer displayed on the top left of the screen, but are moved to the bottom.
+On the demo, when the template is viewed on smaller screens, the social icons are no longer displayed in the top left of the screen, but are moved to the bottom.
 
 ![Social icon Mobile](social5.png)
 
-This is achieved by adding the social-mobile block to the top row.
+This is achieved by adding the social-mobile block from the top row to the bottom position.
 
 ## Banner slideshow
 
 ![slideshow](banner1.jpg)
 
-The slideshow used in the Colourshift2 demo features a new type of slideshow that is not currently available in Zentools2, instead, it is available for Colourshift theme only.
+The slideshow used in the Colourshift2 demo features a new type of slideshow which is not currently available in Zentools2, instead, it is only available for the Colourshift theme.
 
-The slideshow is a adapitation of Slideshow Hero and uses additional CSS only available in Colourshift (applied using custom classes in the module).
+The slideshow is a adaptation of the Slideshow Hero layout and uses additional CSS only available in the Colourshift child theme (applied using a module class suffix in the modules advanced parameters tab).
 
 `colourshift`
 
@@ -156,7 +156,7 @@ The slideshow features a number of options, as per the screenshot below, includi
 
 ![slideshow](hero.png)
 
-The demo for Colourshift2 uses the title, introtext and readmore in the main content area and uses Joomla as the content source.
+The demo for Colourshift2 uses the title, introtext and readmore elements in the main content area and uses Joomla as the content source.
 
 The image is automatically retrieved from the item currently set to display however if the image doesn't exist then the slideshow will display a blank tile which uses the primary color set in the Zentools2 theme panel.
 
@@ -164,7 +164,7 @@ The image is automatically retrieved from the item currently set to display howe
 
 ## Colours
 
-The Colourshift2 Template brings a new feature to ZGFv5 (ZenGrid Framework Version 5), this is the abiity to override the .xml files in order to add or remove fields.
+The Colourshift2 Template brings a new feature to ZGFv5 (ZenGrid Framework Version 5), this is the ability to override the .xml files in order to add or remove fields.
 
 In this template, we added an override that adds extra colors, and based on those colours, we can set variations for menu items and modules.
 
@@ -174,7 +174,7 @@ Just go to the Colour section on any item and choose your own colours.
 
 ## Modules Class
 
-New Classes was introduced in the Colourshift2 Theme - you can look at these classes in the <a href="http://bambootheme.com/showcase/sep16/index.php/template-features/module-overview/module-classes" target="_blank">Modules Variations</a> Page.
+New Classes were introduced in the Colourshift2 Theme - you can look at these classes in the <a href="http://bambootheme.com/showcase/sep16/index.php/template-features/module-overview/module-classes" target="_blank">Modules Variations</a> Page.
 
 ![Modules Class](modules1.png)
 
