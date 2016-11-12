@@ -55,7 +55,7 @@ The menu colours, like you see on the image above, are configurable using specia
 
 **POSITION**
 
-In the demo site, the menu is in the top position, however, it can be moved to another row.
+On the demo site, the menu is in the top position, however, it can be moved to another row.
 
 ![Menu Position](menu5.png)
 
