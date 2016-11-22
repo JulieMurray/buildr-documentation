@@ -28,7 +28,7 @@ The following applies to situations where you have already installed the Buildr 
 
 After doing this the Utafiti child theme will be selected and the Utafiti preset will be set in the preset dropdown list.
 
-Applying the Grid 4 example configuration sets the required theme panel options including the layout blocks used on the demo site in the layout tool.
+Applying the Utafiti example configuration sets the required theme panel options including the layout blocks used on the demo site in the layout tool.
 
 **Step 4** - Click Save. After clicking save the required assets for the Utafiti theme will be generated (theme files, css files etc) and will now be available for use on your website.
 
