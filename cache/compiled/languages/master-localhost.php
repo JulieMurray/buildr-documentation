@@ -1,12 +1,12 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\Config',
-    'checksum' => '5205dd59c2d9264716701f7760c0d206:9e0d4fcf7de6451f877a64cefab85df3',
+    'checksum' => 'f6a18c7f5f2e2a23a1097613bd61287c:fbf60e030060129103e901623b04ec8d',
     'files' => [
         'system/languages' => [
             'en' => [
                 'file' => 'system/languages/en.yaml',
-                'modified' => 1476821462
+                'modified' => 1476823630
             ]
         ]
     ],
