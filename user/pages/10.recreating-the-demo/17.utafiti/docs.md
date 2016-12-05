@@ -8,7 +8,7 @@ taxonomy:
 
 ![Utafiti](theme_devices.jpg)
 
-Utafiti is a child theme of the Build.r template. This means it uses the Build.r template and applies Utafiti specific style via Build.r's built in child theme functionality.
+Utafiti is a child theme of the Buildr template. This means it uses the Build.r template and applies Utafiti specific style via Buildr's built in child theme functionality.
 
 ## A note about child themes
 The files for child themes are located in the templates/buildr/child folder and are selected in the template admin design side panel.  You can read a full explanation of child theming in Build.r <a href="../style/using-child-themes">here</a>.
@@ -31,7 +31,6 @@ After doing this the Utafiti child theme will be selected and the Utafiti preset
 Applying the Utafiti example configuration sets the required theme panel options including the layout blocks used on the demo site in the layout tool.
 
 **Step 4** - Click Save. After clicking save the required assets for the Utafiti theme will be generated (theme files, css files etc) and will now be available for use on your website.
-
 
 
 You can customize the template through the theme control panel, according to the image:
@@ -69,7 +68,7 @@ The configuration of offcanvas menu is controlled according to the following scr
 
 **Offcanvas button settings**
 
-The settings used to customize the menu offcanvas are controlled according to the next image.
+The settings used to customize the offcanvas menu are controlled according to the next image.
 
 ![Toggle Menu](screen_offcanv_menu_admin.png)
 
@@ -82,7 +81,7 @@ The offcanvas menu is located according to the image below. It is enabled to acc
 
 **Please note:** The offcanvas menu will only be activated and viewed when accessing the website from a portable device.
 
-To edit the row settings, click the icon according to the figure below and then go in style tab. To take the theme settings, leave according to the next image.
+To edit the row settings, click the row icon according to the figure below and then go into the style tab. To copy the settings from the demo, set them according to the next image.
 
 ![Top Right Row](screen_style_row.png)
 ![Top Right Row](gif_edit_row-offcanvas.gif)
@@ -102,7 +101,7 @@ The markup used in this position is:
 
 	<h1><a href="index.php">{zen-heart}{/zen-heart} UTAFITI</a></h1>
 
-The logo consists of an icon by tags Zen Shortcode Icons another text. According to the image.  
+The logo consists of an icon and text. The icon is displayed using syntax from the zen shortcodes plugin. As per the following image:  
 
 ![Logo](screen_logo_admin.png)
 
@@ -130,7 +129,7 @@ Social icons are at the top and bottom theme
 ### SOCIAL POSITION TOP
 ![Social Icons](screen_social_top.png)
 
-- The position of the top row is in the LOGO, according to the image:
+- The position of the top social element is in the logo row, according to the image:
 
 ![Social Icons](screen_social_top_admin.png)
 
@@ -139,7 +138,7 @@ Social icons are at the top and bottom theme
 
 ![Social Icons](screen_social_bottom.png)
 
-- The position of the bottom row in this FOOTER, in accordance with the image:
+- The position of the bottom social element in this footer row, according to the image:
 
 ![Social Icons](screen_social_bottom_admin.png)
 
@@ -172,7 +171,7 @@ As can be seen in the screenshot above, the social block is designed to be hidde
 
 ### Social Icon appearance
 
-The color, size and other aspects of the social-mobile icon appearance can be controlled via the general settings side panel in the template's design panel.
+The colour, size and other aspects of the social-mobile icon appearance can be controlled via the general settings side panel in the template's design panel.
 
 ![Social Icons mobile](social-icons-mobile.png)
 
@@ -181,7 +180,7 @@ The color, size and other aspects of the social-mobile icon appearance can be co
 
 ![slideshow](screen_banner.png)
 
-The slideshow used in the Utafiti demo features a new type of slideshow that was added to Zentools2 in v2.2.6.
+The slideshow used on the Utafiti demo features a new type of slideshow that was added to Zentools2 in v2.2.6.
 
 The slideshow is called Slideshow Hero and uses some nifty sliding effects when each slide is moved onto the screen. 
 
@@ -201,7 +200,7 @@ See the other settings:
 
 ![slideshow](gif_banner_admin_edit.gif)
 
-The demo for Utafiti uses the title, introtext and readmore in the main content area and uses Joomla as the content source.
+The demo for Utafiti uses the title, introtext and readmore elements in the main content area and uses Joomla as the content source.
 
 ![slideshow](screen_content_banner.png)
 
@@ -216,9 +215,9 @@ The image is automatically retrieved from the item currently set to display howe
 
 ![slideshow Setup](screen_content_banner1.png)
 
-You need to add the class suffix in the module to be equal to the standard theme:
+To use the Utafiti slideshow style, you need to add a class suffix in the modules advanced settings tab equal to the following (the text must be preceded with a space):
 
-*utafiti-slideshow-hero
+     utafiti-slideshow-hero
 
 ![slideshow setup](screen_banner_sufix.png)
 
@@ -232,10 +231,10 @@ You need to add the class suffix in the module to be equal to the standard theme
 The module configuration in accordance with the image:
 
 ![our services ](screen_config_module_our.jpg)
-- Please note the number of columns!
-- Attention to use "||" to separate the module caption title.
-- The thin module in position grid1.
-- Leave active module title display
+- Please note the number of columns! (3)
+- Note the use of "||" to separate the module caption title.
+- This is the thin module in position grid1.
+- Leave module title display enabled
 
 For setting the module items, follow the picture:
 
@@ -246,11 +245,20 @@ The content settings are according to the image:
 
 
 The content that is displayed is generated from joomla articles.
-For the item's icon, use font icons.
+For the item's icon, use the zen shortcodes plugin.
 
 ![our services ](screen_content_our.png)
 
-For the module to stay with the theme of appearance, the module class suffix and head should be applied according to the image as well as the module style and the head tag:
+For the module to use the Utafiti style, the module class suffix and header class should be as follows (Including preceding spaces), as well as the module style and the head tag select options:
+
+Module class suffix: 
+
+     zen-grid-icons
+
+Header class:
+
+    zen-center zen-line
+
 ![our services ](screen_sufix_our.png)
 
 
@@ -262,9 +270,9 @@ The module configuration follows the image:
 
 ![the hospital](screen_module_the_hospital.gif)
 
-- Attention to use "||" to separate the module caption title.
-- The thin module in position grid5.
-- Leave active module title display
+- Note the use of "||" to separate the module caption title.
+- This is the thin module in position grid5.
+- Leave module title display enabled
 
 
 For setting the module items, follow the picture:
@@ -277,17 +285,27 @@ The content settings are according to the image:
 ![the hospital](screen_module_the_hospital-2.gif)
 
 
-The content, text, title end image. that is displayed is generated from joomla articles.
+The content, text, title and image. that are displayed are generated from joomla articles.
 
 ![the hospital](screen_content_the_hospital.png)
 ![the hospital](screen_img_the_hospital.png)
 
 
-For the module to stay with the theme of appearance, the module class suffix and head should be applied according to the image as well as the module style and the head tag:
+For the module to use the Utafiti style, the module class suffix and header class should be as follows (Including preceding spaces), as well as the module style and the head tag select options:
+
+Module class suffix: 
+
+     utafiti-know-more
+
+Header class:
+
+    zen-center zen-line
+
+
 ![our services ](screen_hospital_sufx.png)
 
 
-## Module Our Team
+## Module OUR TEAM
 
 ![our team](screen_profi.png)
 
@@ -304,9 +322,14 @@ The content settings are according to the image:
 ![our team](screen_team2.gif)
 
 
-To select more than one category in the 'CONTENT' tab, press CTRL (Windows) or Comand (MAC).
+To select more than one category in the 'CONTENT' tab, press CTRL (Windows) or Command (MAC).
 
-For the module to stay with the theme of appearance, the module class suffix should be applied according to the image as well as the module style tag:
+For the module to use the Utafiti style, the module class suffix should be as follows (Including preceding space), as well as the module style and the head tag select options:
+
+Module class suffix: 
+
+     utafiti-our-team
+
 
 ![our team ](screen_team_3.png)
 
@@ -318,7 +341,7 @@ The content that is displayed is generated from joomla articles.
 
 
 
-## Module FROM THE BLOG | LASTED NEWS
+## Module FROM THE BLOG | LATEST NEWS
 
 ![our services ](screen_blog.png)
 
@@ -329,9 +352,9 @@ The module configuration follows the image:
 ![our services ](screen_last_2.gif)
 
 
-- Attention to use "||" to separate the module caption title.
-- The thin module in position grid13.
-- Leave active module title display
+- Note the use of "||" to separate the module caption title.
+- This is the thin module in position grid13.
+- Leave module title display enabled
 
 
 The content settings are according to the image:
@@ -339,7 +362,15 @@ The content settings are according to the image:
 ![our services ](screen_last_3.gif)
 
 
-For the module to stay with the theme of appearance, the module class suffix and head should be applied according to the image as well as the module style and the head tag:
+For the module to use the Utafiti style, the module class suffix and header class should be as follows (Including preceding spaces), as well as the module style and the head tag select options:
+
+Module class suffix: 
+
+     utafiti-lasted-news
+
+Header class:
+
+    zen-center zen-line
 
 ![our team ](screen-last.png)
 
@@ -355,7 +386,7 @@ The content that is displayed is generated from joomla articles.
 ![our team ](screen_last_4.png)
 
 
-## Module Testimony Patients
+## Module TESTIMONY PATIENTS
 
 ![testimony](screen_testi.png)
 
@@ -367,16 +398,20 @@ The module configuration follows the image:
 ![our services ](screen_test_2.gif)
 
 
-- Attention to use "||" to separate the module caption title.
-- The thin module in position grid17.
-- Leave active module title display
+- Note the use of "||" to separate the module caption title.
+- This is the thin module in position grid17.
+- Leave module title display enabled
 
 The content settings are according to the image:
 
 ![our services ](screen_test_3.gif)
 
 
-For the module to stay with the theme of appearance, the module class suffix should be applied according to the image as well as the module style tag:
+For the module to use the Utafiti style, the module class suffix should be as follows (Including preceding space), as well as the module style select option:
+
+Module class suffix: 
+
+     utafiti-testimony
 
 ![our services ](screen_test_5.png)
 
