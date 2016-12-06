@@ -366,7 +366,7 @@ For the module to use the Utafiti style, the module class suffix and header clas
 
 Module class suffix: 
 
-     utafiti-lasted-news
+     utafiti-latest-news
 
 Header class:
 
