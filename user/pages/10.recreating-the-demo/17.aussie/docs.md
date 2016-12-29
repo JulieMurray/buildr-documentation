@@ -8,7 +8,7 @@ taxonomy:
 
 ![Utafiti](theme_devices.jpg)
 
-Utafiti is a child theme of the Buildr template. This means it uses the Build.r template and applies Utafiti specific style via Buildr's built in child theme functionality.
+Aussie is a child theme of the Buildr template. This means it uses the Build.r template and applies Aussie specific style via Buildr's built in child theme functionality.
 
 ## A note about child themes
 The files for child themes are located in the templates/buildr/child folder and are selected in the template admin design side panel.  You can read a full explanation of child theming in Build.r <a href="../style/using-child-themes">here</a>.

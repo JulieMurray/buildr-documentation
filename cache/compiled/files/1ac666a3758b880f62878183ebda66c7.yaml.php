@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'user/config/site.yaml',
-    'modified' => 1476821462,
+    'modified' => 1482976753,
     'data' => [
         'title' => 'Buildr Joomla Template Documentation',
         'metadata' => [
