@@ -14,7 +14,7 @@ Aussie is a child theme of the Buildr template. This means it uses the Build.r t
 The files for child themes are located in the templates/buildr/child folder and are selected in the template admin design side panel.  You can read a full explanation of child theming in Build.r <a href="../style/using-child-themes">here</a>.
 
 
-## Installing Utafiti
+## Installing Aussie
 
 The following applies to situations where you have already installed the Buildr template on your site or are installing buildr for the first time.
 
