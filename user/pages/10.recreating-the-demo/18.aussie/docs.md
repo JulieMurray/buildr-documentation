@@ -22,37 +22,44 @@ The following applies to situations where you have already installed the Buildr 
 
 **Step 2** - Once installed navigate to the template manager and edit the Buildr template.
 
-**Step 3** - Select the Utafiti example configuration from the load saved settings dropdown.
+**Step 3** - Select the Aussie example configuration from the load saved settings dropdown.
 
-![Apply Utafiti](gif_select_theme.gif)
+![Apply Utafiti](config-style.gif)
 
-After doing this the Utafiti child theme will be selected and the Utafiti preset will be set in the preset dropdown list.
+After doing this the Aussie child theme will be selected and the Aussie preset will be set in the preset dropdown list.
 
-Applying the Utafiti example configuration sets the required theme panel options including the layout blocks used on the demo site in the layout tool.
+Applying the Aussie example configuration sets the required theme panel options including the layout blocks used on the demo site in the layout tool.
 
-**Step 4** - Click Save. After clicking save the required assets for the Utafiti theme will be generated (theme files, css files etc) and will now be available for use on your website.
+**Step 4** - Click Save. After clicking save the required assets for the Aussie theme will be generated (theme files, css files etc) and will now be available for use on your website.
 
 
 You can customize the template through the theme control panel, according to the image:
 
 
-![Apply Utafiti](screen_config_theme-2.gif)
+![Apply Utafiti](config-oder-option.gif)
 
 
-## Install the Utafiti quickstart package
+## Install the Aussie quickstart package
 
-If you are starting a new website from scratch we highly recommend installing the Utafiti quickstart package. This is by far the simplest way to recreate the demo site on your server.
+If you are starting a new website from scratch we highly recommend installing the Aussie quickstart package. This is by far the simplest way to recreate the demo site on your server.
 
 Learn about <a href="http://docs.joomlabamboo.com/getting-started/how-to-install-a-joomla-3-quickstart-package">installing the quickstart package</a>.
 
 
-## Recreating the Utafiti demo site
+## Recreating the Aussie demo site
 
 ## Description of elements
 
 ## Menu
 
+The Aussie theme has two versions of the menu layout, configured as follows:
+
+**1 -** The first version is MENU >> LOGO >> MENU >> SEARCH
+
+**2 -** The second version consists of MENU >> SEARCH >> LOGO (below)
+
 ![Menu](screen-2.png)
+
 
 **The offcanvas menu**
 
@@ -77,14 +84,14 @@ The settings used to customize the offcanvas menu are controlled according to th
 
 The offcanvas menu is located according to the image below. It is enabled to access the website on portable devices.
 
-![Collapse Type](screen_position_menu.png)
+![Collapse Type](screen_offcanvas.png)
 
 **Please note:** The offcanvas menu will only be activated and viewed when accessing the website from a portable device.
 
 To edit the row settings, click the row icon according to the figure below and then go into the style tab. To copy the settings from the demo, set them according to the next image.
 
-![Top Right Row](screen_style_row.png)
-![Top Right Row](gif_edit_row-offcanvas.gif)
+![Top Right Row](screen_config_row.png)
+![Top Right Row](config_style_row.gif)
 
 To customize the menus, follow the panel according to the image:
 
@@ -95,28 +102,42 @@ To customize the menus, follow the panel according to the image:
 
 ![Logo](screen_logo.png)
 
-The logo in the Utafiti template uses a custom html module published to the logo position.
+The logo in the Aussie template uses a custom html module published to the logo position.
 
-The markup used in this position is:
 
-	<h1><a href="index.php">{zen-heart}{/zen-heart} UTAFITI</a></h1>
+The logo is presented in two forms, one for each menu:
+
+**1 -** Menu default - With the default menu, the logo is used as the image
+
+	<h1><a href="index.php"><img src="images/democontent/logo-aussie.png" alt="logo" /></a></h1>
+	
+![Logo Default](logo_img.png)
+
+**2 -** Menu alternative - With the alternative menu, the logo is used as html
+
+	<h1><a href="index.php">{zen-paw}{/zen-paw} Aussie</a></h1>
 
 The logo consists of an icon and text. The icon is displayed using syntax from the zen shortcodes plugin. As per the following image:  
 
-![Logo](screen_logo_admin.png)
+![Logo Alternative](logo-html.png)
 
+Disable this option so only the alternate logo is displayed!
+
+![Logo Alternative](logo_html_permi.png)
 Do not forget to create a module for the logo of the mobile version as the image. The other settings are the same as the previous one.
 
-![Logo](screen_logo_mob.png)
+![Logo](logo_mobile.png)
 
 Remember to select all the contents within the text field, and add the link under the picture.
 
-![Logo](screen_link_logo.png)
+![Logo](insert_link.png)
 
 
-To view the list of Zen Shortcode tags, access path: Features menu> Tools> Zen Shortcode> tab font icons:
+To view the list of Zen Shortcode tags, access path: Features menu> Tools > Zen Shortcode> tab font icons:
 
-![Logo](screen_zen_cods.jpg)
+![Logo](zencode.jpg)
+
+![Logo](font-icons.png)
 
 To customize the logo, follow the panel according to the image:
 
