@@ -54,30 +54,58 @@ Learn about <a href="http://docs.joomlabamboo.com/getting-started/how-to-install
 
 The Aussie theme has two versions of the menu layout, configured as follows:
 
-**1 -** The first version is MENU >> LOGO >> MENU >> SEARCH
+**1 -** The first version is MENU >> LOGO >> MENU >> SEARCH 
+
+![Menu](topo-padrao.png)
 
 **2 -** The second version consists of MENU >> SEARCH >> LOGO (below)
 
-![Menu](screen-2.png)
+![Menu](menu_alternative.png)
 
+
+
+To configure the menus you need to configure the following:
+
+- Select the type of layout you want from the themes menu, according to the image below:
+
+![Menu](menu1.png)
+
+- It is also necessary to select the type of menu you want by default, according to the image below
+
+![Menu](menu2.png)
+
+Within each menu, you need to enter these classes:
+
+**Menu Default**
+
+![Menu](classe-default.png)
+
+![Menu](class_color_default.png)
+
+
+**Menu Alternative**
+
+![Menu](class_alternative.png)
+
+![Menu](class-color.png)
 
 **The offcanvas menu**
 
-![Toggle Menu](screen_menu_mob.png)
-![Toggle Menu](screen_menu_mob_open.png)
+![Toggle Menu](menu_canvas.png)
+![Toggle Menu](canvas-open.png)
 
 
 **Collapsed menu**
 
 The configuration of offcanvas menu is controlled according to the following screen in the theme admin panel
 
-![Collapse](menu_mobile_admin.jpg)
+![Collapse](colapse_menu.png)
 
 **Offcanvas button settings**
 
 The settings used to customize the offcanvas menu are controlled according to the next image.
 
-![Toggle Menu](screen_offcanv_menu_admin.png)
+![Toggle Menu](offcanvas_adm.png)
 
 
 **Positioning the offcanvas menu**
@@ -100,8 +128,6 @@ To customize the menus, follow the panel according to the image:
 
 ## Logo
 
-![Logo](screen_logo.png)
-
 The logo in the Aussie template uses a custom html module published to the logo position.
 
 
@@ -109,11 +135,15 @@ The logo is presented in two forms, one for each menu:
 
 **1 -** Menu default - With the default menu, the logo is used as the image
 
+![Logo](logo1.png)
+
 	<h1><a href="index.php"><img src="images/democontent/logo-aussie.png" alt="logo" /></a></h1>
 	
 ![Logo Default](logo_img.png)
 
 **2 -** Menu alternative - With the alternative menu, the logo is used as html
+
+![Logo](alternative-logo.png)
 
 	<h1><a href="index.php">{zen-paw}{/zen-paw} Aussie</a></h1>
 
@@ -141,27 +171,18 @@ To view the list of Zen Shortcode tags, access path: Features menu> Tools > Zen 
 
 To customize the logo, follow the panel according to the image:
 
-![Logo](screen_logo_admin_custom.png)
+![Logo](customize-logo.png)
 
 ## Social Icons
 
-Social icons are at the top and bottom theme
-
-### SOCIAL POSITION TOP
-![Social Icons](screen_social_top.png)
-
-- The position of the top social element is in the logo row, according to the image:
-
-![Social Icons](screen_social_top_admin.png)
-
+The social icons are located in the bottom position of the theme.
 
 ### SOCIAL POSITION BOTTOM
+![Social Icons](social.png)
 
-![Social Icons](screen_social_bottom.png)
+- The social icons position is within the bottom line, according to the image:
 
-- The position of the bottom social element in this footer row, according to the image:
-
-![Social Icons](screen_social_bottom_admin.png)
+![Social Icons](social-position.png)
 
 
 ### Social icon content
@@ -180,12 +201,10 @@ The color, size and other aspects of the social icon appearance can be controlle
 
 ### Social icons on smaller screens
 
-Accessing the project on small portable devices, you may notice that social icons not displayed at the top. Only at the end of the project, see in the image:
+Accessing the project in portable devices, social icons are like the image:
 
-![Social icon Mobile](Screenshot-social_respon.png)
+![Social icon Mobile](social-portable.png)
 
-
-![Social icon Mobile](Screenshot-mobile_hid.png)
 
 As can be seen in the screenshot above, the social block is designed to be hidden on all screens larger than the phone breakpoint size. The value for the breakpoints can be set in the Layout > Breakpoints section of the General settings side panel.
 
@@ -199,48 +218,42 @@ The colour, size and other aspects of the social-mobile icon appearance can be c
 
 ## Module Banner Slideshow
 
-![slideshow](screen_banner.png)
+![slideshow](banner-top.png)
 
-The slideshow used on the Utafiti demo features a new type of slideshow that was added to Zentools2 in v2.2.6.
 
-The slideshow is called Slideshow Hero and uses some nifty sliding effects when each slide is moved onto the screen. 
+To configure the top slideshow, see the illustration below:
 
-The slideshow features a number of options, as per the screenshot below, including:
+![slideshow](config-slideshow.gif) 
 
-- Slideshow height
-- The content position
-- The ability to disable the background image for a slide based on the number in which it appears in the slideshow.
-- The ability to add an overlay. The overlay color and opacity is defined in the Zentools2 theme panel.
 
 See the settings screens:
 
-![slideshow](screen_module_banner_config.png) 
+![slideshow](config_default-slideshow.png) 
 
 
-See the other settings:
 
-![slideshow](gif_banner_admin_edit.gif)
+Slideshow items use standard joomla articles:
 
-The demo for Utafiti uses the title, introtext and readmore elements in the main content area and uses Joomla as the content source.
 
-![slideshow](screen_content_banner.png)
+![slideshow](content1-slideshow.png)
 
-![slideshow](screen_img_slide.png)
+![slideshow](content2-slideshow.png)
 
 The content selection is made according to the image:
 
-![slideshow](content_banner.gif)
+![slideshow](select-content_slideshow.gif)
 
 
 The image is automatically retrieved from the item currently set to display however if the image doesn't exist then the slideshow will display a blank tile which uses the primary color set in the Zentools2 theme panel.
 
 ![slideshow Setup](screen_content_banner1.png)
 
-To use the Utafiti slideshow style, you need to add a class suffix in the modules advanced settings tab equal to the following (the text must be preceded with a space):
+To use the Aussie slideshow style, you need to add a class suffix in the modules advanced settings tab equal to the following:
 
-     utafiti-slideshow-hero
+     aussie-slideshow wave-border
 
-![slideshow setup](screen_banner_sufix.png)
+
+![slideshow](class-slideshow.png) 
 
 
 ## Module OUR SERVICES | THE HOSPITAL
