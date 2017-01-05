@@ -173,6 +173,262 @@ To customize the logo, follow the panel according to the image:
 
 ![Logo](customize-logo.png)
 
+
+## Module Banner Slideshow
+
+![slideshow](banner-top.png)
+
+
+To configure the top slideshow, see the illustration below:
+
+![slideshow](config-slideshow.gif) 
+
+
+See the settings screens:
+
+![slideshow](config_default-slideshow.png) 
+
+
+
+Slideshow items use standard joomla articles:
+
+
+![slideshow](content1-slideshow.png)
+
+![slideshow](content2-slideshow.png)
+
+The content selection is made according to the image:
+
+![slideshow](select-content_slideshow.gif)
+
+
+The image is automatically retrieved from the item currently set to display however if the image doesn't exist then the slideshow will display a blank tile which uses the primary color set in the Zentools2 theme panel.
+
+![slideshow Setup](screen_content_banner1.png)
+
+To use the Aussie slideshow style, you need to add a class suffix in the modules advanced settings tab equal to the following:
+
+     aussie-slideshow wave-border
+
+
+![slideshow](class-slideshow.png) 
+
+
+## Module NEWS BLOG
+
+
+![blog ](blog_top.png)
+
+
+This part is composed of two modules in the same position:
+
+- Featured: Controls left-side images 
+
+- News Blog: Controls right-side images 
+
+position - grid 8
+
+** - Featured**
+
+The module configuration in accordance with the image:
+
+![our services ](config-module-featured.png)
+- Please note the number of columns! (1)
+- This is the thin module in position grid8.
+- Leave module title display disabled.
+
+For setting the module items, follow the picture:
+
+![our services ](config-2-newblog.gif) 
+The content settings are according to the image:
+
+![our services ](config-3-newblog.gif) 
+
+
+The content that is displayed is generated from joomla articles.
+
+![our services ](content_newsblog1.png) 
+
+![our services ](content_newsblog12.png) 
+
+![our services ](content_newsblog123.png) 
+
+For the Featured module assume the style of the Aussuie theme, do not forget to use it, according to the image below
+
+Module class suffix: 
+
+     aussie-featured
+
+
+![our services ](class-newblog.png)
+
+** - News Blog**
+
+The module configuration in accordance with the image:
+
+![our services ](config-module-featured.png)
+- Please note the number of columns! (1)
+- This is the thin module in position grid8.
+- Leave module title display enable.
+
+For setting the module items, follow the picture:
+
+![our services ](config-4-newblog.gif) 
+
+
+The content that is displayed is generated from joomla articles.
+
+
+![our services ](content_newsblog2.png) 
+
+![our services ](content_newsblog12.png) 
+
+![our services ](content_newsblog123.png) 
+
+
+
+For the Featured module assume the style of the Aussuie theme, do not forget to use it, according to the image below
+
+Module class suffix: 
+
+     aussie-news
+
+![our services ](class-newblog2.png)
+
+
+
+## Module NEWS BLOG 2
+![the hospital](newsblog2.png)
+
+The module configuration follows the image:
+
+![the hospital](config-news2.png)
+
+For the other  setting the module items, follow the picture:
+
+![our services ](config-news2.gif) 
+
+![the hospital](config-news2-content.gif)
+
+- This is the thin module in position grid8.
+- Leave module title display disabled
+
+
+The content that is displayed is generated from joomla articles.
+
+![our services ](content_newsblog1.png) 
+
+![our services ](content_newsblog12.png) 
+
+![our services ](content_newsblog123.png) 
+
+
+For the News Blog 2 module assume the style of the Aussuie theme, do not forget to use it module class sulfix, according to the image below
+
+Module class suffix: 
+
+     aussie-more
+
+![our services ](class_newsblog2.png)
+
+
+## Module ATTRACTIONS
+
+![our team](attraction.png)
+
+
+The module configuration follows the image:
+
+![our team](config-attra.gif)
+
+For the other  setting the module items, follow the picture:
+
+![our team](config-attra2.gif)
+
+![our team](content_attract.gif)
+
+
+- This is the thin module in position grid5.
+- Leave module title display enabled
+
+The content settings are according to the image:
+
+![our team](screen_team2.gif)
+
+
+The content that is displayed is generated from joomla articles.
+
+![our services ](content-atte.png) 
+
+![our services ](content_newsblog12.png)
+
+
+To select more than one category in the 'CONTENT' tab, press CTRL (Windows) or Command (MAC).
+
+
+For the Attractions module assume the style of the Aussuie theme, be sure to use class sulfix module, according to the image below
+
+Module class suffix: 
+
+     aussie-slide
+
+![our services ](class-attrac.png)
+
+
+## Module ABOUT
+
+![our services ](about.png)
+
+
+The module configuration follows the image:
+
+![our team](config-about.png)
+
+For the other  setting the module items, follow the picture:
+
+![our team](config-about.gif)
+
+![our team](content-about.gif)
+
+
+- This is the thin module in position grid9.
+- Leave module title display enabled
+
+
+The content that is displayed is generated from joomla articles.
+
+![our services ](content-articale-about.png) 
+
+![our services ](content_newsblog12.png)
+
+
+## Module MENU
+
+![module](module menu inf.png)
+
+
+This menu is positioned on the bottom row, in the  position bottom 1:
+
+![module](position_menu_bottom.png)
+
+
+This menu is linked to the menu Footer Menu
+
+
+
+## Module NEWSLETTER
+
+![module](news.png)
+
+
+This menu is positioned on the bottom row, in the  position bottom 2:
+
+![module](newsletter.png)
+
+
+Attention! This module is only an illustrative version of a newsletter module, without any effective action. If you want, you need to install a newsletter module for this
+
+
 ## Social Icons
 
 The social icons are located in the bottom position of the theme.
@@ -215,246 +471,6 @@ The colour, size and other aspects of the social-mobile icon appearance can be c
 
 ![Social Icons mobile](social-icons-mobile.png)
 
-
-## Module Banner Slideshow
-
-![slideshow](banner-top.png)
-
-
-To configure the top slideshow, see the illustration below:
-
-![slideshow](config-slideshow.gif) 
-
-
-See the settings screens:
-
-![slideshow](config_default-slideshow.png) 
-
-
-
-Slideshow items use standard joomla articles:
-
-
-![slideshow](content1-slideshow.png)
-
-![slideshow](content2-slideshow.png)
-
-The content selection is made according to the image:
-
-![slideshow](select-content_slideshow.gif)
-
-
-The image is automatically retrieved from the item currently set to display however if the image doesn't exist then the slideshow will display a blank tile which uses the primary color set in the Zentools2 theme panel.
-
-![slideshow Setup](screen_content_banner1.png)
-
-To use the Aussie slideshow style, you need to add a class suffix in the modules advanced settings tab equal to the following:
-
-     aussie-slideshow wave-border
-
-
-![slideshow](class-slideshow.png) 
-
-
-## Module OUR SERVICES | THE HOSPITAL
-
-
-![our services ](screen_module_especi.png)
-
-
-The module configuration in accordance with the image:
-
-![our services ](screen_config_module_our.jpg)
-- Please note the number of columns! (3)
-- Note the use of "||" to separate the module caption title.
-- This is the thin module in position grid1.
-- Leave module title display enabled
-
-For setting the module items, follow the picture:
-
-![our services ](screen_config_our.gif) 
-The content settings are according to the image:
-
-![our services ](screen_content_our.gif) 
-
-
-The content that is displayed is generated from joomla articles.
-For the item's icon, use the zen shortcodes plugin.
-
-![our services ](screen_content_our.png)
-
-For the module to use the Utafiti style, the module class suffix and header class should be as follows (Including preceding spaces), as well as the module style and the head tag select options:
-
-Module class suffix: 
-
-     zen-grid-icons
-
-Header class:
-
-    zen-center zen-line
-
-![our services ](screen_sufix_our.png)
-
-
-## Module THE HOSPITAL | KNOW MORE ABOUT US
-
-![the hospital](screen_the_hospital.png)
-
-The module configuration follows the image:
-
-![the hospital](screen_module_the_hospital.gif)
-
-- Note the use of "||" to separate the module caption title.
-- This is the thin module in position grid5.
-- Leave module title display enabled
-
-
-For setting the module items, follow the picture:
-
-![the hospital](screen_module_the_hospital-1.gif)
-
-
-The content settings are according to the image:
-
-![the hospital](screen_module_the_hospital-2.gif)
-
-
-The content, text, title and image. that are displayed are generated from joomla articles.
-
-![the hospital](screen_content_the_hospital.png)
-![the hospital](screen_img_the_hospital.png)
-
-
-For the module to use the Utafiti style, the module class suffix and header class should be as follows (Including preceding spaces), as well as the module style and the head tag select options:
-
-Module class suffix: 
-
-     utafiti-know-more
-
-Header class:
-
-    zen-center zen-line
-
-
-![our services ](screen_hospital_sufx.png)
-
-
-## Module OUR TEAM
-
-![our team](screen_profi.png)
-
-
-The module configuration follows the image:
-
-![our team](screen_team_1.png)
-
-![our team](screen_team1.gif)
-
-
-The content settings are according to the image:
-
-![our team](screen_team2.gif)
-
-
-To select more than one category in the 'CONTENT' tab, press CTRL (Windows) or Command (MAC).
-
-For the module to use the Utafiti style, the module class suffix should be as follows (Including preceding space), as well as the module style and the head tag select options:
-
-Module class suffix: 
-
-     utafiti-our-team
-
-
-![our team ](screen_team_3.png)
-
-
-The content that is displayed is generated from joomla articles. 
-
-![our team ](screen_team_4.png)
-![our team ](screen_team_42.png)
-
-
-
-## Module FROM THE BLOG | LATEST NEWS
-
-![our services ](screen_blog.png)
-
-
-The module configuration follows the image:
-![our services ](screen_last.gif)
-
-![our services ](screen_last_2.gif)
-
-
-- Note the use of "||" to separate the module caption title.
-- This is the thin module in position grid13.
-- Leave module title display enabled
-
-
-The content settings are according to the image:
-
-![our services ](screen_last_3.gif)
-
-
-For the module to use the Utafiti style, the module class suffix and header class should be as follows (Including preceding spaces), as well as the module style and the head tag select options:
-
-Module class suffix: 
-
-     utafiti-latest-news
-
-Header class:
-
-    zen-center zen-line
-
-![our team ](screen-last.png)
-
-The content that is displayed is generated from joomla articles. 
-
-- CONTENT
-![our team ](screen_last_2.png)
-
-- IMAGES
-![our team ](screen_last_3.png)
-
-- DATE
-![our team ](screen_last_4.png)
-
-
-## Module TESTIMONY PATIENTS
-
-![testimony](screen_testi.png)
-
-
-
-The module configuration follows the image:
-![our services ](screen_test.gif)
-
-![our services ](screen_test_2.gif)
-
-
-- Note the use of "||" to separate the module caption title.
-- This is the thin module in position grid17.
-- Leave module title display enabled
-
-The content settings are according to the image:
-
-![our services ](screen_test_3.gif)
-
-
-For the module to use the Utafiti style, the module class suffix should be as follows (Including preceding space), as well as the module style select option:
-
-Module class suffix: 
-
-     utafiti-testimony
-
-![our services ](screen_test_5.png)
-
-
-The content that is displayed is generated from joomla articles.
-
-![our services ](screen_test_6.png)
-
-![our services ](screen_test_7.png)
 
 # FOOTER
 
