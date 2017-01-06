@@ -472,15 +472,6 @@ The colour, size and other aspects of the social-mobile icon appearance can be c
 ![Social Icons mobile](social-icons-mobile.png)
 
 
-# FOOTER
-
-![our services ](screen_footer.png)
-
-
-The bottom of the site is in accordance with the image.
-
-Attention! For the maps module to work, do not forget to register your API in Google Maps.
-
 # BREADCRUMB
 
 
