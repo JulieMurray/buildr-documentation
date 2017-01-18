@@ -24,7 +24,7 @@ The following applies to situations where you have already installed the Buildr 
 
 **Step 3** - Select the Aussie example configuration from the load saved settings dropdown.
 
-![Apply Utafiti](config-style.gif)
+![Apply Utafiti](screen1-aussie.gif)
 
 After doing this the Aussie child theme will be selected and the Aussie preset will be set in the preset dropdown list.
 
@@ -56,11 +56,11 @@ The Aussie theme has two versions of the menu layout, configured as follows:
 
 **1 -** The first version is MENU >> LOGO >> MENU >> SEARCH 
 
-![Menu](topo-padrao.png)
+![Menu](Screenshot-menu1.png)
 
 **2 -** The second version consists of MENU >> SEARCH >> LOGO (below)
 
-![Menu](menu_alternative.png)
+![Menu](Screenshot-menu2.png)
 
 
 
@@ -91,8 +91,8 @@ Within each menu, you need to enter these classes:
 
 **The offcanvas menu**
 
-![Toggle Menu](menu_canvas.png)
-![Toggle Menu](canvas-open.png)
+![Toggle Menu](screen-canvas.png)
+![Toggle Menu](screen-colapse.png)
 
 
 **Collapsed menu**
@@ -135,7 +135,7 @@ The logo is presented in two forms, one for each menu:
 
 **1 -** Menu default - With the default menu, the logo is used as the image
 
-![Logo](logo1.png)
+![Logo](Screenshot-logo1.png)
 
 	<h1><a href="index.php"><img src="images/democontent/logo-aussie.png" alt="logo" /></a></h1>
 	
@@ -143,13 +143,13 @@ The logo is presented in two forms, one for each menu:
 
 **2 -** Menu alternative - With the alternative menu, the logo is used as html
 
-![Logo](alternative-logo.png)
+![Logo](Screenshot-logo2.png)
 
-	<h1><a href="index.php">{zen-paw}{/zen-paw} Aussie</a></h1>
+	<h1><a href="index.php">{zen-joomla}{/zen-joomla} Aussie</a></h1>
 
 The logo consists of an icon and text. The icon is displayed using syntax from the zen shortcodes plugin. As per the following image:  
 
-![Logo Alternative](logo-html.png)
+![Logo Alternative](Screenshot-logo-alternative.png)
 
 Disable this option so only the alternate logo is displayed!
 
@@ -160,12 +160,12 @@ Do not forget to create a module for the logo of the mobile version as the image
 
 Remember to select all the contents within the text field, and add the link under the picture.
 
-![Logo](insert_link.png)
+![Logo](Screenshot-link-logo.png)
 
 
 To view the list of Zen Shortcode tags, access path: Features menu> Tools > Zen Shortcode> tab font icons:
 
-![Logo](zencode.jpg)
+![Logo](Screenshot-zenshot.png)
 
 ![Logo](font-icons.png)
 
@@ -176,7 +176,7 @@ To customize the logo, follow the panel according to the image:
 
 ## Module Banner Slideshow
 
-![slideshow](banner-top.png)
+![slideshow](Screenshot-slidetop.png)
 
 
 To configure the top slideshow, see the illustration below:
@@ -217,7 +217,7 @@ To use the Aussie slideshow style, you need to add a class suffix in the modules
 ## Module NEWS BLOG
 
 
-![blog ](blog_top.png)
+![blog ](Screenshot-news-top.png)
 
 
 This part is composed of two modules in the same position:
@@ -226,9 +226,12 @@ This part is composed of two modules in the same position:
 
 - News Blog: Controls right-side images 
 
-position - grid 8
 
 ** - Featured**
+
+
+![blog ](Screenshot-featured-left.png)
+
 
 The module configuration in accordance with the image:
 
@@ -263,6 +266,8 @@ Module class suffix:
 ![our services ](class-newblog.png)
 
 ** - News Blog**
+
+![our services ](Screenshot-news-right.png)
 
 The module configuration in accordance with the image:
 
@@ -334,7 +339,7 @@ Module class suffix:
 
 ## Module ATTRACTIONS
 
-![our team](attraction.png)
+![our team](attractions.png)
 
 
 The module configuration follows the image:
@@ -472,15 +477,17 @@ The colour, size and other aspects of the social-mobile icon appearance can be c
 ![Social Icons mobile](social-icons-mobile.png)
 
 
-# BREADCRUMB
+# SINGLE CONTACT (MAP)
 
 
-The background used in the breadcrumb is managed by a zentools module. Where you can change the images,
+The background used in the breadcrumb is managed by a JB Maps2 module. Where you can change the images,
 
-![our services ](Screenshot-bread.png)
+![our services ](Screenshot-map.png)
 
 
 The settings you can see in the images:
 
-![our services ](screen_config_bread.gif)
-![our services ](screen_config_bread2.gif)
+![map ](screen1-map.gif)
+- This is the thin module in position banner.
+- Leave module title display disabled.
+- Do not forget to insert class suffix "nomargin" (no space before).
