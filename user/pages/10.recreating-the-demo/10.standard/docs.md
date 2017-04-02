@@ -74,14 +74,64 @@ To add padding to the banner row click the pencil to the right of the banner row
 
 ### Grid 8
 
-In Grid8 is a filtered zentools2 grid module set to display joomla content.
+In Grid8 is a filtered zentools2 grid module set to display joomla content. To the left of the filtered grid8 position is grid5 which contains a custom html module with generic latin filler text.
 
 ![grid8](grid8.jpg)
 
 ![grid8 filter](grid8-filter.png)
 
-The filtered module is set to display this content from Joomla.
+The filtered module is set to display the content below from Joomla. The image and title content is set to link to the content.
 
 ![grid8 content selection](grid8-content-selection.png)
+
+The content is set to filter by category name and display in 3 columns with various other options set.
+
+![grid8 module layout](grid8-module-layout.png)
+
+The categories are selected and set to display 3 Joomla articles from same categories.
+
+![grid8 category filters](grid8-category-filters.png)
+
+The module itself has a class of no-margin to remove space between the grid5 and grid8
+
+![grid8 class](grid8-class.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
