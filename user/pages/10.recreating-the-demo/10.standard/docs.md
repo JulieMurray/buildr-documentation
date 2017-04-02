@@ -33,3 +33,33 @@ In the template settings select the design tab on the left and then the style ta
 To add padding to the logowrap row click the pencil to the right of the logowrap row in the template settings and click the style tab in the right sidebar. In the row style section scroll down to the Row Padding dropdown. 
 
 ![logo padding](logo-padding.png)
+
+### Banner
+
+In the banner positon is a zentools2 module.
+
+![banner](banner.png)
+
+The zentools2  module is a zentools2 backstretch layout using the image folder source.
+
+![banner zentools2](banner-zentools2.png)
+
+The zentools2 contains module content navigation options.
+
+![banner zentools2 navigation](banner-zentools2-navigation.png)
+
+The content source is images and is selected here
+
+![banner zentools2 images](banner-zentools2-images.png)
+
+### Banner styling
+
+To add the background colour to the banner row click the pencil to the right of the banner row in the template settings. Click the style tab in the right sidebar and in Row style add a background colour value.
+
+![banner row style](banner-row-style.png)
+
+### Banner row padding
+
+To add padding to the banner row row click the pencil to the right of the banner row in the template settings and click the style tab in the right sidebar. In the row style section scroll down to the Row Padding dropdown.
+
+![banner row padding](banner-row-padding.png)
