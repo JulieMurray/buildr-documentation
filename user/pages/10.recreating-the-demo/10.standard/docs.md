@@ -40,9 +40,13 @@ In the banner positon is a zentools2 module.
 
 ![banner](banner.png)
 
-The zentools2  module is a zentools2 backstretch layout using the image folder source.
+The zentools2 module is a zentools2 backstretch layout using the image folder source. The content set to display is an image and title (title is taken from the image file name as content source is an image folder). 
 
 ![banner zentools2](banner-zentools2.png)
+
+THe banner content is set to Link Type as no link e.g. when image or title is clicked nothing happens.
+
+![banner image settings](banner-image-settings.png)
 
 The zentools2 contains module content navigation options.
 
@@ -52,6 +56,10 @@ The content source is images and is selected here
 
 ![banner zentools2 images](banner-zentools2-images.png)
 
+For the title to display correcting the filename word separator needs to set here.
+
+![banner filename3](banner-filename3.png)
+
 ### Banner styling
 
 To add the background colour to the banner row click the pencil to the right of the banner row in the template settings. Click the style tab in the right sidebar and in Row style add a background colour value.
@@ -60,6 +68,6 @@ To add the background colour to the banner row click the pencil to the right of 
 
 ### Banner row padding
 
-To add padding to the banner row row click the pencil to the right of the banner row in the template settings and click the style tab in the right sidebar. In the row style section scroll down to the Row Padding dropdown.
+To add padding to the banner row click the pencil to the right of the banner row in the template settings and click the style tab in the right sidebar. In the row style section scroll down to the Row Padding dropdown.
 
 ![banner row padding](banner-row-padding.png)
