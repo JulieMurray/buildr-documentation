@@ -71,3 +71,11 @@ To add the background colour to the banner row click the pencil to the right of 
 To add padding to the banner row click the pencil to the right of the banner row in the template settings and click the style tab in the right sidebar. In the row style section scroll down to the Row Padding dropdown.
 
 ![banner row padding](banner-row-padding.png)
+
+### Grid 8
+
+In Grid8 is a filtered zentools2 grid module
+
+![grid8](grid8.jpg)
+
+
