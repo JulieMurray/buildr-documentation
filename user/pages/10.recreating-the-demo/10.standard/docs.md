@@ -6,7 +6,7 @@ taxonomy:
 
 ![standard](standard.png)
 
-The Standard preset is a replica of the original Standard template a Sept 2012 release using the Zen Grid Framework v2.
+The Standard preset is a replica of the original Standard template - a Sept 2012 release using the Zen Grid Framework v2.
 
 ## Logo
 
@@ -24,13 +24,13 @@ In the template settings select the design tab on the left and then cick the fon
 
 ### Logo Font Color
 
-In the template settings select the design tab on the left and then the style tab on the right sidebar. Click logo in list and and the hex colour value e.g. #fff
+In the template settings select the design tab on the left and then the style tab on the right sidebar. Click logo in right sidebar list and add the hex colour value e.g. #fff
 
 ![logo colour](logo-colour.png)
 
 ### Logowrap padding
 
-To add padding to the logowrap row click the pencil to the right of the logowrap row in the template settings and click the style tab in the right sidebar. In the row style section scroll down to the Row Padding dropdown. 
+To add padding to the logowrap row click the pencil to the right of the logowrap row in the template settings and then click the style tab in the right sidebar. In the row style section scroll down to the Row Padding dropdown. 
 
 ![logo padding](logo-padding.png)
 
@@ -40,7 +40,7 @@ In the banner positon is a zentools2 module.
 
 ![banner](banner.png)
 
-The zentools2 module is a zentools2 backstretch layout using the image folder source. The content set to display is an image and title (title is taken from the image file name as content source is an image folder). 
+The zentools2 module is a zentools2 backstretch layout using the image folder source. The content set to display is an image and title (title is taken from the image file name as content source is a folder). 
 
 ![banner zentools2](banner-zentools2.png)
 
@@ -52,11 +52,11 @@ The zentools2 contains module content navigation options.
 
 ![banner zentools2 navigation](banner-zentools2-navigation.png)
 
-The content source is images and is selected here
+The content source is images and is selected here.
 
 ![banner zentools2 images](banner-zentools2-images.png)
 
-For the title to display correcting the filename word separator needs to set here.
+For the title to display correcting the filename word separator needs to be set here.
 
 ![banner filename3](banner-filename3.png)
 
@@ -84,15 +84,15 @@ The filtered module is set to display the content below from Joomla. The image a
 
 ![grid8 content selection](grid8-content-selection.png)
 
-The content is set to filter by category name and display in 3 columns with various other options set.
+The content is set to filter by category name and display in 3 columns - various other options are enabled in this panel.
 
 ![grid8 module layout](grid8-module-layout.png)
 
-The categories are selected and set to display 3 Joomla articles from same categories.
+The categories are selected and set to display 9 Joomla articles from the 3 categories.
 
 ![grid8 category filters](grid8-category-filters.png)
 
-The module itself has a class of no-margin to remove space between the grid5 and grid8
+The module itself has a class of no-margin to remove space between the grid5 and grid8 modules.
 
 ![grid8 class](grid8-class.png)
 
