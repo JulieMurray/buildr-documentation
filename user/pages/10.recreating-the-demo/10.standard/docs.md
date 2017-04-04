@@ -44,7 +44,7 @@ The zentools2 module is a zentools2 backstretch layout using the image folder so
 
 ![banner zentools2](banner-zentools2.png)
 
-THe banner content is set to Link Type as no link e.g. when image or title is clicked nothing happens.
+The banner content is set to Link Type as no link e.g. when image or title is clicked nothing happens.
 
 ![banner image settings](banner-image-settings.png)
 
@@ -141,7 +141,7 @@ This module uses the skills option.
 
 ### Bottom Row
 
-This is 4 module positions. - Bottom1, Bottom2, Bottom3 and Bottom4. All are custom html modules - the 3 html lists used use zen-nav zen-nav-stacked zen-lines to display the lines under the li elements.
+This is 4 module positions. - Bottom1, Bottom2, Bottom3 and Bottom4. All are custom html modules - the 3 html lists use zen-nav zen-nav-stacked zen-lines to display the lines under the li elements.
 
 ![Bottom Row](bottomwrap-row.gif)
 
