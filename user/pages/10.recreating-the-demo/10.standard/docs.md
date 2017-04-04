@@ -113,6 +113,32 @@ In the sidebar2 position is a zentools2 module. This is a list taking image, tit
 
 ![Sidebar2 Zentools2 module](sidebar2-zentools2-module.gif)
 
+### Grid6wrap Grid 21 and Grid 24 position modules
+
+Below the content area is gridwrap6 which contains two positions grid21 and grid24.
+
+![Grid21 Grid 24 ](grid21-grid24.gif)
+
+![Grid21 Grid 24 settings](grid21-grid24-settings.gif)
+
+Both modules are skillset modules.
+
+*Grid21*
+
+This module uses the circular option.
+
+![Grid21 settings](grid21-settings.gif)
+
+The styling options are in the advanced tab of the module.
+
+![Grid21 advanced tab](grid21-advanced-tab.gif)
+
+*Grid24*
+
+This module uses the skills option.
+
+![Grid24 settings](grid24-settings.gif)
+
 
 
 
