@@ -163,6 +163,8 @@ The alignment is controlled by the module - colours, icons, links to social medi
 
 ![Footer social](footer-social.gif)
 
+![Footer social settings](footer-social-settings2.gif)
+
 Footer text and logo are added via a custom html module
 
 ![Footer text](footer-text.gif)
@@ -170,6 +172,22 @@ Footer text and logo are added via a custom html module
 Inline styling is adding to center the text and footer logo.
 
 ![footer logo code](footer-logo-code.gif)
+
+### Social Media
+
+To the right of page are the social media icons controlled by the social tab of the template settings.
+
+![social icons](social-icons.gif)
+
+![social sharing](social-sharing.gif)
+
+The social position for the module is added to the debug row.
+
+![social](social.gif)
+
+How the social media are styling is controlled via the design tab on the left and then scrolling down the General Settings on the right sidebar.
+
+![social icons settings](social-icons-settings.gif)
 
 
 
