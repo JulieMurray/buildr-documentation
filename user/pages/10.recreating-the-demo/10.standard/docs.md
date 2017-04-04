@@ -102,12 +102,16 @@ In the abovecontent position is a Joomla core breadcrumbs module - this position
 
 ![main content](main-content.gif)
 
-The main area consists of the maincontent position alongside the sidebar2 position with vertical row padding.
+The main area consists of the maincontent position alongside the sidebar2 position with mainwrap vertical row padding.
+
+![main content padding](main-content-padding.gif)
 
 
+### Sidebar2
 
+In the sidebar2 position is a zentools2 module. This is a list taking image, title and intro text content from Joomla articles inside the meet the team category. The image and title are set to link to content.
 
-
+![Sidebar2 Zentools2 module](sidebar2-zentools2-module.gif)
 
 
 
