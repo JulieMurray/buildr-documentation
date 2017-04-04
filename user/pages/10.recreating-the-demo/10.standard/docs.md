@@ -137,7 +137,7 @@ The styling options are in the advanced tab of the module.
 
 This module uses the skills option.
 
-![Grid24 settings](grid24-settings.gif)
+![grid24 settings](grid24-settings.gif)
 
 ### Bottom Row
 
