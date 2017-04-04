@@ -149,6 +149,32 @@ Padding is assigned to the container - e.g. which means added space inside the t
 
 ![Bottomwrap padding](bottomwrap-padding.gif)
 
+### Footer content
+
+The first footer module is a joomla core menu module. Inside the advanced tab of the menu module in the menu class suffix has these classes added - zen-nav zen-center. To add a divider between menu elements add another class zen-nav-divider to the existing two classes.
+
+![Footer Menu](footer-menu.gif)
+
+Footer social icons are added by a zensocial module published to the footer position.
+
+![Footer menu zen social](footer-menu-zen-social.gif)
+
+The alignment is controlled by the module - colours, icons, links to social media in this position need to be added in the module itself.
+
+![Footer social](footer-social.gif)
+
+Footer text and logo are added via a custom html module
+
+![Footer text](footer-text.gif)
+
+Inline styling is adding to center the text and footer logo.
+
+![footer logo code](footer-logo-code.gif)
+
+
+
+
+
 
 
 
