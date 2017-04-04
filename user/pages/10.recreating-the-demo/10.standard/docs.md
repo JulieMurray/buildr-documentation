@@ -151,7 +151,7 @@ Padding is assigned to the container - e.g. which means added space inside the t
 
 ### Footer content
 
-The first footer module is a joomla core menu module. Inside the advanced tab of the menu module in the menu class suffix has these classes added - zen-nav zen-center. To add a divider between menu elements add another class zen-nav-divider to the existing two classes.
+The first footer module is a joomla core menu module. Inside the advanced tab of the menu module in the menu class suffix has these classes added - zen-nav zen-center. To add a divider between menu elements add zen-nav-divider to the existing two classes.
 
 ![Footer Menu](footer-menu.gif)
 
@@ -189,7 +189,9 @@ How the social media are styling is controlled via the design tab on the left an
 
 ![social icons settings](social-icons-settings.gif)
 
+### Help
 
+If you need any help with above please post in the forum and we can provide additional help / advice. Any feedback on this page is also greatly appeciated.
 
 
 
