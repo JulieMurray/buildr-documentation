@@ -139,7 +139,15 @@ This module uses the skills option.
 
 ![Grid24 settings](grid24-settings.gif)
 
+### Bottom Row
 
+This is 4 module positions. - Bottom1, Bottom2, Bottom3 and Bottom4. All are custom html modules - the 3 html lists used use zen-nav zen-nav-stacked zen-lines to display the lines under the li elements.
+
+![Bottom Row](bottomwrap-row.gif)
+
+Padding is assigned to the container - e.g. which means added space inside the template width to the left, top, right and bottom of the row content.
+
+![Bottomwrap padding](bottomwrap-padding.gif)
 
 
 
