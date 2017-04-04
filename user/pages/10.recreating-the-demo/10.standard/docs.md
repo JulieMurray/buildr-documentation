@@ -80,7 +80,7 @@ In Grid8 is a filtered zentools2 grid module set to display joomla content. To t
 
 ![grid8 filter](grid8-filter.png)
 
-The filtered module is set to display the content below from Joomla. The image and title content is set to link to the content.
+The filtered module is set to display these content elements from Joomla. The image and title content is set to link to the content.
 
 ![grid8 content selection](grid8-content-selection.png)
 
@@ -95,6 +95,16 @@ The categories are selected and set to display 9 Joomla articles from the 3 cate
 The module itself has a class of no-margin to remove space between the grid5 and grid8 modules.
 
 ![grid8 class](grid8-class.png)
+
+### Breadcrumbs and Main Content 
+
+In the abovecontent position is a Joomla core breadcrumbs module - this position means it is above the Mainwraprow (article / component content area).
+
+![main content](main-content.gif)
+
+The main area consists of the maincontent position alongside the sidebar2 position with vertical row padding.
+
+
 
 
 
