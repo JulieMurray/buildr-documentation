@@ -6,7 +6,7 @@ taxonomy:
 
 **In Progress**
 
-![Italian](theme_devices.jpg)
+![Italian](italian-doc.jpg)
 
 Italian is a child theme of the Buildr template. This means it uses the Build.r template and applies Italian specific style via Buildr's built in child theme functionality.
 
