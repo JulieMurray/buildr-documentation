@@ -33,7 +33,7 @@ Applying the Italian example configuration sets the required theme panel options
 **Step 4** - Click Save. After clicking save the required assets for the Italian theme will be generated (theme files, css files etc) and will now be available for use on your website.
 
 
-You can customize the template through the theme control panel, according to the image:
+You can customise the template through the theme control panel, according to the image:
 
 
 ![Apply Italian](config-2-theme-italian.gif)
