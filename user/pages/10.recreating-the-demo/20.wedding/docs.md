@@ -12,7 +12,7 @@ taxonomy:
 
 Wedding is a child theme of the Build.r template. This means it uses the Build.r template and applies Wedding specific styling via Build.r's built in child theme functionality.
 
->
+![wedding intro pic](wedding-intro.gif)
 
 ## A note about child themes
 
