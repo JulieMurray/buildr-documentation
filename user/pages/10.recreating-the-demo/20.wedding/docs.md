@@ -6,6 +6,8 @@ taxonomy:
 
 **In Progress**
 
+![Wedding intro pic](wedding-doc.jpg) 
+
 ## Wedding is a child theme
 
 Wedding is a child theme of the Build.r template. This means it uses the Build.r template and applies Wedding specific styling via Build.r's built in child theme functionality.
