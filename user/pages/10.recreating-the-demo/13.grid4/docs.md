@@ -170,3 +170,14 @@ The position and display settings for the Social icons are found in the design p
 
 ![Social](social-settings.png)
 
+## Bottom menu
+
+**What is this?**
+
+It's a joomla menu module published to the footer position.
+
+**Menu Class suffixes used:**
+
+**zen-nav**
+
+**zen-nav-divider**
